@@ -249,7 +249,7 @@ function Nav() {
     <div className="sticky top-0 z-40 border-b bg-background/80 backdrop-blur">
       <div className="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between gap-3">
        <a href="#" className="flex items-center gap-2 font-semibold tracking-tight">
-  <img src="/logo.jpeg" alt="AminoPro-MD" className="h-15 w-auto" />
+  <img src="/logo.jpeg" alt="AminoPro-MD" className="h-10 w-auto" />
   <span></span>
 </a>
 
