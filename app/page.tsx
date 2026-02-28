@@ -269,7 +269,7 @@ function Nav() {
     className="inline-flex items-center gap-2 hover:text-foreground"
     aria-label="Instagram AminoPro-MD"
   >
-    <img src="/Social/instagram.png" alt="instagram" className="h-8 w-auto" />
+    <img src="/Social/instagram.png" alt="instagram" className="h-4 w-auto" />
     <span></span>
   </a>
 
@@ -280,7 +280,7 @@ function Nav() {
     className="inline-flex items-center gap-2 hover:text-foreground"
     aria-label="Facebook AminoPro-MD"
   >
-    <img src="/Social/facebook.png" alt="facebook" className="h-8 w-auto" />
+    <img src="/Social/facebook.png" alt="facebook" className="h-4 w-auto" />
     <span>   </span>
   </a>
 
@@ -291,7 +291,7 @@ function Nav() {
     className="inline-flex items-center gap-2 hover:text-foreground"
     aria-label="TikTok AminoPro-MD"
   >
-    <img src="/Social/tiktok.png" alt="tiktok" className="h-8 w-auto" />
+    <img src="/Social/tiktok.png" alt="tiktok" className="h-4 w-auto" />
     <span></span>
   </a>
 </div>
@@ -875,13 +875,13 @@ Para consultas generales, soporte o información adicional, puedes comunicarte c
                 <p className="font-medium text-foreground">Métodos de pago</p>
                 <p className="mt-1">PayPal • Western Union • Money Gram • Bitcoin</p>
               </div>
-              <div id="aviso-legal" className="rounded-xl border p-3 text-xs text-muted-foreground">
-  <span className="font-medium text-foreground">Aviso legal y términos y condiciones:</span> Este sitio web no ofrece atención médica de emergencia. La información contenida en este sitio se proporciona únicamente con fines educativos e informativos y no sustituye una evaluación médica presencial, diagnóstico clínico ni tratamiento médico. Los resultados pueden variar según cada persona. Al acceder a este sitio web, realizar una orden o utilizar los servicios de AminoPro-MD, el usuario declara y garantiza que tiene al menos veinte y uno (21) años de edad y que actúa de manera voluntaria y bajo su propia responsabilidad. Los productos ofrecidos en este sitio están clasificados como suplementos dietéticos (“dietary supplements”) conforme a la normativa vigente y, como tales, no requieren aprobación previa por parte de la Administración de Alimentos y Medicamentos de los Estados Unidos (FDA). Asimismo, algunos productos pueden estar destinados exclusivamente para fines de investigación (“research use only”) y no están destinados a diagnosticar, tratar, curar o prevenir ninguna enfermedad. El acceso o uso de este sitio web no establece una relación médico-paciente entre el usuario y AminoPro-MD o cualquiera de sus profesionales afiliados. Dicha relación solo se establece tras la realización de una consulta médica formal y el consentimiento informado correspondiente. El usuario reconoce y acepta que el uso, manejo, almacenamiento, dosificación y administración de cualquier producto adquirido a través de AminoPro-MD se realiza bajo su exclusiva responsabilidad. AminoPro-MD no garantiza resultados específicos o resultados terapéuticos derivados del uso de cualquier producto o protocolo. AminoPro-MD, así como sus propietarios, directivos, empleados, contratistas, afiliados y proveedores médicos, no asumen responsabilidad alguna por daños, pérdidas, efectos adversos o reclamaciones derivadas del uso indebido, incorrecto o no conforme a las indicaciones proporcionadas. En ningún caso AminoPro-MD será responsable por daños directos, indirectos, incidentales, especiales o consecuenciales derivados del uso o imposibilidad de uso de los productos o servicios ofrecidos. Las consultas médicas virtuales, cuando aplican, se realizan bajo consentimiento informado y no sustituyen la atención médica primaria o de emergencia. Se recomienda encarecidamente que el usuario consulte con su proveedor de atención médica autorizado antes de iniciar el uso de cualquier producto o protocolo adquirido a través de este sitio. La información personal proporcionada por el usuario será tratada de manera confidencial y utilizada únicamente con fines administrativos, clínicos y de seguimiento, de conformidad con nuestras políticas de privacidad y la normativa aplicable. Todas las ventas son finales. Todos los pagos son definitivos, no reembolsables, no transferibles y no cancelables, independientemente del uso del producto o de los resultados obtenidos. Al utilizar este sitio web, el usuario confirma que ha leído, comprendido y aceptado estos términos y condiciones. 
-  </div>
-              
+                            
             </div>
           </CardContent>
         </Card>
+        <div id="aviso-legal" className="rounded-xl border p-3 text-xs text-muted-foreground">
+  <span className="font-medium text-foreground">Aviso legal y términos y condiciones:</span> Este sitio web no ofrece atención médica de emergencia. La información contenida en este sitio se proporciona únicamente con fines educativos e informativos y no sustituye una evaluación médica presencial, diagnóstico clínico ni tratamiento médico. Los resultados pueden variar según cada persona. Al acceder a este sitio web, realizar una orden o utilizar los servicios de AminoPro-MD, el usuario declara y garantiza que tiene al menos veinte y uno (21) años de edad y que actúa de manera voluntaria y bajo su propia responsabilidad. Los productos ofrecidos en este sitio están clasificados como suplementos dietéticos (“dietary supplements”) conforme a la normativa vigente y, como tales, no requieren aprobación previa por parte de la Administración de Alimentos y Medicamentos de los Estados Unidos (FDA). Asimismo, algunos productos pueden estar destinados exclusivamente para fines de investigación (“research use only”) y no están destinados a diagnosticar, tratar, curar o prevenir ninguna enfermedad. El acceso o uso de este sitio web no establece una relación médico-paciente entre el usuario y AminoPro-MD o cualquiera de sus profesionales afiliados. Dicha relación solo se establece tras la realización de una consulta médica formal y el consentimiento informado correspondiente. El usuario reconoce y acepta que el uso, manejo, almacenamiento, dosificación y administración de cualquier producto adquirido a través de AminoPro-MD se realiza bajo su exclusiva responsabilidad. AminoPro-MD no garantiza resultados específicos o resultados terapéuticos derivados del uso de cualquier producto o protocolo. AminoPro-MD, así como sus propietarios, directivos, empleados, contratistas, afiliados y proveedores médicos, no asumen responsabilidad alguna por daños, pérdidas, efectos adversos o reclamaciones derivadas del uso indebido, incorrecto o no conforme a las indicaciones proporcionadas. En ningún caso AminoPro-MD será responsable por daños directos, indirectos, incidentales, especiales o consecuenciales derivados del uso o imposibilidad de uso de los productos o servicios ofrecidos. Las consultas médicas virtuales, cuando aplican, se realizan bajo consentimiento informado y no sustituyen la atención médica primaria o de emergencia. Se recomienda encarecidamente que el usuario consulte con su proveedor de atención médica autorizado antes de iniciar el uso de cualquier producto o protocolo adquirido a través de este sitio. La información personal proporcionada por el usuario será tratada de manera confidencial y utilizada únicamente con fines administrativos, clínicos y de seguimiento, de conformidad con nuestras políticas de privacidad y la normativa aplicable. Todas las ventas son finales. Todos los pagos son definitivos, no reembolsables, no transferibles y no cancelables, independientemente del uso del producto o de los resultados obtenidos. Al utilizar este sitio web, el usuario confirma que ha leído, comprendido y aceptado estos términos y condiciones. 
+  </div>
       </div>
     </Section>
   );
