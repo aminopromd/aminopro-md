@@ -269,7 +269,7 @@ function Nav() {
     className="inline-flex items-center gap-2 hover:text-foreground"
     aria-label="Instagram AminoPro-MD"
   >
-    <img src="/Social/instagram.png" alt="Instagram" className="h-8 w-auto" />
+    <img src="/Social/instagram.png" alt="instagram" className="h-8 w-auto" />
     <span></span>
   </a>
 
@@ -280,7 +280,7 @@ function Nav() {
     className="inline-flex items-center gap-2 hover:text-foreground"
     aria-label="Facebook AminoPro-MD"
   >
-    <img src="/Social/facebook.png" alt="Facebook" className="h-8 w-auto" />
+    <img src="/Social/facebook.png" alt="facebook" className="h-8 w-auto" />
     <span>   </span>
   </a>
 
@@ -291,7 +291,7 @@ function Nav() {
     className="inline-flex items-center gap-2 hover:text-foreground"
     aria-label="TikTok AminoPro-MD"
   >
-    <img src="/Social/tiktok.png" alt="TikTok" className="h-8 w-auto" />
+    <img src="/Social/tiktok.png" alt="tiktok" className="h-8 w-auto" />
     <span></span>
   </a>
 </div>
@@ -887,7 +887,6 @@ Para consultas generales, soporte o información adicional, puedes comunicarte c
   );
 }
 
-
 function Footer() {
   return (
     <footer className="border-t">
@@ -911,7 +910,7 @@ function Footer() {
     className="inline-flex items-center gap-2 hover:text-foreground"
     aria-label="Instagram AminoPro-MD"
   >
-    <img src="/Social/instagram.png" alt="Instagram" className="h-8 w-auto" />
+    <img src="/Social/instagram.png" alt="instagram" className="h-8 w-auto" />
     <span></span>
   </a>
 
@@ -922,7 +921,7 @@ function Footer() {
     className="inline-flex items-center gap-2 hover:text-foreground"
     aria-label="Facebook AminoPro-MD"
   >
-    <img src="/Social/facebook.png" alt="Facebook" className="h-8 w-auto" />
+    <img src="/Social/facebook.png" alt="facebook" className="h-8 w-auto" />
     <span></span>
   </a>
 
@@ -933,7 +932,7 @@ function Footer() {
     className="inline-flex items-center gap-2 hover:text-foreground"
     aria-label="TikTok AminoPro-MD"
   >
-    <img src="/Social/tiktok.png" alt="TikTok" className="h-8 w-auto" />
+    <img src="/Social/tiktok.png" alt="tiktok" className="h-8 w-auto" />
     <span></span>
   </a>
 </div>
