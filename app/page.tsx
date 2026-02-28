@@ -357,8 +357,7 @@ function Hero() {
 
 <div className="mt-4 flex flex-wrap gap-2 text-xs">
   <span className="rounded-full border px-3 py-1">Atención para Guatemala</span>
-  <span className="rounded-full border px-3 py-1">Soporte por WhatsApp</span>
-  <span className="rounded-full border px-3 py-1">Envíos CA/MX</span>
+  
 </div>
 
           <div className="mt-8 flex flex-wrap gap-3">
