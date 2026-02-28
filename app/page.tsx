@@ -8,8 +8,9 @@ import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 import { Check, Shield, Calendar, Phone, Mail, ExternalLink, Search } from "lucide-react";
 
 const BRAND = {
-  name: "AminoPro‑MD",
-    primaryCta: "Agendar sesión",
+  name: "AminoPro-MD",
+  tagline: "Peptides • Fitness • Health",
+  primaryCta: "Agendar consulta",
   secondaryCta: "Ver productos",
 };
 
