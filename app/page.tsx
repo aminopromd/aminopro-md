@@ -587,8 +587,7 @@ const removeFromCart = (id: string) => {
         {filtered.map((p) => (
           <Card key={p.id} className="rounded-2xl">
             <CardContent className="p-5">
-              <img
-  src={`/products/${p.id}.jpeg`}
+              <img src={`/products/${p.id}.JPEG`}
   alt={p.name}
   className="w-full h-40 object-contain rounded-lg mb-3"
 />
