@@ -374,7 +374,7 @@ function Hero() {
 
 function Products() {
   const [query, setQuery] = useState("");
-  const [cart, setCart] = useState({}); // { [productId]: qty }
+  const [cart, setCart] = useState<Record<string, number>>({}); // { [productId]: qty }
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
