@@ -391,7 +391,7 @@ function Products() {
         const p = PRODUCTS.find((x) => x.id === id);
         return p ? { ...p, qty } : null;
       })
-      .filter(Boolean);
+      .filter((x): x is NonNullable<typeof x> => Boolean(x));
   }, [cart]);
 
   const totalCount = useMemo(
@@ -406,21 +406,28 @@ function Products() {
     }, 0);
   }, [cartItems]);
 
-  const addToCart = (id) => setCart((prev) => ({ ...prev, [id]: (prev[id] || 0) + 1 }));
+  const addToCart = (id: string) =>
+  setCart((prev) => ({ ...prev, [id]: (prev[id] || 0) + 1 }));
 
-  const removeFromCart = (id) => {
-    setCart((prev) => {
-      const next = { ...prev };
-      const q = (next[id] || 0) - 1;
-      if (q <= 0) delete next[id];
-      else next[id] = q;
-      return next;
-    });
-  };
+const removeFromCart = (id: string) => {
+  setCart((prev) => {
+    const next = { ...prev };
+    const q = (next[id] || 0) - 1;
+    if (q <= 0) delete next[id];
+    else next[id] = q;
+    return next;
+  });
+};
 
   const clearCart = () => setCart({});
 
-  const [customer, setCustomer] = useState({ name: "", city: "", country: "" });
+  const [customer, setCustomer] = useState({
+  name: "",
+  city: "",
+  country: "",
+  email: "",
+  phone: "",
+});
 
  const buildCheckoutMessage = () => {
   const lines = [
@@ -436,8 +443,8 @@ function Products() {
     "Datos del cliente",
     `Nombre Completo: ${customer.name || ""}`,
     `Dirección completa a enviar la orden: ${customer.city || ""} ${customer.country || ""}`,
-    `Correo electrónico: ${customer.Email || ""} `,
-    `Telefóno: ${customer.Telefono || ""}`,
+    `Correo electrónico: ${customer.email || ""}`,
+    `Teléfono: ${customer.phone || ""}`,
        "",
     "Método de pago preferido: Escoga uno",
     "PayPal / Western Union / Bitcoin",
@@ -511,6 +518,17 @@ function Products() {
                     value={customer.country}
                     onChange={(e) => setCustomer({ ...customer, country: e.target.value })}
                   />
+                  <Input
+                    placeholder="Correo electrónico"
+                    value={customer.email}
+                    onChange={(e) => setCustomer({ ...customer, email: e.target.value })}
+/>
+
+                  <Input
+                    placeholder="Teléfono"
+                    value={customer.phone}
+                    onChange={(e) => setCustomer({ ...customer, phone: e.target.value })}
+/>
                 </div>
                 <div className="space-y-2 text-sm">
                   {cartItems.map((i) => (
