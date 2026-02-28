@@ -269,7 +269,7 @@ function Nav() {
     className="inline-flex items-center gap-2 hover:text-foreground"
     aria-label="Instagram AminoPro-MD"
   >
-    <img src="/social/instagram.png" alt="Instagram" className="h-8 w-auto" />
+    <img src="/Social/instagram.png" alt="Instagram" className="h-8 w-auto" />
     <span></span>
   </a>
 
@@ -280,7 +280,7 @@ function Nav() {
     className="inline-flex items-center gap-2 hover:text-foreground"
     aria-label="Facebook AminoPro-MD"
   >
-    <img src="/social/facebook.png" alt="Facebook" className="h-8 w-auto" />
+    <img src="/Social/facebook.png" alt="Facebook" className="h-8 w-auto" />
     <span>   </span>
   </a>
 
@@ -291,7 +291,7 @@ function Nav() {
     className="inline-flex items-center gap-2 hover:text-foreground"
     aria-label="TikTok AminoPro-MD"
   >
-    <img src="/social/tiktok.png" alt="TikTok" className="h-8 w-auto" />
+    <img src="/Social/tiktok.png" alt="TikTok" className="h-8 w-auto" />
     <span></span>
   </a>
 </div>
@@ -911,7 +911,7 @@ function Footer() {
     className="inline-flex items-center gap-2 hover:text-foreground"
     aria-label="Instagram AminoPro-MD"
   >
-    <img src="/social/instagram.png" alt="Instagram" className="h-8 w-auto" />
+    <img src="/Social/instagram.png" alt="Instagram" className="h-8 w-auto" />
     <span></span>
   </a>
 
@@ -922,7 +922,7 @@ function Footer() {
     className="inline-flex items-center gap-2 hover:text-foreground"
     aria-label="Facebook AminoPro-MD"
   >
-    <img src="/social/facebook.png" alt="Facebook" className="h-8 w-auto" />
+    <img src="/Social/facebook.png" alt="Facebook" className="h-8 w-auto" />
     <span></span>
   </a>
 
@@ -933,7 +933,7 @@ function Footer() {
     className="inline-flex items-center gap-2 hover:text-foreground"
     aria-label="TikTok AminoPro-MD"
   >
-    <img src="/social/tiktok.png" alt="TikTok" className="h-8 w-auto" />
+    <img src="/Social/tiktok.png" alt="TikTok" className="h-8 w-auto" />
     <span></span>
   </a>
 </div>
