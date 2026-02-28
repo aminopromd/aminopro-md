@@ -188,11 +188,19 @@ const FAQS = [
   },
   {
     q: "¿Hacen envíos?",
-    a: "Sí. Enviamos a toda Centro America y México. Siempre contáctanos para coordinar envío a tu país. ",
+    a: "Sí. Enviamos a toda la Republica de Guatemala.",
   },
   {
     q: "¿Qué métodos de pago aceptan?",
-    a: "Paypal / Western Union / Bitcoin.",
+    a: "Paypal / Western Union / Money Gram / Bitcoin.",
+  },
+  {
+    q: "¿Qué son los péptidos?",
+    a: "Son pequeñas cadenas de aminoacidos que actúan como mensajeros en el cuerpo. Le indican a nuestras células que realicen funciones específicas, como apoyar la producción de energía de manera natural, inhibir el apetito, recuperación mas rápida en tendones, músculo, fortalecer nuestro sistema inmmune, el aumento de el líbido en ambos sexos, estimulación de ciertas hormonas para la quema de grasa.",
+  },
+  {
+    q: "¿Qué es mejor, inyectado o sublingual?",
+    a: "Ambas pueden ser efectivas, pero funcionan de manera diferente. La vía inyectada suele ofrecer una absorción mas alta y directa. La vía sublingual es más cómoda y menos invasiva pero su absorción puede ser menor y actualmente existe una mayor variedad de péptidos inyectados que sublinguales.",
   },
 ];
 
@@ -232,7 +240,7 @@ function Section({
 function Nav() {
   const links = [
     { href: "#productos", label: "Productos" },
-    { href: "#consultas", label: "Sesión informativa" },
+    { href: "#consultas", label: "Consulta Virtual" },
     { href: "#faq", label: "FAQ" },
     { href: "#contacto", label: "Contacto" },
   ];
@@ -241,8 +249,8 @@ function Nav() {
     <div className="sticky top-0 z-40 border-b bg-background/80 backdrop-blur">
       <div className="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between gap-3">
        <a href="#" className="flex items-center gap-2 font-semibold tracking-tight">
-  <img src="/logo.jpeg" alt="AminoPro-MD" className="h-7 w-auto" />
-  <span>AminoPro-MD</span>
+  <img src="/logo.jpeg" alt="AminoPro-MD" className="h-15 w-auto" />
+  <span></span>
 </a>
 
  
@@ -253,10 +261,44 @@ function Nav() {
             </a>
           ))}
         </div>
+        <div className="mt-3 flex items-center gap-3">
+  <a
+    href="https://www.instagram.com/aminopromd"
+    target="_blank"
+    rel="noreferrer"
+    className="inline-flex items-center gap-2 hover:text-foreground"
+    aria-label="Instagram AminoPro-MD"
+  >
+    <img src="/social/instagram.png" alt="Instagram" className="h-8 w-auto" />
+    <span></span>
+  </a>
+
+  <a
+    href="https://www.facebook.com/aminopromd"
+    target="_blank"
+    rel="noreferrer"
+    className="inline-flex items-center gap-2 hover:text-foreground"
+    aria-label="Facebook AminoPro-MD"
+  >
+    <img src="/social/facebook.png" alt="Facebook" className="h-8 w-auto" />
+    <span>   </span>
+  </a>
+
+  <a
+    href="https://www.tiktok.com/@aminopromd"
+    target="_blank"
+    rel="noreferrer"
+    className="inline-flex items-center gap-2 hover:text-foreground"
+    aria-label="TikTok AminoPro-MD"
+  >
+    <img src="/social/tiktok.png" alt="TikTok" className="h-8 w-auto" />
+    <span></span>
+  </a>
+</div>
         <div className="flex items-center gap-2">
           <Button asChild size="sm">
             <a href={waLink(
-    `Hola AminoPro-MD, quiero agendar mi PRIMERA SESION INFORMATIVA GRATIS.
+    `Hola, AminoPro-MD, quiero agendar mi PRIMERA CONSULTA VIRTUAL GRATIS.
 
 Nombre:
 Edad:
@@ -268,7 +310,7 @@ Mi objetivo principal es: `
   target="_blank"
   rel="noreferrer"
 >
-  Agendar sesión informativa GRATIS
+  Agendar Consulta virtual GRATIS
 </a>
           </Button>
           <p className="text-xs text-muted-foreground mt-1">
@@ -309,7 +351,7 @@ function Hero() {
 </h1>
 
 <p className="mt-4 text-muted-foreground max-w-xl">
-  Sesión informativa virtual con el equipo de AminoPro-MD para evaluar tu perfil clínico y crear un plan de péptido-terapia
+  Consulta virtual con el equipo médico de AminoPro-MD para evaluar tu perfil clínico y crear un plan de péptido-terapia
   alineado a tus objetivos de salud, bienestar y rendimiento.
 </p>
 
@@ -431,7 +473,7 @@ const removeFromCart = (id: string) => {
 
  const buildCheckoutMessage = () => {
   const lines = [
-    "Hola AminoPro-MD, quiero confirmar esta orden:",
+    "Hola, AminoPro-MD, quiero confirmar esta orden:",
     "",
     ...cartItems.map((i) => {
       const lineTotal = typeof i.price === "number" ? i.price * i.qty : 0;
@@ -477,11 +519,10 @@ const removeFromCart = (id: string) => {
           </div>
           <div className="mt-3 space-y-2">
             <div className="rounded-xl border p-3 text-xs text-muted-foreground">
-              <span className="font-medium text-foreground">Aviso:</span> Checkout y confirmación final se realizan via WhatsApp. Pagos se realizan via PayPal, transferencia o Bitcoin.
+              <span className="font-medium text-foreground">Aviso:</span> Checkout y confirmación final se realizan via WhatsApp. Pagos se realizan via PayPal, Western Union, Money Gram o Bitcoin.
             </div>
             <div id="aviso-legal" className="rounded-xl border p-3 text-xs text-muted-foreground">
-  <span className="font-medium text-foreground">Aviso legal y terminos y condiciones:</span> Este sitio web no ofrece atención médica de emergencia. La información contenida en este sitio se proporciona únicamente con fines educativos e informativos y no sustituye una evaluación médica presencial, diagnóstico clínico ni tratamiento médico. Los resultados pueden variar según cada persona. Al acceder a este sitio web, realizar una orden o utilizar los servicios de AminoPro-MD, el usuario declara y garantiza que tiene al menos veinte y uno (21) años de edad y que actúa de manera voluntaria y bajo su propia responsabilidad. Los productos ofrecidos en este sitio están clasificados como suplementos dietéticos (“dietary supplements”) conforme a la normativa vigente y, como tales, no requieren aprobación previa por parte de la Administración de Alimentos y Medicamentos de los Estados Unidos (FDA). Asimismo, algunos productos pueden estar destinados exclusivamente para fines de investigación (“research use only”) y no están destinados a diagnosticar, tratar, curar o prevenir ninguna enfermedad. El acceso o uso de este sitio web no establece una relación médico-paciente entre el usuario y AminoPro-MD o cualquiera de sus profesionales afiliados. Dicha relación solo se establece tras la realización de una consulta médica formal y el consentimiento informado correspondiente. El usuario reconoce y acepta que el uso, manejo, almacenamiento, dosificación y administración de cualquier producto adquirido a través de AminoPro-MD se realiza bajo su exclusiva responsabilidad. AminoPro-MD no garantiza resultados específicos o resultados terapéuticos derivados del uso de cualquier producto o protocolo. AminoPro-MD, así como sus propietarios, directivos, empleados, contratistas, afiliados y proveedores médicos, no asumen responsabilidad alguna por daños, pérdidas, efectos adversos o reclamaciones derivadas del uso indebido, incorrecto o no conforme a las indicaciones proporcionadas. En ningún caso AminoPro-MD será responsable por daños directos, indirectos, incidentales, especiales o consecuenciales derivados del uso o imposibilidad de uso de los productos o servicios ofrecidos. Las consultas médicas virtuales, cuando aplican, se realizan bajo consentimiento informado y no sustituyen la atención médica primaria o de emergencia. Se recomienda encarecidamente que el usuario consulte con su proveedor de atención médica autorizado antes de iniciar el uso de cualquier producto o protocolo adquirido a través de este sitio. La información personal proporcionada por el usuario será tratada de manera confidencial y utilizada únicamente con fines administrativos, clínicos y de seguimiento, de conformidad con nuestras políticas de privacidad y la normativa aplicable. Todas las ventas son finales. Todos los pagos son definitivos, no reembolsables, no transferibles y no cancelables, independientemente del uso del producto o de los resultados obtenidos. Al utilizar este sitio web, el usuario confirma que ha leído, comprendido y aceptado estos términos, así como los Términos y Condiciones, la Política de Privacidad y el Consentimiento Informado correspondientes. 
-  </div>
+    </div>
           </div>
         </div>
 
@@ -619,7 +660,7 @@ const removeFromCart = (id: string) => {
                   <Button asChild className="flex-1">
                     <a
                       href={waLink(
-                        `Hola AminoPro-MD, quiero una ORDEN PERSONALIZADA.
+                        `Hola, AminoPro-MD, quiero una ORDEN PERSONALIZADA.
 
 Producto: ${p.name}
 
@@ -649,7 +690,7 @@ Nota: `
               </div>
 
               <p className="mt-3 text-xs text-muted-foreground">
-                Checkout y confirmación final se realizan via WhatsApp y pagos se realizan via Paypal, transferencias o Bitcoin.
+                Checkout y confirmación final se realizan via WhatsApp y pagos se realizan via Paypal, Western Union, Money Gram o Bitcoin.
               </p>
             </CardContent>
           </Card>
@@ -664,7 +705,7 @@ function Consults() {
     <Section
       id="consultas"
       title="Consulta Médica"
-      subtitle="Consulta médica virtual personalizada con un médico licenciado del equipo de AminoPro-MD, realizada vía Google Meet, para evaluar tu estado de salud y diseñar un plan de péptido-terapia adaptado a tus objetivos, necesidades y perfil clínico.
+      subtitle="Consulta médica virtual personalizada con un médico del equipo de AminoPro-MD, para evaluar tu estado de salud y diseñar un plan de péptido-terapia adaptado a tus objetivos, necesidades y perfil clínico.
 Al finalizar la consulta, recibirás tu plan personalizado en formato PDF, firmado por el médico, directamente en tu correo electrónico."
     >
       <div className="flex justify-center">
@@ -756,7 +797,7 @@ function Contact() {
     <Section
       id="contacto"
       title="Contacto"
-      subtitle="AminoPro-MD es una marca registrada operada por Neo G Pro LLC, con sede en Florida, Estados Unidos.
+      subtitle="AminoPro-MD es una marca registrada operada por Neo G Pro LLC, con sede en el estado de la Florida, Estados Unidos de Norte America.
 
 📧 Correo electrónico: aminopromd@gmail.com
 
@@ -832,8 +873,11 @@ Para consultas generales, soporte o información adicional, puedes comunicarte c
               </div>
               <div className="rounded-xl border p-3 text-xs text-muted-foreground">
                 <p className="font-medium text-foreground">Métodos de pago</p>
-                <p className="mt-1">PayPal • Transferencia (Western Union) • Bitcoin</p>
+                <p className="mt-1">PayPal • Western Union • Money Gram • Bitcoin</p>
               </div>
+              <div id="aviso-legal" className="rounded-xl border p-3 text-xs text-muted-foreground">
+  <span className="font-medium text-foreground">Aviso legal y términos y condiciones:</span> Este sitio web no ofrece atención médica de emergencia. La información contenida en este sitio se proporciona únicamente con fines educativos e informativos y no sustituye una evaluación médica presencial, diagnóstico clínico ni tratamiento médico. Los resultados pueden variar según cada persona. Al acceder a este sitio web, realizar una orden o utilizar los servicios de AminoPro-MD, el usuario declara y garantiza que tiene al menos veinte y uno (21) años de edad y que actúa de manera voluntaria y bajo su propia responsabilidad. Los productos ofrecidos en este sitio están clasificados como suplementos dietéticos (“dietary supplements”) conforme a la normativa vigente y, como tales, no requieren aprobación previa por parte de la Administración de Alimentos y Medicamentos de los Estados Unidos (FDA). Asimismo, algunos productos pueden estar destinados exclusivamente para fines de investigación (“research use only”) y no están destinados a diagnosticar, tratar, curar o prevenir ninguna enfermedad. El acceso o uso de este sitio web no establece una relación médico-paciente entre el usuario y AminoPro-MD o cualquiera de sus profesionales afiliados. Dicha relación solo se establece tras la realización de una consulta médica formal y el consentimiento informado correspondiente. El usuario reconoce y acepta que el uso, manejo, almacenamiento, dosificación y administración de cualquier producto adquirido a través de AminoPro-MD se realiza bajo su exclusiva responsabilidad. AminoPro-MD no garantiza resultados específicos o resultados terapéuticos derivados del uso de cualquier producto o protocolo. AminoPro-MD, así como sus propietarios, directivos, empleados, contratistas, afiliados y proveedores médicos, no asumen responsabilidad alguna por daños, pérdidas, efectos adversos o reclamaciones derivadas del uso indebido, incorrecto o no conforme a las indicaciones proporcionadas. En ningún caso AminoPro-MD será responsable por daños directos, indirectos, incidentales, especiales o consecuenciales derivados del uso o imposibilidad de uso de los productos o servicios ofrecidos. Las consultas médicas virtuales, cuando aplican, se realizan bajo consentimiento informado y no sustituyen la atención médica primaria o de emergencia. Se recomienda encarecidamente que el usuario consulte con su proveedor de atención médica autorizado antes de iniciar el uso de cualquier producto o protocolo adquirido a través de este sitio. La información personal proporcionada por el usuario será tratada de manera confidencial y utilizada únicamente con fines administrativos, clínicos y de seguimiento, de conformidad con nuestras políticas de privacidad y la normativa aplicable. Todas las ventas son finales. Todos los pagos son definitivos, no reembolsables, no transferibles y no cancelables, independientemente del uso del producto o de los resultados obtenidos. Al utilizar este sitio web, el usuario confirma que ha leído, comprendido y aceptado estos términos y condiciones. 
+  </div>
               
             </div>
           </CardContent>
@@ -854,11 +898,45 @@ function Footer() {
   <p>© {new Date().getFullYear()} {BRAND.name}. Propiedad de NeoG Pro, LLC. Todos los derechos reservados.</p>
 </div>
           <div className="flex flex-wrap gap-3">
-            <a href="#aviso-legal" className="hover:text-foreground">Privacidad</a>
             <a href="#aviso-legal" className="hover:text-foreground">Términos</a>
+            <a href="#aviso-legal" className="hover:text-foreground">Condiciones</a>
             <a href="#aviso-legal" className="hover:text-foreground">Devoluciones</a>
-            <a href="#aviso-legal" className="hover:text-foreground">Consentimiento</a>
+            <a href="#aviso-legal" className="hover:text-foreground"></a>
           </div>
+          <div className="mt-3 flex items-center gap-3">
+  <a
+    href="https://www.instagram.com/aminopromd"
+    target="_blank"
+    rel="noreferrer"
+    className="inline-flex items-center gap-2 hover:text-foreground"
+    aria-label="Instagram AminoPro-MD"
+  >
+    <img src="/social/instagram.png" alt="Instagram" className="h-8 w-auto" />
+    <span></span>
+  </a>
+
+  <a
+    href="https://www.facebook.com/aminopromd"
+    target="_blank"
+    rel="noreferrer"
+    className="inline-flex items-center gap-2 hover:text-foreground"
+    aria-label="Facebook AminoPro-MD"
+  >
+    <img src="/social/facebook.png" alt="Facebook" className="h-8 w-auto" />
+    <span></span>
+  </a>
+
+  <a
+    href="https://www.tiktok.com/@aminopromd"
+    target="_blank"
+    rel="noreferrer"
+    className="inline-flex items-center gap-2 hover:text-foreground"
+    aria-label="TikTok AminoPro-MD"
+  >
+    <img src="/social/tiktok.png" alt="TikTok" className="h-8 w-auto" />
+    <span></span>
+  </a>
+</div>
         </div>
         <p className="mt-4">
           Aviso: Este sitio no ofrece atención médica de emergencia. Si tienes una emergencia, llama al 122/123 (Guatemala) o tu
