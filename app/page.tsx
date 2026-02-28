@@ -204,7 +204,17 @@ const waLink = (message: string): string => {
 };
 
 
-function Section({ id, title, subtitle, children }) {
+function Section({
+  id,
+  title,
+  subtitle,
+  children,
+}: {
+  id: string;
+  title: string;
+  subtitle?: string;
+  children: React.ReactNode;
+}) {
   return (
     <section id={id} className="mx-auto max-w-6xl px-4 py-12">
       <div className="mb-8">
