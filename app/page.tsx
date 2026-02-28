@@ -198,10 +198,11 @@ const FAQS = [
 // WhatsApp checkout (el cliente confirma y presiona “Enviar”)
 // IMPORTANTE: coloca tu número real con código de país (Guatemala +502)
 const WHATSAPP_NUMBER = "+19543980930";
-const waLink = (message) => {
+const waLink = (message: string): string => {
   const num = WHATSAPP_NUMBER.replace(/[^0-9]/g, "");
   return `https://wa.me/${num}?text=${encodeURIComponent(message)}`;
 };
+
 
 function Section({ id, title, subtitle, children }) {
   return (
