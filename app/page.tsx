@@ -778,7 +778,7 @@ function Contact() {
 
   const buildContactMessage = () => {
     const lines = [
-      "Hola AminoPro-MD, quiero más información:",
+      "Hola, AminoPro-MD, quiero más información:",
       "",
       `Nombre: ${contactForm.name}`,
       `Correo: ${contactForm.email}`,
