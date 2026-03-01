@@ -10,7 +10,7 @@ import { Check, Shield, Calendar, Phone, Mail, ExternalLink, Search } from "luci
 const BRAND = {
   name: "AminoPro-MD",
   tagline: "Peptides • Fitness • Health",
-  primaryCta: "Agendar consulta",
+  primaryCta: "Agendar Consulta Virtual",
   secondaryCta: "Ver productos",
 };
 
@@ -26,8 +26,8 @@ const PRODUCTS = [
     bullets: [
       "Vial liofilizado de 10mg",
       ">99.6% de pureza",
-      "Para reconstituir en 3ml de solución estéril",
-      "Confirmación final por WhatsApp",
+      "Para reconstituir en 3ml de solución bacteriostática",
+      
     ],
   },
   {
@@ -37,7 +37,7 @@ const PRODUCTS = [
     price: 80,
     customOnly: false,
     status: "Disponible",
-    bullets: ["Vial liofilizado de 10mg", ">99.6% de pureza", "Para reconstituir en 3ml de solución estéril", "Confirmación final por WhatsApp"],
+    bullets: ["Vial liofilizado de 10mg", ">99.6% de pureza", "Para reconstituir en 3ml de solución bacteriostática",],
   },
   {
     id: "ghkcu-50",
@@ -46,7 +46,7 @@ const PRODUCTS = [
     price: 50,
     customOnly: false,
     status: "Disponible",
-    bullets: ["Vial liofilizado de 50mg", ">99.6% de pureza", "Para reconstituir en 3ml de solución estéril", "Confirmación final por WhatsApp",]
+    bullets: ["Vial liofilizado de 50mg", ">99.6% de pureza", "Para reconstituir en 3ml de solución bacteriostática",],
   },
   {
     id: "nad-1000",
@@ -55,7 +55,7 @@ const PRODUCTS = [
     price: 400,
     customOnly: false,
     status: "Disponible",
-    bullets: ["Vial liofilizado de 1,000mg", "Nicotidamide Adenine Dinucleotide >99.6% de pureza", "Para reconstituir en 10ml de solución estéril", "Confirmación final por WhatsApp"],
+    bullets: ["Vial liofilizado de 1,000mg", "Nicotidamide Adenine Dinucleotide", ">99.6% de pureza", "Para reconstituir en 10ml de solución bacteriostática",],
   },
   {
     id: "sema-5",
@@ -64,7 +64,7 @@ const PRODUCTS = [
     price: 250,
     customOnly: false,
     status: "Disponible",
-    bullets: ["Vial liofilizado de 5mg", ">99.6% de pureza", "Para reconstituir en 3ml de solución estéril", "Confirmación final por WhatsApp"],
+    bullets: ["Vial liofilizado de 5mg", ">99.6% de pureza", "Para reconstituir en 3ml de solución bacteriostática",],
   },
   {
     id: "tirz-5",
@@ -73,7 +73,7 @@ const PRODUCTS = [
     price: 300,
     customOnly: false,
     status: "Disponible",
-    bullets: ["Vial liofilizado 10mg", ">99.6% de pureza", "Para reconstituir en 3ml de solución estéril", "Confirmación final por WhatsApp"],
+    bullets: ["Vial liofilizado 10mg", ">99.6% de pureza", "Para reconstituir en 3ml de solución bacteriostática",],
   },
   {
     id: "reta-5",
@@ -82,7 +82,7 @@ const PRODUCTS = [
     price: 250,
     customOnly: false,
     status: "Disponible",
-    bullets: ["Vial liofilizado 5mg", ">99.6% de pureza", "Para reconstituir en 3ml de solución estéril", "Confirmación final por WhatsApp"],
+    bullets: ["Vial liofilizado 5mg", ">99.6% de pureza", "Para reconstituir en 3ml de solución bacteriostática",],
   },
 
   // Solo por orden personalizada (no se agregan al carrito)
@@ -93,7 +93,7 @@ const PRODUCTS = [
     price: 600,
     customOnly: false,
     status: "Disponible",
-    bullets: ["Vial ya reconstituido de 2.5mg/ml", "Vial de 5ml", "Confirmación final por WhatsApp",],
+    bullets: ["Vial ya reconstituido de 2.5mg/ml", "Vial de 5ml",],
   },
   {
     id: "tirz-vial-17p2mgml-2ml",
@@ -102,7 +102,7 @@ const PRODUCTS = [
     price: 900,
     customOnly: false,
     status: "Disponible",
-    bullets: ["Vial ya reconstituido de 17.2mg/ml", "Vial de 2ml", "Confirmación final por WhatsApp",],
+    bullets: ["Vial ya reconstituido de 17.2mg/ml", "Vial de 2ml",],
   },
   {
     id: "nad-vial-1000mgml-10ml",
@@ -111,7 +111,7 @@ const PRODUCTS = [
     price: 600,
     customOnly: false,
     status: "Disponible",
-    bullets: ["Vial ya reconstituido de 100mg/ml", "Nicotidamide Adenine Dinucleotide - Vial de 10ml", "Confirmación final por WhatsApp",],
+    bullets: ["Vial ya reconstituido de 100mg/ml", "Nicotidamide Adenine Dinucleotide - Vial de 10ml",],
   },
   {
     id: "lcarn-500mgml-30ml",
@@ -120,7 +120,7 @@ const PRODUCTS = [
     price: 80,
     customOnly: false,
     status: "Disponible",
-    bullets: ["Vial ya reconstituido de 500mg/ml", "Vial de 30ml", "Confirmación final por WhatsApp",],
+    bullets: ["Vial ya reconstituido de 500mg/ml", "Vial de 30ml",],
   },
   {
     id: "gluta-200mgml-30ml",
@@ -129,7 +129,7 @@ const PRODUCTS = [
     price: 200,
     customOnly: false,
     status: "Disponible",
-    bullets: ["Vial ya reconstituido de 200mg/ml", "Vial de 30ml", "Confirmación final por WhatsApp",],
+    bullets: ["Vial ya reconstituido de 200mg/ml", "Vial de 30ml",],
   },
 {
   id: "bpc157-sl",
@@ -138,7 +138,7 @@ const PRODUCTS = [
   price: 150,
   customOnly: false,
   status: "Disponible",
-  bullets: ["Tiras sublinguales", "500 mcg por tira", "20 tiras sublinguales", "Confirmación final por WhatsApp",],
+  bullets: ["Tiras sublinguales", "500 mcg por tira", "20 tiras sublinguales",],
 },
 {
   id: "ta1-sl",
@@ -147,7 +147,7 @@ const PRODUCTS = [
   price: 150,
   customOnly: false,
   status: "Disponible",
-  bullets: ["Tiras sublinguales", "500 mcg por tira", "20 tiras sublinguales", "Confirmación final por WhatsApp",],   
+  bullets: ["Tiras sublinguales", "500 mcg por tira", "20 tiras sublinguales",],   
 },
 {
   id: "pt141-sl",
@@ -156,7 +156,7 @@ const PRODUCTS = [
   price: 150,
   customOnly: false,
   status: "Disponible",
-  bullets: ["Tiras sublinguales", "PT141-500 mcg, Oxytocina-25mcg, Aminofelilpyrrol-20mg por tira", "20 tiras sublinguales", "Confirmación final por WhatsApp",],
+  bullets: ["Tiras sublinguales", "PT141-500 mcg, Oxytocina-25mcg, Aminofelilpyrrol-20mg por tira", "20 tiras sublinguales",],
 },
 {
   id: "cjc1295-sl",
@@ -165,7 +165,7 @@ const PRODUCTS = [
   price: 150,
   customOnly: false,
   status: "Disponible",
-  bullets: ["Tiras sublinguales", "150 mcg por tira", "20 tiras sublinguales", "Confirmación final por WhatsApp",],
+  bullets: ["Tiras sublinguales", "150 mcg por tira", "20 tiras sublinguales",],
 },
 {
   id: "nr-500",
@@ -174,7 +174,7 @@ const PRODUCTS = [
   price: 900,
   customOnly: false,
   status: "Disponible",
-  bullets: ["Vial liofilizado 500mg", " Nicotidamide Riboside Chloride >99.6% de pureza", "Confirmación final por WhatsApp",],
+  bullets: ["Vial liofilizado 500mg", " Nicotidamide Riboside Chloride >99.6% de pureza", "Para reconstituir en 10ml de solución bacteriostática",],
 },
 
   
@@ -196,7 +196,7 @@ const FAQS = [
   },
   {
     q: "¿Qué son los péptidos?",
-    a: "Son pequeñas cadenas de aminoacidos que actúan como mensajeros en el cuerpo. Le indican a nuestras células que realicen funciones específicas, como apoyar la producción de energía de manera natural, inhibir el apetito, recuperación mas rápida en tendones, músculo, fortalecer nuestro sistema inmmune, el aumento de el líbido en ambos sexos, estimulación de ciertas hormonas para la quema de grasa.",
+    a: "Son pequeñas cadenas de aminoacidos que actúan como mensajeros en el cuerpo. Le indican a nuestras células que realicen funciones específicas, como apoyar la producción de energía de manera natural, inhibir el apetito, fortalecer nuestro sistema inmmune, el aumentar de el líbido en ambos sexos, estimular de ciertas hormonas para la quema de grasa y recuperación mas rápida en tendones, músculo.",
   },
   {
     q: "¿Qué es mejor, inyectado o sublingual?",
@@ -310,7 +310,7 @@ Mi objetivo principal es: `
   target="_blank"
   rel="noreferrer"
 >
-  Agendar Consulta virtual GRATIS
+  Agendar Consulta Virtual GRATIS
 </a>
           </Button>
           <p className="text-xs text-muted-foreground mt-1">
@@ -878,10 +878,7 @@ Para consultas generales, soporte o información adicional, puedes comunicarte c
             </div>
           </CardContent>
         </Card>
-        <div id="aviso-legal" className="rounded-xl border p-3 text-xs text-muted-foreground">
-  <span className="font-medium text-foreground">Aviso legal y términos y condiciones:</span> Este sitio web no ofrece atención médica de emergencia. La información contenida en este sitio se proporciona únicamente con fines educativos e informativos y no sustituye una evaluación médica presencial, diagnóstico clínico ni tratamiento médico. Los resultados pueden variar según cada persona. Al acceder a este sitio web, realizar una orden o utilizar los servicios de AminoPro-MD, el usuario declara y garantiza que tiene al menos veinte y uno (21) años de edad y que actúa de manera voluntaria y bajo su propia responsabilidad. Los productos ofrecidos en este sitio están clasificados como suplementos dietéticos (“dietary supplements”) conforme a la normativa vigente y, como tales, no requieren aprobación previa por parte de la Administración de Alimentos y Medicamentos de los Estados Unidos (FDA). Asimismo, algunos productos pueden estar destinados exclusivamente para fines de investigación (“research use only”) y no están destinados a diagnosticar, tratar, curar o prevenir ninguna enfermedad. El acceso o uso de este sitio web no establece una relación médico-paciente entre el usuario y AminoPro-MD o cualquiera de sus profesionales afiliados. Dicha relación solo se establece tras la realización de una consulta médica formal y el consentimiento informado correspondiente. El usuario reconoce y acepta que el uso, manejo, almacenamiento, dosificación y administración de cualquier producto adquirido a través de AminoPro-MD se realiza bajo su exclusiva responsabilidad. AminoPro-MD no garantiza resultados específicos o resultados terapéuticos derivados del uso de cualquier producto o protocolo. AminoPro-MD, así como sus propietarios, directivos, empleados, contratistas, afiliados y proveedores médicos, no asumen responsabilidad alguna por daños, pérdidas, efectos adversos o reclamaciones derivadas del uso indebido, incorrecto o no conforme a las indicaciones proporcionadas. En ningún caso AminoPro-MD será responsable por daños directos, indirectos, incidentales, especiales o consecuenciales derivados del uso o imposibilidad de uso de los productos o servicios ofrecidos. Las consultas médicas virtuales, cuando aplican, se realizan bajo consentimiento informado y no sustituyen la atención médica primaria o de emergencia. Se recomienda encarecidamente que el usuario consulte con su proveedor de atención médica autorizado antes de iniciar el uso de cualquier producto o protocolo adquirido a través de este sitio. La información personal proporcionada por el usuario será tratada de manera confidencial y utilizada únicamente con fines administrativos, clínicos y de seguimiento, de conformidad con nuestras políticas de privacidad y la normativa aplicable. Todas las ventas son finales. Todos los pagos son definitivos, no reembolsables, no transferibles y no cancelables, independientemente del uso del producto o de los resultados obtenidos. Al utilizar este sitio web, el usuario confirma que ha leído, comprendido y aceptado estos términos y condiciones. 
-  </div>
-      </div>
+             </div>
     </Section>
   );
 }
@@ -991,7 +988,7 @@ const acceptAge = () => {
 };
 
   return (
-    <div className="min-h-screen bg-[#f0f8ff]">
+    <div className="min-h-screen bg-[#f0f8ff] scroll-smooth">
       {!ageAccepted && <AgeGate onAccept={acceptAge} />}
 
       {/* Your real site */}
@@ -1002,6 +999,9 @@ const acceptAge = () => {
       <FAQ />
       <Contact />
       <Footer />
+       <div id="aviso-legal" className="rounded-xl border p-3 text-xs text-muted-foreground">
+  <span className="font-medium text-foreground">Aviso legal y términos y condiciones:</span> Este sitio web no ofrece atención médica de emergencia. La información contenida en este sitio se proporciona únicamente con fines educativos e informativos y no sustituye una evaluación médica presencial, diagnóstico clínico ni tratamiento médico. Los resultados pueden variar según cada persona. Al acceder a este sitio web, realizar una orden o utilizar los servicios de AminoPro-MD, el usuario declara y garantiza que tiene al menos veinte y uno (21) años de edad y que actúa de manera voluntaria y bajo su propia responsabilidad. Los productos ofrecidos en este sitio están clasificados como suplementos dietéticos (“dietary supplements”) conforme a la normativa vigente y, como tales, no requieren aprobación previa por parte de la Administración de Alimentos y Medicamentos de los Estados Unidos (FDA). Asimismo, algunos productos pueden estar destinados exclusivamente para fines de investigación (“research use only”) y no están destinados a diagnosticar, tratar, curar o prevenir ninguna enfermedad. El acceso o uso de este sitio web no establece una relación médico-paciente entre el usuario y AminoPro-MD o cualquiera de sus profesionales afiliados. Dicha relación solo se establece tras la realización de una consulta médica formal y el consentimiento informado correspondiente. El usuario reconoce y acepta que el uso, manejo, almacenamiento, dosificación y administración de cualquier producto adquirido a través de AminoPro-MD se realiza bajo su exclusiva responsabilidad. AminoPro-MD no garantiza resultados específicos o resultados terapéuticos derivados del uso de cualquier producto o protocolo. AminoPro-MD, así como sus propietarios, directivos, empleados, contratistas, afiliados y proveedores médicos, no asumen responsabilidad alguna por daños, pérdidas, efectos adversos o reclamaciones derivadas del uso indebido, incorrecto o no conforme a las indicaciones proporcionadas. En ningún caso AminoPro-MD será responsable por daños directos, indirectos, incidentales, especiales o consecuenciales derivados del uso o imposibilidad de uso de los productos o servicios ofrecidos. Las consultas médicas virtuales, cuando aplican, se realizan bajo consentimiento informado y no sustituyen la atención médica primaria o de emergencia. Se recomienda encarecidamente que el usuario consulte con su proveedor de atención médica autorizado antes de iniciar el uso de cualquier producto o protocolo adquirido a través de este sitio. La información personal proporcionada por el usuario será tratada de manera confidencial y utilizada únicamente con fines administrativos, clínicos y de seguimiento, de conformidad con nuestras políticas de privacidad y la normativa aplicable. Todas las ventas son finales. Todos los pagos son definitivos, no reembolsables, no transferibles y no cancelables, independientemente del uso del producto o de los resultados obtenidos. Al utilizar este sitio web, el usuario confirma que ha leído, comprendido y aceptado estos términos y condiciones. 
+  </div>
     </div>
   );
 }
