@@ -800,7 +800,7 @@ function Contact() {
 
 📧 Correo electrónico: aminopromd@gmail.com
 
-🕘 Horario de atención: Lunes a viernes, de 9:00 a.m. a 5:00 p.m. (hora del Este).
+🕘 Horario de atención: Lunes a viernes, de 10:00 a.m. a 6:00 p.m. (hora del Este).
 
 Para consultas generales, soporte o información adicional, puedes comunicarte con nosotros a través del correo electrónico indicado, dentro de nuestro horario de atención y nuestro equipo te responderá lo mas pronto posible. "
     >
