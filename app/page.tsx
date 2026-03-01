@@ -200,7 +200,7 @@ const FAQS = [
   },
   {
     q: "¿Qué es mejor, inyectado o sublingual?",
-    a: "Ambas pueden ser efectivas, pero funcionan de manera diferente. La vía inyectada suele ofrecer una absorción mas alta y directa. La vía sublingual es más cómoda y menos invasiva pero su absorción puede ser menor y actualmente existe una mayor variedad de péptidos inyectados que sublinguales.",
+    a: "Ambas pueden ser efectivas, pero funcionan de manera diferente. La vía inyectada suele ofrecer una absorción mas alta y directa. La vía sublingual es más cómoda y menos invasiva, pero su absorción puede ser menor. Actualmente existe una mayor variedad de péptidos inyectados que sublinguales.",
   },
 ];
 
@@ -240,7 +240,7 @@ function Section({
 function Nav() {
   const links = [
     { href: "#productos", label: "Productos" },
-    { href: "#consultas", label: "Consulta Virtual" },
+    { href: "#consultas", label: "" },
     { href: "#faq", label: "FAQ" },
     { href: "#contacto", label: "Contacto" },
   ];
@@ -703,8 +703,8 @@ function Consults() {
   return (
     <Section
       id="consultas"
-      title="Consulta Médica"
-      subtitle="Consulta médica virtual personalizada con un médico del equipo de AminoPro-MD, para evaluar tu estado de salud y diseñar un plan de péptido-terapia adaptado a tus objetivos, necesidades y perfil clínico.
+      title="Consulta Virtual"
+      subtitle="Consulta  virtual personalizada con un médico del equipo de AminoPro-MD, para evaluar tu estado de salud y diseñar un plan de péptido-terapia adaptado a tus objetivos, necesidades y perfil clínico.
 Al finalizar la consulta, recibirás tu plan personalizado en formato PDF, firmado por el médico, directamente en tu correo electrónico."
     >
       <div className="flex justify-center">
