@@ -893,10 +893,7 @@ function Footer() {
   <p>© {new Date().getFullYear()} {BRAND.name}. Propiedad de NeoG Pro, LLC. Todos los derechos reservados.</p>
 </div>
           <div className="flex flex-wrap gap-3">
-            <a href="#aviso-legal" className="hover:text-foreground"></a>
-            <a href="#aviso-legal" className="hover:text-foreground"></a>
-            <a href="#aviso-legal" className="hover:text-foreground"></a>
-            <a href="#aviso-legal" className="hover:text-foreground"></a>
+          
           </div>
           <div className="mt-3 flex items-center gap-3">
   <a
