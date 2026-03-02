@@ -184,7 +184,7 @@ const PRODUCTS = [
 const FAQS = [
   {
     q: "¿Qué son los péptidos?",
-    a: "Son pequeñas cadenas de aminoacidos que actúan como mensajeros en el cuerpo. Le indican a nuestras células que realicen funciones específicas, como apoyar la producción de energía de manera natural, inhibir el apetito, fortalecer nuestro sistema inmmune, el aumentar de el líbido en ambos sexos, estimular de ciertas hormonas para la quema de grasa y recuperación mas rápida en tendones, músculo.",
+    a: "Son pequeñas cadenas de aminoacidos que actúan como mensajeros en el cuerpo. Le indican a nuestras células que realicen funciones específicas, como apoyar la producción de energía de manera natural, inhibir el apetito, fortalecer nuestro sistema inmmune, el aumentar de el líbido en ambos sexos, estimular ciertas hormonas para la eliminación de grasa y recuperación mas rápida en tendones, músculo.",
   },
   {
     q: "¿Los péptidos son inyectados?",
