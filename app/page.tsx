@@ -156,7 +156,7 @@ const PRODUCTS = [
   price: 150,
   customOnly: false,
   status: "Disponible",
-  bullets: ["Tiras sublinguales", "PT141-500 mcg, Oxytocina-25mcg, Aminofelilpyrrol-20mg por tira", "20 tiras sublinguales",],
+  bullets: ["Tiras sublinguales", "PT141-500 mcg, Oxytocina-25mcg, Aminofelilpyrrol-20mg por tira", "10 tiras sublinguales",],
 },
 {
   id: "cjc1295-sl",
@@ -312,8 +312,7 @@ Mi objetivo principal es: `
   target="_blank"
   rel="noreferrer"
 >
-  Agendar 
-  Consulta Virtual
+  Agendar Consulta Virtual
 </a>
           </Button>
           <p className="text-xs text-muted-foreground mt-1">
