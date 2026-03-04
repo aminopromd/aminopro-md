@@ -13,7 +13,7 @@ export default function RootLayout({
       <body>
 
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"
+          src="https://www.googletagmanager.com/gtag/js?id=G-JPERF119FN"
           strategy="afterInteractive"
         />
 
