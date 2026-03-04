@@ -312,7 +312,8 @@ Mi objetivo principal es: `
   target="_blank"
   rel="noreferrer"
 >
-  Agendar Consulta Virtual
+  Agendar 
+  Consulta Virtual
 </a>
           </Button>
           <p className="text-xs text-muted-foreground mt-1">
