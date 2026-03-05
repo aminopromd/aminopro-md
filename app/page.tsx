@@ -161,7 +161,7 @@ const PRODUCTS = [
 {
   id: "cjc1295-sl",
   name: "CJC-1295 Sublingual",
-  category: "QUEMAR GRASA",
+  category: "AUMENTO DE MASA MUSCULAR",
   price: 150,
   customOnly: false,
   status: "Disponible",
