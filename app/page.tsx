@@ -168,6 +168,16 @@ const PRODUCTS = [
   bullets: ["Tiras sublinguales", "150 mcg por tira", "20 tiras sublinguales",],
 },
 {
+id: "ghkcu-sl",
+  name: "GHK-Cu Sublingual",
+  category: "BELLEZA, PIEL, PELO, UÑAS",
+  price: 150,
+  customOnly: false,
+  status: "Disponible",
+  bullets: ["Tiras sublinguales", "3 mg por tira", "20 tiras sublinguales",],
+  },
+
+{
   id: "nr-500",
   name: "NR-500 ",
   category: "ENERGIA - ANTI-AGING",
