@@ -325,45 +325,10 @@ function Nav() {
     <span></span>
   </a>
 </div>
-        <div className="flex items-center gap-2">
-          <Button asChild size="sm">
-            <a href={waLink(
-    `Hola, AminoPro-MD, quiero agendar mi CONSULTA VIRTUAL.
-
-Nombre:
-Edad:
-Sexo:
-País:
-
-Mi objetivo principal es: `
-  )}
-  target="_blank"
-  rel="noreferrer"
->
-  Agendar Consulta Virtual
-</a>
-          </Button>
-          <p className="text-xs text-muted-foreground mt-1">
-  Si no tienes WhatsApp,{" "}
-  <a
-    href={`mailto:aminopromd@gmail.com?subject=Consulta%20AminoPro-MD&body=${encodeURIComponent(`Hola AminoPro-MD, quiero agendar mi CONSULTA VIRTUAL.
-
-Nombre:
-Edad:
-Sexo:
-País:
-
-Mi objetivo principal es:`)}`}
-    className="underline text-foreground"
-  >
-    haz click aquí
-  </a>{" "}
-  para enviarnos un correo.
-</p>
-
+        
         </div>
       </div>
-    </div>
+    
   );
 }
 
@@ -655,7 +620,7 @@ const removeFromCart = (id: string) => {
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {filtered.map((p) => (
-          <Card key={p.id} className="rounded-2xl">
+          <Card key={p.id} className="rounded-2xl bg-white border-green-600">
             <CardContent className="p-5">
               <img src={`/Products/${p.id}.jpeg`}
   alt={p.name}
@@ -1015,7 +980,7 @@ const acceptAge = () => {
 };
 
   return (
-    <div className="min-h-screen bg-[#f0f8ff] scroll-smooth">
+    <div className="min-h-screen bg-[#FFFFFF] scroll-smooth">
       {!ageAccepted && <AgeGate onAccept={acceptAge} />}
 
       {/* Your real site */}
