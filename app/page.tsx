@@ -276,7 +276,7 @@ function Nav() {
   ];
 
   return (
-    <div className="sticky top-0 z-40 border-b bg-background/80 backdrop-blur">
+    <div className="sticky top-0 z-40 border-b border-green-400 bg-background/80 backdrop-blur">
       <div className="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between gap-3">
        <a href="#" className="flex items-center gap-2 font-semibold tracking-tight">
   <img src="/logo.jpeg" alt="AminoPro-MD" className="h-15 w-auto" />
@@ -326,7 +326,7 @@ function Nav() {
 function Hero() {
   return (
     <div
-  className="mx-auto max-w-6xl px-4 pt-10 pb-6 bg-cover bg-center"
+  className="w-full px-6 md: px-12 pt-10 pb-6 bg-cover bg-center"
   style={{ backgroundImage: "url('fondo2.png')" }}
 >
       <div className="grid md:grid-cols-2 gap-8 items-center">
