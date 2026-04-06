@@ -255,11 +255,11 @@ function Section({
   children: React.ReactNode;
 }) {
   return (
-    <section id={id} className="<section className= w-full px-6 py-12">
+    <section id={id} className="<section className= w-full px-6 md:px-12 py-12">
       <div className="mb-8">
         <h2 className="text-2xl md:text-3xl font-semibold tracking-tight">{title}</h2>
         {subtitle ? (
-          <p className="mt-2 text-muted-foreground max-w-3xl">{subtitle}</p>
+          <p className="mt-2 text-muted-foreground w-full">{subtitle}</p>
         ) : null}
       </div>
       {children}
