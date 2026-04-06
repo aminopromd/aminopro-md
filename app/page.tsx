@@ -255,7 +255,7 @@ function Section({
   children: React.ReactNode;
 }) {
   return (
-    <section id={id} className="mx-auto max-w-6xl px-4 py-12">
+    <section id={id} className="<section className= w-full px-6 py-12">
       <div className="mb-8">
         <h2 className="text-2xl md:text-3xl font-semibold tracking-tight">{title}</h2>
         {subtitle ? (
@@ -279,7 +279,7 @@ function Nav() {
     <div className="sticky top-0 z-40 border-b bg-background/80 backdrop-blur">
       <div className="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between gap-3">
        <a href="#" className="flex items-center gap-2 font-semibold tracking-tight">
-  <img src="/logo.jpeg" alt="AminoPro-MD" className="h-10 w-auto" />
+  <img src="/logo.jpeg" alt="AminoPro-MD" className="h-15 w-auto" />
   <span></span>
 </a>
 
@@ -327,7 +327,7 @@ function Hero() {
   return (
     <div
   className="mx-auto max-w-6xl px-4 pt-10 pb-6 bg-cover bg-center"
-  style={{ backgroundImage: "url('/fondo.jpeg')" }}
+  style={{ backgroundImage: "url('fondo2.png')" }}
 >
       <div className="grid md:grid-cols-2 gap-8 items-center">
         <div>
@@ -875,7 +875,7 @@ function Footer() {
       <div className="mx-auto max-w-6xl px-4 py-8 text-xs text-muted-foreground">
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-3">
           <div className="flex items-center gap-3">
-  <img src="/logo-footer.jpg" alt="AminoPro-MD" className="h-8 w-auto" />
+  <img src="/logo.jpeg" alt="AminoPro-MD" className="h-8 w-auto" />
   <p>© {new Date().getFullYear()} {BRAND.name}. Propiedad de NeoG Pro, LLC. Todos los derechos reservados.</p>
 </div>
           <div className="flex flex-wrap gap-3">
