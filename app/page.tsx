@@ -314,16 +314,7 @@ function Nav() {
     <span>   </span>
   </a>
 
-  <a
-    href="https://www.tiktok.com/@aminopromd"
-    target="_blank"
-    rel="noreferrer"
-    className="inline-flex items-center gap-2 hover:text-foreground"
-    aria-label="TikTok AminoPro-MD"
-  >
-    <img src="/Social/tiktok.png" alt="tiktok" className="h-6 w-auto" />
-    <span></span>
-  </a>
+  
 </div>
         
         </div>
@@ -913,16 +904,7 @@ function Footer() {
     <span></span>
   </a>
 
-  <a
-    href="https://www.tiktok.com/@aminopromd"
-    target="_blank"
-    rel="noreferrer"
-    className="inline-flex items-center gap-2 hover:text-foreground"
-    aria-label="TikTok AminoPro-MD"
-  >
-    <img src="/Social/tiktok.png" alt="tiktok" className="h-8 w-auto" />
-    <span></span>
-  </a>
+ 
 </div>
         </div>
         <p className="mt-4">
