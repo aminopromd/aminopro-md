@@ -141,7 +141,7 @@ const PRODUCTS = [
     bullets: ["Vial ya reconstituido de 200mg/ml", "Vial de 30ml",],
   },
   {
-    id: "aminoblend-30ml",
+    id: "aminoblend-30ml2",
     name: "Amino Blend ",
     category: "RENDIMIENTO MUSCULAR",
     price: 100,
@@ -615,7 +615,7 @@ const removeFromCart = (id: string) => {
             <CardContent className="p-5">
               <img src={`/Products/${p.id}.jpeg`}
   alt={p.name}
-  className="w-full h-40 object-contain rounded-lg mb-3"
+  className="w-full h-64 md:h-72 object-contain rounded-lg mb-3"
 />
 
               <div className="flex items-start justify-between gap-3">
