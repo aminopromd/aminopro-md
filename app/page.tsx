@@ -511,7 +511,7 @@ const removeFromCart = (id: string) => {
           </div>
         </div>
 
-        <Card className="rounded-2xl">
+        <Card id="carrito" className="rounded-2xl transition">
           <CardContent className="p-5">
             
             <div className="flex items-start justify-between gap-3">
@@ -666,10 +666,20 @@ Nota: `
                     </a>
                   </Button>
                 ) : (
-                  <Button className="flex-1 cursor-pointer hover:scale-[1.02] hover:shadow-md transition"
-  onClick={() => addToCart(p.id)}>
-                    Añadir al carrito
-                  </Button>
+                  <Button
+  className="flex-1 cursor-pointer bg-[#A3E635] text-black font-semibold text-base hover:bg-[#84CC16] hover:shadow-lg hover:shadow-[#A3E635]/40 hover:scale-[1.03] transition-all duration-200"
+  onClick={() => {
+    addToCart(p.id);
+    const el = document.getElementById("carrito");
+    el?.scrollIntoView({ behavior: "smooth" });
+    el?.classList.add("ring-2", "ring-lime-400");
+    setTimeout(() => {
+      el?.classList.remove("ring-2", "ring-lime-400");
+    }, 1000);
+  }}
+>
+  Añadir al carrito
+</Button>
                 )}
 
                 
