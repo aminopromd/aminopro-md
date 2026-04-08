@@ -666,7 +666,8 @@ Nota: `
                     </a>
                   </Button>
                 ) : (
-                  <Button className="flex-1" onClick={() => addToCart(p.id)}>
+                  <Button className="flex-1 cursor-pointer hover:scale-[1.02] hover:shadow-md transition"
+  onClick={() => addToCart(p.id)}>
                     Añadir al carrito
                   </Button>
                 )}
