@@ -299,7 +299,7 @@ function Nav() {
     className="inline-flex items-center gap-2 hover:text-foreground"
     aria-label="Instagram AminoPro-MD"
   >
-    <img src="/Social/instagram.png" alt="instagram" className="h-6 w-auto" />
+    <img src="/Social/instagram.png" alt="instagram" className="h-10 w-auto" />
     <span></span>
   </a>
 
@@ -310,7 +310,7 @@ function Nav() {
     className="inline-flex items-center gap-2 hover:text-foreground"
     aria-label="Facebook AminoPro-MD"
   >
-    <img src="/Social/facebook.png" alt="facebook" className="h-6 w-auto" />
+    <img src="/Social/facebook.png" alt="facebook" className="h-10 w-auto" />
     <span>   </span>
   </a>
 
