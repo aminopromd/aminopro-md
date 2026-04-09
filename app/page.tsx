@@ -18,7 +18,7 @@ const PRODUCTS = [
   // Productos con precio (USD). Mostrar solo el número.
   {
     id: "bpc157-10",
-    name: "BPC‑157 ",
+    name: "BPC‑157 - 10 mg",
     category: "RECUPERACION MUSCULOESQUELETICA",
     price: 75,
     customOnly: false,
@@ -32,7 +32,7 @@ const PRODUCTS = [
   },
   {
     id: "tb500-10",
-    name: "TB‑500 ",
+    name: "TB‑500 - 10mg ",
     category: "RECUPERACION MUSCULOESQUELETICA",
     price: 80,
     customOnly: false,
@@ -41,7 +41,7 @@ const PRODUCTS = [
   },
   {
     id: "ghkcu-50",
-    name: "GHK‑Cu",
+    name: "GHK‑Cu - 50mg",
     category: "BELLEZA, PIEL, PELO, UÑAS",
     price: 50,
     customOnly: false,
@@ -50,7 +50,7 @@ const PRODUCTS = [
   },
   {
     id: "nad-1000",
-    name: "NAD+ ",
+    name: "NAD+ - 1,000mg ",
     category: "ENERGIA, ANTI-AGING",
     price: 250,
     customOnly: false,
@@ -59,7 +59,7 @@ const PRODUCTS = [
   },
   {
     id: "sema-5",
-    name: "Sema-GLP1",
+    name: "Sema-GLP1 - 5mg",
     category: "CONTROL DE PESO",
     price: 150,
     customOnly: false,
@@ -68,7 +68,7 @@ const PRODUCTS = [
   },
   {
     id: "tirz-5",
-    name: "Tirze- GLP1+GIP",
+    name: "Tirze- GLP1+GIP - 10mg",
     category: "CONTROL DE PESO",
     price: 200,
     customOnly: false,
@@ -77,7 +77,7 @@ const PRODUCTS = [
   },
   {
     id: "reta-5",
-    name: "Reta - GLP1+GIP+GLUCAGON",
+    name: "Reta - GLP1+GIP+GLUCAGON - 5mg",
     category: "CONTROL DE PESO",
     price: 250,
     customOnly: false,
@@ -197,7 +197,7 @@ id: "ghkcu-sl",
 
 {
   id: "nr-500",
-  name: "NR-500 ",
+  name: "NR-500 - 500mg ",
   category: "ENERGIA - ANTI-AGING",
   price: 400,
   customOnly: false,
