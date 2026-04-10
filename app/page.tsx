@@ -16,6 +16,69 @@ const BRAND = {
 
 const PRODUCTS = [
   // Productos con precio (USD). Mostrar solo el número.
+
+  {
+    id: "semab12-5",
+    name: "Sema+B12 - 5/0.5 mg/ml",
+    category: "PERDIAD DE PESO - ENERGIA",
+    price: 400,
+    customOnly: false,
+    status: "Disponible",
+    bullets:["Vial ya reconstituido de SEMA 5mg con Vitamina B12 0.5 mg / ml", "Vial de 2.5ml",
+
+    ],   
+      
+  },
+
+  {
+    id: "reta-5",
+    name: "Reta - GLP1+GIP+GLUCAGON - 5mg",
+    category: "CONTROL DE PESO",
+    price: 250,
+    customOnly: false,
+    status: "Disponible",
+    bullets: ["Vial liofilizado 5mg", ">99.6% de pureza", "Para reconstituir en 3ml de solución bacteriostática",],
+  },
+
+   {
+    id: "sema-5",
+    name: "Sema-GLP1 - 5mg",
+    category: "CONTROL DE PESO",
+    price: 150,
+    customOnly: false,
+    status: "Disponible",
+    bullets: ["Vial liofilizado de 5mg", ">99.6% de pureza", "Para reconstituir en 3ml de solución bacteriostática",],
+  },
+{
+    id: "tirz-5",
+    name: "Tirze- GLP1+GIP - 10mg",
+    category: "CONTROL DE PESO",
+    price: 200,
+    customOnly: false,
+    status: "Disponible",
+    bullets: ["Vial liofilizado 10mg", ">99.6% de pureza", "Para reconstituir en 3ml de solución bacteriostática",],
+  },
+
+  {
+    id: "tirz-vial-17p2mgml-2ml",
+    name: "Tirze-GLP1+GIP",
+    category: "CONTROL DE PESO ",
+    price: 650,
+    customOnly: false,
+    status: "Disponible",
+    bullets: ["Vial ya reconstituido de TIRZE 12mg con Vitamina B3 2mg /ml", "Vial de 2ml",],
+  },
+
+  {
+    id: "ghkcu-50",
+    name: "GHK‑Cu - 50mg",
+    category: "BELLEZA, PIEL, PELO, UÑAS",
+    price: 50,
+    customOnly: false,
+    status: "Disponible",
+    bullets: ["Vial liofilizado de 50mg", ">99.6% de pureza", "Para reconstituir en 3ml de solución bacteriostática",],
+  },
+
   {
     id: "bpc157-10",
     name: "BPC‑157 - 10 mg",
@@ -39,15 +102,7 @@ const PRODUCTS = [
     status: "Disponible",
     bullets: ["Vial liofilizado de 10mg", ">99.6% de pureza", "Para reconstituir en 3ml de solución bacteriostática",],
   },
-  {
-    id: "ghkcu-50",
-    name: "GHK‑Cu - 50mg",
-    category: "BELLEZA, PIEL, PELO, UÑAS",
-    price: 50,
-    customOnly: false,
-    status: "Disponible",
-    bullets: ["Vial liofilizado de 50mg", ">99.6% de pureza", "Para reconstituir en 3ml de solución bacteriostática",],
-  },
+  
   {
     id: "nad-1000",
     name: "NAD+ - 1,000mg ",
@@ -57,33 +112,9 @@ const PRODUCTS = [
     status: "Disponible",
     bullets: ["Vial liofilizado de 1,000mg", "Nicotidamide Adenine Dinucleotide", ">99.6% de pureza", "Para reconstituir en 10ml de solución bacteriostática",],
   },
-  {
-    id: "sema-5",
-    name: "Sema-GLP1 - 5mg",
-    category: "CONTROL DE PESO",
-    price: 150,
-    customOnly: false,
-    status: "Disponible",
-    bullets: ["Vial liofilizado de 5mg", ">99.6% de pureza", "Para reconstituir en 3ml de solución bacteriostática",],
-  },
-  {
-    id: "tirz-5",
-    name: "Tirze- GLP1+GIP - 10mg",
-    category: "CONTROL DE PESO",
-    price: 200,
-    customOnly: false,
-    status: "Disponible",
-    bullets: ["Vial liofilizado 10mg", ">99.6% de pureza", "Para reconstituir en 3ml de solución bacteriostática",],
-  },
-  {
-    id: "reta-5",
-    name: "Reta - GLP1+GIP+GLUCAGON - 5mg",
-    category: "CONTROL DE PESO",
-    price: 250,
-    customOnly: false,
-    status: "Disponible",
-    bullets: ["Vial liofilizado 5mg", ">99.6% de pureza", "Para reconstituir en 3ml de solución bacteriostática",],
-  },
+ 
+  
+  
 
   // Solo por orden personalizada (no se agregan al carrito)
   {
@@ -92,18 +123,10 @@ const PRODUCTS = [
     category: "CONTROL DE PESO ",
     price: 450,
     customOnly: false,
-    status: "Disponible",
+    status: "No Disponible",
     bullets: ["Vial ya reconstituido de 2.5mg/ml", "Vial de 5ml",],
   },
-  {
-    id: "tirz-vial-17p2mgml-2ml",
-    name: "Tirze-GLP1+GIP",
-    category: "CONTROL DE PESO ",
-    price: 650,
-    customOnly: false,
-    status: "Disponible",
-    bullets: ["Vial ya reconstituido de 17.2mg/ml", "Vial de 2ml",],
-  },
+  
   {
     id: "nad-vial-1000mgml-10ml",
     name: "NAD+ ",
