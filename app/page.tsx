@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
-import { Check, Shield, Calendar, Phone, Mail, ExternalLink, Search } from "lucide-react";
+import { Check, Shield, Calendar, Phone, Mail, ExternalLink, Search, ShoppingCart } from "lucide-react";
 
 const BRAND = {
   name: "AminoPro-MD",
@@ -539,9 +539,12 @@ const removeFromCart = (id: string) => {
             
             <div className="flex items-start justify-between gap-3">
               <div>
-                <p className="text-xs text-muted-foreground">Carrito</p>
-                <p className="font-medium">{totalCount} item(s)</p>
-              </div>
+  <div className="flex items-center gap-2">
+    <ShoppingCart className="h-4 w-4 text-lime-500" />
+    <p className="text-xs text-muted-foreground">Carrito</p>
+  </div>
+  <p className="font-medium">{totalCount} item(s)</p>
+</div>
               <Button variant="outline" size="sm" onClick={clearCart} disabled={totalCount === 0}>
                 Vaciar
               </Button>
