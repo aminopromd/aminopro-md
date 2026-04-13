@@ -40,6 +40,16 @@ const PRODUCTS = [
     bullets: ["Vial liofilizado 5mg", ">99.6% de pureza", "Para reconstituir en 3ml de solución bacteriostática",],
   },
 
+  {
+    id: "ghkcu-50",
+    name: "GHK‑Cu - 50mg",
+    category: "BELLEZA, PIEL, PELO, UÑAS",
+    price: 49,
+    customOnly: false,
+    status: "Disponible",
+    bullets: ["Vial liofilizado de 50mg", ">99.6% de pureza", "Para reconstituir en 3ml de solución bacteriostática",],
+  },
+
    {
     id: "sema-5",
     name: "Sema-GLP1 - 5mg",
@@ -69,21 +79,12 @@ const PRODUCTS = [
     bullets: ["Vial ya reconstituido de TIRZE 12mg con Vitamina B3 2mg /ml", "Vial de 2ml",],
   },
 
-  {
-    id: "ghkcu-50",
-    name: "GHK‑Cu - 50mg",
-    category: "BELLEZA, PIEL, PELO, UÑAS",
-    price: 49,
-    customOnly: false,
-    status: "Disponible",
-    bullets: ["Vial liofilizado de 50mg", ">99.6% de pureza", "Para reconstituir en 3ml de solución bacteriostática",],
-  },
-
+  
   {
     id: "bpc157-10",
     name: "BPC‑157 - 10 mg",
     category: "RECUPERACION MUSCULOESQUELETICA",
-    price: 75,
+    price: 79,
     customOnly: false,
     status: "Disponible",
     bullets: [
@@ -117,16 +118,7 @@ const PRODUCTS = [
   
 
   // Solo por orden personalizada (no se agregan al carrito)
-  {
-    id: "sema-vial-12p5-5ml",
-    name: "Sema-GLP1",
-    category: "CONTROL DE PESO ",
-    price: 450,
-    customOnly: false,
-    status: "No Disponible",
-    bullets: ["Vial ya reconstituido de 2.5mg/ml", "Vial de 5ml",],
-  },
-  
+    
   {
     id: "nad-vial-1000mgml-10ml",
     name: "NAD+ ",
@@ -136,6 +128,16 @@ const PRODUCTS = [
     status: "Disponible",
     bullets: ["Vial ya reconstituido de 100mg/ml", "Nicotidamide Adenine Dinucleotide - Vial de 10ml",],
   },
+
+  {
+  id: "nr-500",
+  name: "NR-500 - 500mg ",
+  category: "ENERGIA - ANTI-AGING",
+  price: 399,
+  customOnly: false,
+  status: "Disponible",
+  bullets: ["Vial liofilizado 500mg", " Nicotidamide Riboside Chloride >99.6% de pureza", "Para reconstituir en 10ml de solución bacteriostática",],
+},
   {
     id: "lcarn-500mgml-30ml",
     name: "L‑Carnitina",
@@ -171,6 +173,16 @@ const PRODUCTS = [
     customOnly: false,
     status: "Disponible",
     bullets: ["Vial ya reconstituido, Contiene: Arginina, L-Citrulina, L-Lisina, L-Prolina", "Vial de 30ml",],
+  },
+
+  {
+    id: "zinc10",
+    name: "Zinc-10 mg/ml",
+    category: "SISTEMA INMUNOLOGICO ",
+    price: 79,
+    customOnly: false,
+    status: "Disponible",
+    bullets: ["Vial ya reconstituido de 10 mg/ml", "Vial de 10ml",],
   },
 {
   id: "bpc157-sl",
@@ -219,14 +231,14 @@ id: "ghkcu-sl",
   },
 
 {
-  id: "nr-500",
-  name: "NR-500 - 500mg ",
-  category: "ENERGIA - ANTI-AGING",
-  price: 399,
-  customOnly: false,
-  status: "Disponible",
-  bullets: ["Vial liofilizado 500mg", " Nicotidamide Riboside Chloride >99.6% de pureza", "Para reconstituir en 10ml de solución bacteriostática",],
-},
+    id: "sema-vial-12p5-5ml",
+    name: "Sema-GLP1",
+    category: "CONTROL DE PESO ",
+    price: 450,
+    customOnly: false,
+    status: "No Disponible",
+    bullets: ["Vial ya reconstituido de 2.5mg/ml", "Vial de 5ml",],
+  },
 
   
   
