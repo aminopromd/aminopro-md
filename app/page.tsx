@@ -20,7 +20,7 @@ const PRODUCTS = [
   {
     id: "semab12-5",
     name: "Sema+B12 - 5/0.5 mg/ml",
-    category: "PERDIAD DE PESO - ENERGIA",
+    category: "CONTROL DE PESO - ENERGIA",
     price: 399,
     customOnly: false,
     status: "Disponible",
