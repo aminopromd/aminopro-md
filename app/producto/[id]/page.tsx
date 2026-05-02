@@ -60,11 +60,11 @@ const PRODUCT_INFO: Record<
     what: "Conocido popularmente como LA FUENTE DE LA JUVENTUD, el GHK-Cu es un péptido natural formado por 3 aminoácidos unidos a cobre. Está relacionado con la regeneración de dejidos, producción de colágeno y reparación celular.",
     use: "Se usa en protocolos para reparación a nivel celular, procesos ANTI-AGING, estimulación de folículos de cabello para que crezca sano y brilloso, estimulación de producción de colágeno para una piel sana y con un GLOW saludable.",
     benefits:<ul>
-      <li>Estimula la producción de colágeno.</li>
+      <li>Efecto altamente ANTI-AGING.Estimula la producción de colágeno.</li>
       <li>Ayuda a una regeneración de la piel mas saludable.</li>
       <li>Ayuda a tener un cabello mas sano.</li>
       <li>Ayuda a la reparación celular.</li>
-      <li>Efecto altamente ANTI-AGING.</li>
+      <li>Estimula la producción de colágeno.</li>
         
             </ul>
         },
