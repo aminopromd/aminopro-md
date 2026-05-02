@@ -27,12 +27,12 @@ const PRODUCT_INFO: Record<
     title: "RETA - GLP1+GIP+GLUCAGON - 5mg",
     moleculeImage: "/estrucmolereta.jpg",
     what: "La Retatrutida es un péptido de nueva generación que actúa como agonista triple de GLP-1, GIP y Glucagón.",
-    use: "Se usa en protocolos para control de peso, desórdenes metabólicos, diabetes tipo 2, regular el apetito.",
+    use: "Se usa en protocolos para control de peso, desórdenes metabólicos, diabetes tipo 2, para ayuda a regular el apetito.",
     benefits:<ul>
-      <li> Pérdida significativa de peso.</li>
-      <li>Disminucion del apetito y antojos.</li>
+      <li>Pérdida significativa de peso.</li>
+      <li>Disminución del apetito y antojos.</li>
       <li>Control de niveles de glucosa.</li>
-      <li>Aumenta el metabolismo lo que lleva a una quema de calorias mas alta.</li>
+      <li>Aumenta el metabolismo lo que lleva a una quema de calorías mas alta.</li>
       <li>Posible beneficio cardiovascular. </li>
     </ul>
         },
@@ -41,29 +41,29 @@ const PRODUCT_INFO: Record<
   "semab12-5": {
     title: "Sema + B12 - 5/0.5 mg/ml",
     moleculeImage: "/estrucmolesemab12.jpg",
-    what: "Semaglutida es un agonista del GLP-1, con esto reduce el apetito, aumenta la saciedad, mejora el control de la glucosa. La Vitamina B12, tambien conocida como Cobalamina, ayuda a la produccion de energia a nivel celular, participa en formacion de globulos rojos, ayuda al buen funcionamiento del sistema nervioso.",
-    use: "Se usa en protocolos para control de peso, ayuda en tratamientos de diabetes, aumentando los niveles de energia y mantieninedo un sistema nervioso saludable.",
+    what: "Semaglutida es un agonista del GLP-1, con esto reduce el apetito, aumenta la saciedad, mejora el control de la glucosa. La Vitamina B12, tambien conocida como Cobalamina, ayuda a la producción de energía a nivel celular, participa en formación de globulos rojos, ayuda al buen funcionamiento del sistema nervioso.",
+    use: "Se usa en protocolos para control de peso, ayuda en tratamientos de diabetes, aumentando los niveles de energía y mantieninedo un sistema nervioso saludable.",
     benefits:<ul>
       <li> Pérdida de peso progresiva y sostenida.</li>
-      <li>Disminucion del apetito y antojos.</li>
+      <li>Disminución del apetito y antojos.</li>
       <li>Control de niveles de glucosa.</li>
-      <li>Mayor sensacion de saciedad.</li>
-      <li>Reduccion de fatiga. 
-        <li>Previene deficits vitaminicos
-        </li>Posible beneficio cardiovascular. </li>
+      <li>Mayor sensación de saciedad.</li>
+      <li>Reducción de fatiga. 
+      <li>Previene déficits vitamínicos
+      </li>Posible beneficio cardiovascular. </li>
     </ul>
         },
 
         "ghkcu-50": {
     title: "GHK-Cu - 50mg",
     moleculeImage: "/estrucmolechkcu.jpg",
-    what: "Conocido popularmente como LA FUENTE DE LA JUVENTUD, el GHK-Cu es un péptido natural formad por 3 amino ácidos unidos a cobre. Está relacionado con la regeneración de dejidos, producción de colágeno y reparación celular.",
-    use: "Se usa en protocolos para reparación a nivel celular, procesos ANTI-AGING, estimulación de folículos de cabello para que crezca sano y brilloso, estimulación de producción de colágeno para una piel sana y con un glow saludable.",
+    what: "Conocido popularmente como LA FUENTE DE LA JUVENTUD, el GHK-Cu es un péptido natural formado por 3 aminoácidos unidos a cobre. Está relacionado con la regeneración de dejidos, producción de colágeno y reparación celular.",
+    use: "Se usa en protocolos para reparación a nivel celular, procesos ANTI-AGING, estimulación de folículos de cabello para que crezca sano y brilloso, estimulación de producción de colágeno para una piel sana y con un GLOW saludable.",
     benefits:<ul>
-      <li> Estimula la produccion de colageno.</li>
-      <li>Ayuda a una regeneracion de la piel mas saludable.</li>
+      <li>Estimula la producción de colágeno.</li>
+      <li>Ayuda a una regeneración de la piel mas saludable.</li>
       <li>Ayuda a tener un cabello mas sano.</li>
-      <li>Ayuda a la reparacion celular.</li>
+      <li>Ayuda a la reparación celular.</li>
       <li>Efecto altamente ANTI-AGING.</li>
         
             </ul>
@@ -75,7 +75,7 @@ const PRODUCT_INFO: Record<
     what: "Semaglutida es un agonista del GLP-1, con esto reduce el apetito, aumenta la saciedad, mejora el control de la glucosa.",
     use: "Se usa en protocolos para control de peso, ayuda en tratamientos de diabetes y otros trastornos metabólicos.",
     benefits:<ul>
-      <li> Pérdida de peso progresiva y sostenida.</li>
+      <li>Pérdida de peso progresiva y sostenida.</li>
       <li>Disminución del apetito y antojos.</li>
       <li>Control de niveles de glucosa.</li>
       <li>Mayor sensación de saciedad.</li>
@@ -148,7 +148,7 @@ const PRODUCT_INFO: Record<
     title: "NAD+ - 1,000mg",
     moleculeImage: "/estrucmolenad.jpg",
     what: "El NAD+ es una coenzima escencial presente en todas las células del cuerpo. Participa en procesos clave de producción de energía, procesos antioxidantes y metabolismo celular.",
-    use: "Se utiliza en protocolos enfocados en Anti-Aging, aumento de la energía celular, aumento de la claridad mental, apoyo en el metabolismo celular, ayuda a una recuperación celular mas sana.",
+    use: "Se utiliza en protocolos enfocados en ANTI-AGING, aumento de la energía celular, aumento de la claridad mental, apoyo en el metabolismo celular, ayuda a una recuperación celular mas sana.",
     benefits:<ul>
       <li>ANTI-AGING </li>
       <li>Mejora la función celular y metabolica.</li>
@@ -163,10 +163,10 @@ const PRODUCT_INFO: Record<
     title: "NAD+ - 100mg/ml",
     moleculeImage: "/estrucmolenad.jpg",
     what: "El NAD+ es una coenzima escencial presente en todas las células del cuerpo. Participa en procesos clave de producción de energía, procesos antioxidantes y metabolismo celular.",
-    use: "Se utiliza en protocolos enfocados en Anti-Aging, aumento de la energía celular, aumento de la claridad mental, apoyo en el metabolismo celular, ayuda a una recuperación celular mas sana.",
+    use: "Se utiliza en protocolos enfocados en ANTI-AGNING, aumento de la energía celular, aumento de la claridad mental, apoyo en el metabolismo celular, ayuda a una recuperación celular mas sana.",
     benefits:<ul>
       <li>ANTI-AGING </li>
-      <li>Mejora la función celular y metabolica.</li>
+      <li>Mejora la función celular y metabólica.</li>
       <li>Aumenta la claridad mental y la concentración.</li>
       <li>Ayuda a una reparación celular mas saludable.</li>
       <li>Aumenta la producción de energía - ATP-.</li>
@@ -178,12 +178,12 @@ const PRODUCT_INFO: Record<
     title: "NR-500 - 500mg",
     moleculeImage: "/estrucmolenr.jpg",
     what: "La Nicotinamida Ribosida o NR, es una forma de vitamina B3 que el cuerpo utiliza como precursor directo de NAD+ una molécula clave para la producción de energía celular.",
-    use: "Se utiliza en protocolos enfocados en aumentar niveles de NAD+, Anti-Aging, aumento de la claridad mental y conectración, aumento de la energía",
+    use: "Se utiliza en protocolos enfocados en aumentar niveles de NAD+, ANTI-AGING, aumento de la claridad mental y conectración, aumento de la energía",
     benefits:<ul>
       <li>ANTI-AGING </li>
-      <li>Mejora la función celular y metabolica.</li>
+      <li>Mejora la función celular y metabólica.</li>
       <li>Aumenta la claridad mental y la concentración.</li>
-      <li>Aumenta los niveles de enrgía.</li>
+      <li>Aumenta los niveles de energía.</li>
       <li>Aumenta la producción de NAD+</li>
         
             </ul>
@@ -208,9 +208,9 @@ const PRODUCT_INFO: Record<
     title: "Glutatión",
     moleculeImage: "/estrucmolegluta.jpg",
     what: "El Glutatión es un antioxidante natural producido por el cuerpo, compuesto por 3 aminoácidos. Este es responsable de proteger las células del daño oxidativo.",
-    use: "Se utiliza en protocolos enfocados Anti-Aging, detoxificación del organismo, apoyo al sistema inmmune, protección celular, para una piel mas saludable.",
+    use: "Se utiliza en protocolos enfocados ANTI-AGING, detoxificación del organismo, apoyo al sistema inmmune, protección celular, para una piel mas saludable.",
     benefits:<ul>
-      <li>Anti-Aging.</li>
+      <li>ANTI-AGING.</li>
       <li>Detox.</li>
       <li>Aumenta el GLOW natural de la piel.</li>
       <li>Protección celular contra daño ambiental.</li>
@@ -227,7 +227,7 @@ const PRODUCT_INFO: Record<
     benefits:<ul>
       <li>Aumenta el rendimiento físico durante entrenamientos.</li>
       <li>Mejora la salud sexual.</li>
-      <li>Favorece la vasodilatación y mejor flujo sanguíneo.</li>
+      <li>Favorece la vasodilatación y mejora flujo sanguíneo.</li>
       <li>Mantiene un sistema cardiovascular mas saludable.</li>
             
             </ul>
@@ -236,12 +236,12 @@ const PRODUCT_INFO: Record<
           "aminoblend-30ml2": {
     title: "Amino Blend",
     moleculeImage: "/estrucmoleaminob.jpg",
-    what: "Es una perfecta combinación de aminoácidos que incluye, L-Carnitina, L-Arginina, L-Citrulina, L-Lysina y L-Prolina, diseñada para maximizar el rendimiento físico durane entrenos, la recuperación del cuerpo y mejora el metabolismo en general.",
+    what: "Es una perfecta combinación de aminoácidos que incluye, L-Carnitina, L-Arginina, L-Citrulina, L-Lisina y L-Prolina, diseñada para maximizar el rendimiento físico durane entrenos, la recuperación del cuerpo y mejora el metabolismo en general.",
     use: "Se utiliza en protocolos enfocados en maximizar el rendimiento físico durante entrenos, mejorar la circulación, maximizar la recuperación muscular, aumenta la producción de energía y mantiene tejidos conectivos y musculares saludables.  ",
     benefits:<ul>
       <li>Maximiza el rendimiento físico.</li>
       <li>Mejora la circulación y flujo sanguíneo.</li>
-      <li>Maximiza la recuperació muscular.</li>
+      <li>Maximiza la recuperación muscular.</li>
       <li>Aumenta la producción de energía.</li>
       <li>Mantiene tejidos saludables y aumenta la producción de colágeno. </li>
         
@@ -313,10 +313,10 @@ const PRODUCT_INFO: Record<
     title: "CJC-1295 Sublingual",
     moleculeImage: "/estrucmolecjc.jpg",
     what: "El CJC-1295 es un péptido análogo de la hormona liberadora de la hormona de crecimiento (GHRH), diseñado para estimular la producción natural de la hormona de crecimiento en el cuerpo.",
-    use: "Esta opción SUBLINGUAL, se usa en protocolos enfocados en aumento de masa muscular, una mejor recuperación corporal despues de entrenar, un mejor descanso muscular y como Anti-Aging.",
+    use: "Esta opción SUBLINGUAL, se usa en protocolos enfocados en aumento de masa muscular magra, una mejor recuperación corporal despues de entrenar, un mejor descanso muscular y como ANTI-AGNING.",
     benefits:<ul>
       <li>Aumento de masa muscular.</li>
-      <li>Anti-Aging.</li>
+      <li>ANTI-AGING.</li>
       <li>Maximiza la recuperación muscular y da un mejor descanso.</li>
       <li>Reduce la grasa corporal.</li>
       <li>No es inyectable.</li>    
@@ -328,13 +328,13 @@ const PRODUCT_INFO: Record<
     title: "GHK-Cu Sublingual",
     moleculeImage: "/estrucmolechkcu.jpg",
     what: "Conocido popularmente como LA FUENTE DE LA JUVENTUD, el GHK-Cu es un péptido natural formad por 3 amino ácidos unidos a cobre. Está relacionado con la regeneración de dejidos, producción de colágeno y reparación celular.",
-    use: "Esta opción SUBLINGUAL, se usa en protocolos para reparación a nivel celular, procesos ANTI-AGING, estimulación de folículos de cabello para que crezca sano y brilloso, estimulación de producción de colágeno para una piel sana y con un glow saludable.",
+    use: "Esta opción SUBLINGUAL, se usa en protocolos para reparación a nivel celular, procesos ANTI-AGING, estimulación de folículos de cabello para que crezca sano y brilloso, estimulación de producción de colágeno para una piel sana y con un GLOWQ saludable.",
     benefits:<ul>
-      <li> Estimula la produccion de colageno.</li>
-      <li>Ayuda a una regeneracion de la piel mas saludable.</li>
+      <li>Efecto Altamente ANTI-AGING. Estimula la producción de colágeno.</li>
+      <li>Ayuda a una regeneración de la piel mas saludable.</li>
       <li>Ayuda a tener un cabello mas sano.</li>
-      <li>Ayuda a la reparacion celular.</li>
-      <li>Efecto altamente ANTI-AGING.</li>
+      <li>Ayuda a la reparación celular.</li>
+      <li>Estimula la producción de colágeno.</li>
       <li>No es inyectable.</li>
         
             </ul>
