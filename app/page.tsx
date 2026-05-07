@@ -856,7 +856,21 @@ function AgeGate({ onAccept }: { onAccept: () => void }) {
             Al continuar confirmas que tienes <strong>21 años o más</strong>
           </p>
 
-          <Button size="lg" className="px-10 py-6 text-base" onClick={onAccept}>
+          <Button
+  size="lg"
+  className="px-10 py-6 text-base"
+  onClick={() => {
+    localStorage.setItem(
+      "adultVerified",
+      JSON.stringify({
+        verified: true,
+        timestamp: Date.now(),
+      })
+    );
+
+    onAccept();
+  }}
+>
             Entrar · Tengo 21+
           </Button>
 
@@ -875,6 +889,20 @@ function AgeGate({ onAccept }: { onAccept: () => void }) {
 
 export default function SitePeptidosTelemed() {
   const [ageAccepted, setAgeAccepted] = useState(false);
+
+  useEffect(() => {
+    const stored = localStorage.getItem("adultVerified");
+
+    if (stored) {
+      const data = JSON.parse(stored);
+
+      const fourHours = 4 * 60 * 60 * 1000;
+
+      if (Date.now() - data.timestamp < fourHours) {
+        setAgeAccepted(true);
+      }
+    }
+  }, []);  
 
   return (
     <div className="min-h-screen bg-[#FFFFFF] scroll-smooth">
