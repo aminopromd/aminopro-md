@@ -27,7 +27,7 @@ const PRODUCT_INFO: Record<
     title: "RETA - GLP1+GIP+GLUCAGON - 5mg",
     moleculeImage: "/estrucmolereta.jpg",
     what: "La Retatrutida es un péptido de nueva generación que actúa como agonista triple de GLP-1, GIP y Glucagón.",
-    use: "Se usa en protocolos para control de peso, desórdenes metabólicos, diabetes tipo 2, para ayuda a regular el apetito.",
+    use: "Se usa en protocolos para control de peso, desórdenes metabólicos, diabetes tipo 2, para regular el control del apetito.",
     benefits:<ul>
       <li>Pérdida significativa de peso.</li>
       <li>Disminución del apetito y antojos.</li>
@@ -37,7 +37,126 @@ const PRODUCT_INFO: Record<
     </ul>
         },
 
-        
+          "glow": {
+    title: "GLOW",
+    moleculeImage: "/estrucmoleglow.jpg",
+    what: "Es una perfecta combinación de péptidos diseñada para una mejor regeneración, reparación de la piel y otros tejidos, a nivel celular.",
+    use: "Se utiliza en protocolos enfocados en ANTI-AGING, rejuvenecimiento, reducción de inflamación, para obtener un pelo, piel y uñas firmes, brillosos y saludables.",
+    benefits:<ul>
+      <li>Altamente ANTI-AGING.</li>
+      <li>Regresa el GLOW natural de tu piel.</li>
+      <li>Reduce las líneas finas de la piel.</li>
+      <li>Forma una piel mas firme y un cabello mas brillante.</li>
+      <li>Efectos anti-inflamatorios en general.</li>
+      
+    </ul>
+        },
+
+         "reta-10": {
+    title: "RETA GLP1+GIP+GLUCAGON 10mg",
+    moleculeImage: "/estrucmolereta.jpg",
+    what: "La Retatrutida es un péptido de nueva generación que actúa como agonista triple de GLP-1, GIP y Glucagón.",
+    use: "Se usa en protocolos para control de peso, desórdenes metabólicos, diabetes tipo 2, para regular el control del apetito.",
+    benefits:<ul>
+      <li>Pérdida significativa de peso.</li>
+      <li>Disminución del apetito y antojos.</li>
+      <li>Control de niveles de glucosa.</li>
+      <li>Aumenta el metabolismo lo que lleva a una quema de calorías mas alta.</li>
+      <li>Posible beneficio cardiovascular. </li>
+      
+    </ul>
+        },
+
+        "dsip-5": {
+    title: "DSIP - 5mg",
+    moleculeImage: "/estrucmoledsip.jpg",
+    what: "DSIP(Delta Sleep Inducing Peptide) es un péptido natural asociado con la regulación del sueño, especialmente el sueño profundo (fase delta), la cual es clave para la recuperación física y mental.",
+    use: "Se utiliza en protocolos enfocados en mejorar la calidad del sueño, maximizar la recuperación durante el sueño, reducir estrés y fatiga mental.",
+    benefits:<ul>
+      <li>Mejora la calidad del sueño.</li>
+      <li>Reduce el estrés.</li>
+      <li>Reduce la fatia mental.</li>
+      <li>Maximiza la recuperación del cuerpo durante el sueño.</li>
+      <li>Reduce la ansiedad.</li>
+      
+    </ul>
+        },
+
+        "motsc-10": {
+    title: "MOTS-C - 10mg",
+    moleculeImage: "/estrucmolemotsc.jpg",
+    what: "MOTS-C es un péptido derivado de las mitocondrias (la “central de energía” de la célula) que participa en la regulación del metabolismo energético y la utilización de nutrientes.",
+    use: "Se utiliza en protocolos enfocados en maximizar el uso de grasas (Lipotrópico), aumentar la producción de energia, mejorar el rendimiento físico durante entrenos, altamente ANTI-AGING.",
+    benefits:<ul>
+      <li>Altamente ANTI-AGING.</li>
+      <li>Ayuda a perder grasa corporal (LIPOTRÓPICO).</li>
+      <li>Aumenta los niveles de energía a nivel celular.</li>
+      <li>Maximiza el rendimiento físico durante entrenos.</li>
+      <li>Mejora la sensibilidad a la insulina.</li>
+      
+    </ul>
+        },
+
+        "lipoc-10": {
+    title: "LIPO-C - 10ml",
+    moleculeImage: "/estrucmolelipoc.jpg",
+    what: "Es una perfecta combinación LIPOTRÓPICA  diseñada para maximizar el metabolismO de las grasas y aumentar los niveles de energía corporal.",
+    use: "Se utiliza en protocolos enfocados en aumentar y maximizar la perdida de grasa corporal, aumentar los niveles de energía, como complemento de programas para pérdida de peso.",
+    benefits:<ul>
+      <li>Maximiza la quema de grasas, altamente LIPOTRÓPICO.</li>
+      <li>Ayuda a utilizar las grasas como energía durante entrenos.</li>
+      <li>Aumenta la energía y reduce la fatiga.</li>
+      <li>Tiene efecto DETOX ayudando a mantener una función hepática saludable.</li>
+            
+    </ul>
+        },
+
+        "bacwa-10": {
+    title: "BAC WATER - 10ml",
+    moleculeImage: "/estrucmolebacwa.jpg",
+    what: "BAC WATER es agua estéril bacteriostática que contiene una pequeña cantidad de alcohol bencílico (0.9%), utilizado para ayudar a prevenir el crecimiento bacteriano despues de la reconstitución de un péptido. ",
+    use: "Ideal para la reconstitución de péptidos, para prevenir crecimiento bacteriano despues de reconstituir cualquier péptido liofilizado.",
+    benefits:<ul>
+      <li>Prevención de crecimiento bacteriano en tus péptidos.</li>
+      <li>Una mejor estabilidad en el péptido reconstituido.</li>
+      <li>Facilita la dosificación precisa.</li>
+      <li>Vial de 10m que permite múltiples extracciones.</li>
+            
+    </ul>
+        },
+
+        "micc-30": {
+    title: "MICC - 30ml",
+    moleculeImage: "/estrucmolemicc.jpg",
+    what: "Es una combinación única con efectos altamente LIPOTRÓPICOS diseñada para maximizar el metabolismo de las grasas, aumentar los niveles de energía y mejorar la función hepática.",
+    use: "Se utiliza en protocolos enfocados en perder grasa corporal, aumentar y mantener los niveles de energía en el cuerpo, mantener una función hepática saludable, como complemento en programas de pérdida de peso.",
+    benefits:<ul>
+      <li>Maximiza la quema de grasa corporal.</li>
+      <li>Altamente LIPOTRÓPICO.</li>
+      <li>Auemnta la energía durante entrenos.</li>
+      <li>Reduce la fatiga diaria.</li>
+      <li>Mantiene una función hepática saludable.</li>
+      
+    </ul>
+        },
+
+        "cjcipa-sl": {
+    title: "CJC-1295 + IPAMORELIN sublingual",
+    moleculeImage: "/estrucmolecjcipa.jpg",
+    what: "El CJC-1295 es un péptido análogo de la hormona liberadora de la hormona de crecimiento (GHRH), diseñado para estimular la producción natural de la hormona de crecimiento en el cuerpo. Ipamorelin es un péptido que actúa estimulando la liberación de hormona de crecimiento. La combinación es ideal porque ambos trabajan en vías diferentes pero complementarias, uno le dice al cuerpo que produzca y el otro maximiza la liberación.",
+    use: "Esta opción SUBLINGUAL, se usa en protocolos enfocados en aumento de masa muscular magra, una mejor recuperación corporal despues de entrenar, un mejor descanso muscular y como ANTI-AGNING.",
+    benefits:<ul>
+       <li>Efecto altamente ANTI-AGING.</li>
+      <li>Ayuda a una regeneración de la piel mas saludable.</li>
+      <li>Ayuda a tener un cabello mas sano.</li>
+      <li>Ayuda a la reparación celular.</li>
+      <li>Estimula la producción de colágeno.</li>
+      <li>No es inyectable.</li>
+      
+    </ul>
+        },
+
+                
   "semab12-5": {
     title: "Sema + B12 - 5/0.5 mg/ml",
     moleculeImage: "/estrucmolesemab12.jpg",
@@ -67,6 +186,23 @@ const PRODUCT_INFO: Record<
       <li>Estimula la producción de colágeno.</li>
         
             </ul>
+        },
+
+            "cjcipa-5": {
+    title: "CJC-1295 + IPAMORELIN",
+    moleculeImage: "/estrucmolecjcipa.jpg",
+    what: "El CJC-1295 es un péptido análogo de la hormona liberadora de la hormona de crecimiento (GHRH), diseñado para estimular la producción natural de la hormona de crecimiento en el cuerpo. Ipamorelin es un péptido que actúa estimulando la liberación de hormona de crecimiento. La combinación es ideal porque ambos trabajan en vías diferentes pero complementarias, uno le dice al cuerpo que produzca y el otro maximiza la liberación.",
+    use: "Esta combinación se usa en protocolos enfocados en aumento de masa muscular magra, una mejor recuperación corporal despues de entrenar, un mejor descanso muscular y como ANTI-AGNING.",
+    benefits:(
+    <ul className="list-disc  space-y-2 pl-5">
+      <li>Aumento de masa muscular.</li>
+      <li>ANTI-AGING.</li>
+      <li>Maximiza la recuperación muscular y da un mejor descanso.</li>
+      <li>Reduce la grasa corporal.</li>
+      <li>Mejora la calidad de sueño.</li>    
+        
+            </ul>
+    ),
         },
 
          "sema-5": {

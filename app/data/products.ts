@@ -21,10 +21,51 @@ export const PRODUCTS = [
   },
 
   {
+    id: "sema-vial-12p5-5ml",
+    name: "Sema-GLP1",
+    category: "CONTROL DE PESO",
+    price: 450,
+    bullets: [
+      "Vial ya reconstituido de 2.5mg/ml",
+      "Vial de 5ml",
+    ],
+    pageTitle: "Sema-GLP1 Reconstituido",
+    shortDescription:
+      "Presentación reconstituida de semaglutida para protocolos de control de peso.",
+    what:
+      "La semaglutida es un agonista del receptor GLP-1 relacionado con saciedad, apetito y control metabólico.",
+    use:
+      "Se utiliza en protocolos de pérdida de peso, reducción de antojos y control del apetito.",
+    benefits:
+      "Puede ayudar a mejorar la saciedad, reducir el apetito y mantener consistencia en un plan supervisado.",
+  },
+
+  {
+    id: "glow",
+    name: "GLOW",
+    category: "BELLEZA - PIEL y CABELLO",
+    price: 99,
+    bullets: [
+      "Vial liofilizado con BPC-157 10mg + GHK-Cu 50mg + TB-500 10mg.",
+      ">99.6% de pureza",
+      "Para reconstituir en 3ml de solución bacteriostática.",
+    ],
+    pageTitle: "GLOW",
+    shortDescription:
+      "Blend orientado a bienestar celular, piel y apariencia saludable.",
+    what:
+      "GLOW combina compuestos utilizados en protocolos de piel, antioxidantes y bienestar estético.",
+    use:
+      "Se utiliza en protocolos de piel, luminosidad, anti-aging y bienestar celular.",
+    benefits:
+      "Puede favorecer una piel más luminosa, hidratación, soporte antioxidante y apariencia saludable.",
+  },
+
+  {
     id: "reta-5",
     name: "RETA - GLP1+GIP+GLUCAGON - 5mg",
     category: "CONTROL DE PESO",
-    price: 250,
+    price: 199,
     bullets: [
       "Vial liofilizado de 5mg",
       ">99.6% de pureza",
@@ -39,6 +80,27 @@ export const PRODUCTS = [
       "Se utiliza en protocolos enfocados en control de peso, apetito, metabolismo y composición corporal.",
     benefits:
       "Puede ayudar al control del apetito, manejo de grasa corporal y progreso dentro de un plan supervisado.",
+  },
+  {
+
+   id: "reta-10",
+    name: "RETA - GLP1+GIP+GLUCAGON - 10mg",
+    category: "CONTROL DE PESO",
+    price: 299,
+    bullets: [
+      "Vial liofilizado de 10mg",
+      ">99.6% de pureza",
+      "Para reconstituir en 3ml de solución bacteriostática",
+    ],
+    pageTitle: "Retatrutida 10mg",
+    shortDescription:
+      "Péptido avanzado utilizado en protocolos de control de peso y metabolismo.",
+    what:
+      "Retatrutida es un compuesto relacionado con GLP-1, GIP y glucagón.",
+    use:
+      "Se utiliza en protocolos de pérdida de peso, control de apetito y apoyo metabólico.",
+    benefits:
+      "Puede favorecer saciedad, control de apetito, metabolismo y pérdida de peso.",
   },
 
   {
@@ -62,11 +124,135 @@ export const PRODUCTS = [
       "Puede favorecer una piel más saludable, mejor apariencia del cabello, producción de colágeno y recuperación celular.",
   },
 
+   {
+    id: "cjcipa-5",
+    name: "CJC-1295 + IPAMORELIN",
+    category: "AUMENTO DE MASA MUSCULAR MAGRA",
+    price: 79,
+    bullets: [
+      "Vial liofilizado de CJC-1295 5mg + Ipamorelin 5mg",
+      ">99.6% de pureza",
+      "Para reconstituir en 3ml de solución bacteriostática",
+    ],
+    pageTitle: "CJC-1295 + Ipamorelin",
+    shortDescription:
+      "Combinación de péptidos enfocada en recuperación, descanso y composición corporal.",
+    what:
+      "CJC-1295 e Ipamorelin son péptidos relacionados con la liberación natural de hormona de crecimiento.",
+    use:
+      "Se utiliza en protocolos de masa muscular, recuperación física, descanso y anti-aging.",
+    benefits:
+      "Puede favorecer recuperación muscular, mejor descanso, composición corporal y desarrollo muscular.",
+  },
+
+{
+    id: "dsip-5",
+    name: "DSIP - 5mg",
+    category: "DESCANSO Y RECUPERACION",
+    price: 79,
+    bullets: [
+      "Vial liofilizado de 5mg",
+      ">99.6% de pureza",
+      "Para reconstituir en 3ml de solución bacteriostática",
+    ],
+    pageTitle: "DSIP",
+    shortDescription:
+      "Péptido utilizado en protocolos de descanso y recuperación.",
+    what:
+      "DSIP es un péptido investigado por su relación con sueño y relajación.",
+    use:
+      "Se utiliza en protocolos de sueño, descanso, recuperación y bienestar.",
+    benefits:
+      "Puede favorecer descanso profundo, recuperación y sensación de relajación.",
+  },
+    
+  {
+    id: "motsc-10",
+    name: "MOTS-C - 10mg",
+    category: "ENERGIA - METABOLISMO",
+    price: 59,
+    bullets: [
+      "Vial liofilizado de 10mg",
+      ">99.6% de pureza",
+      "Para reconstituir en 3ml de solución bacteriostática",
+    ],
+    pageTitle: "MOTS-C",
+    shortDescription:
+      "Péptido relacionado con metabolismo energético y función mitocondrial.",
+    what:
+      "MOTS-C es un péptido mitocondrial relacionado con energía y metabolismo.",
+    use:
+      "Se utiliza en protocolos de energía, metabolismo y rendimiento.",
+    benefits:
+      "Puede favorecer energía, metabolismo y rendimiento físico.",
+  },
+
+  {
+    id: "lipoc-10",
+    name: "LIPO-C - 10ml",
+    category: "QUEMAR GRASA",
+    price: 79,
+    bullets: [
+      "Vial ya reconstituido con un blend de Carnitina 50mg + Metionina 15mg + Colina 50mg + Vitamina B5 5mg",
+      "Vial de 10ml",
+    ],
+    pageTitle: "LIPO-C",
+    shortDescription:
+      "Blend utilizado en protocolos de metabolismo y control de peso.",
+    what:
+      "LIPO-C combina compuestos relacionados con metabolismo energético y utilización de grasa.",
+    use:
+      "Se utiliza en protocolos de pérdida de peso y apoyo metabólico.",
+    benefits:
+      "Puede favorecer energía, metabolismo y utilización de grasa.",
+  },
+
+  {
+    id: "bacwa-10",
+    name: "BAC WATER - 10ml",
+    category: "RECONSTITUCION",
+    price: 15,
+    bullets: [
+      "Agua bacteriostática",
+      "Vial de 10ml",
+    ],
+    pageTitle: "BAC WATER",
+    shortDescription:
+      "Solución bacteriostática utilizada para reconstitución.",
+    what:
+      "BAC Water es agua bacteriostática estéril utilizada para diluir péptidos y compuestos.",
+    use:
+      "Se utiliza para reconstituir péptidos liofilizados.",
+    benefits:
+      "Permite una reconstitución práctica y segura de productos liofilizados.",
+  },
+
+  {
+    id: "micc-30",
+    name: "MICC - 30ml",
+    category: "METABOLISMO - ENERGIA",
+    price: 99,
+    bullets: [
+      "Vial ya reconstituido con un blend lipotrópico de Metionina 25mg + Inositol 50mg + Colina 50 mg + Vitamina B12 30mcg",
+      "Vial de 30ml",
+    ],
+    pageTitle: "MICC",
+    shortDescription:
+      "Blend utilizado en protocolos de metabolismo y energía.",
+    what:
+      "MICC combina compuestos relacionados con metabolismo energético y función hepática.",
+    use:
+      "Se utiliza en protocolos de energía, metabolismo y control de peso.",
+    benefits:
+      "Puede favorecer metabolismo, energía y apoyo hepático.",
+  },
+
+
   {
     id: "sema-5",
     name: "Sema-GLP1 - 5mg",
     category: "CONTROL DE PESO",
-    price: 150,
+    price: 149,
     bullets: [
       "Vial liofilizado de 5mg",
       ">99.6% de pureza",
@@ -108,7 +294,7 @@ export const PRODUCTS = [
     id: "tirz-vial-17p2mgml-2ml",
     name: "Tirze-GLP1+GIP",
     category: "CONTROL DE PESO",
-    price: 550,
+    price: 499,
     bullets: [
       "Vial ya reconstituido de TIRZE 12mg con Vitamina B3 2mg/ml",
       "Vial de 2ml",
@@ -170,7 +356,7 @@ export const PRODUCTS = [
     id: "nad-1000",
     name: "NAD+ - 1,000mg",
     category: "ENERGIA, ANTI-AGING",
-    price: 250,
+    price: 199,
     bullets: [
       "Vial liofilizado de 1,000mg",
       "Nicotinamide Adenine Dinucleotide",
@@ -190,9 +376,9 @@ export const PRODUCTS = [
 
   {
     id: "nad-vial-1000mgml-10ml",
-    name: "NAD+",
+    name: "NAD+ - 100mg/ml",
     category: "ENERGIA - ANTI-AGING",
-    price: 299,
+    price: 249,
     bullets: [
       "Vial ya reconstituido de 100mg/ml",
       "Nicotinamide Adenine Dinucleotide - Vial de 10ml",
@@ -212,7 +398,7 @@ export const PRODUCTS = [
     id: "nr-500",
     name: "NR-500 - 500mg",
     category: "ENERGIA - ANTI-AGING",
-    price: 399,
+    price: 349,
     bullets: [
       "Vial liofilizado 500mg",
       "Nicotinamide Riboside Chloride >99.6% de pureza",
@@ -314,7 +500,7 @@ export const PRODUCTS = [
     id: "zinc10",
     name: "Zinc-10 mg/ml",
     category: "SISTEMA INMUNOLOGICO",
-    price: 79,
+    price: 49,
     bullets: [
       "Vial ya reconstituido de 10 mg/ml",
       "Vial de 10ml",
@@ -393,6 +579,28 @@ export const PRODUCTS = [
       "Puede favorecer deseo, bienestar íntimo, conexión emocional y confianza personal.",
   },
 
+  
+{
+    id: "cjcipa-sl",
+    name: "CJC-1295 + Ipamorelin Sublingual",
+    category: "AUMENTO DE MASA MUSCULAR MAGRA",
+    price: 79,
+    bullets: [
+      "Tiras sublinguales",
+      "CJC-1295 250mcg + Ipamorelin 250mcg",
+      "20 tiras sublinguales",
+    ],
+    pageTitle: "CJC-1295 + IPAMORELIN Sublingual",
+    shortDescription:
+      "Combinación sublingual enfocada en recuperación y composición corporal.",
+    what:
+      "CJC-1295 e Ipamorelin son péptidos relacionados con hormona de crecimiento.",
+    use:
+      "Se utiliza en protocolos de recuperación, descanso y desarrollo muscular.",
+    benefits:
+      "Puede favorecer descanso, recuperación y composición corporal.",
+  },
+
   {
     id: "cjc1295-sl",
     name: "CJC-1295 Sublingual",
@@ -435,23 +643,5 @@ export const PRODUCTS = [
       "Puede favorecer piel más saludable, cabello más fuerte, uñas y soporte regenerativo.",
   },
 
-  {
-    id: "sema-vial-12p5-5ml",
-    name: "Sema-GLP1",
-    category: "CONTROL DE PESO",
-    price: 450,
-    bullets: [
-      "Vial ya reconstituido de 2.5mg/ml",
-      "Vial de 5ml",
-    ],
-    pageTitle: "Sema-GLP1 Reconstituido",
-    shortDescription:
-      "Presentación reconstituida de semaglutida para protocolos de control de peso.",
-    what:
-      "La semaglutida es un agonista del receptor GLP-1 relacionado con saciedad, apetito y control metabólico.",
-    use:
-      "Se utiliza en protocolos de pérdida de peso, reducción de antojos y control del apetito.",
-    benefits:
-      "Puede ayudar a mejorar la saciedad, reducir el apetito y mantener consistencia en un plan supervisado.",
-  },
+  
 ];
