@@ -845,7 +845,7 @@ function AgeGate({ onAccept }: { onAccept: () => void }) {
     <div className="fixed inset-0 z-[999] flex items-center justify-center bg-black">
       <div
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: "url('/intro-logo.jpg')" }}
+        style={{ backgroundImage: "url('/intro-logo2.jpg')" }}
       />
 
       <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/50 to-black/80" />
