@@ -164,7 +164,7 @@ function Hero() {
 
           <div className="mt-4 flex flex-wrap gap-2 text-xs">
             <span className="rounded-full border px-3 py-1">
-              Atención para Guatemala
+              
             </span>
           </div>
 
