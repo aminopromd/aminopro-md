@@ -125,20 +125,6 @@ const PRODUCT_INFO: Record<
     </ul>
         },
 
-        "micc-30": {
-    title: "MICC - 30ml",
-    moleculeImage: "/estrucmolemicc.jpg",
-    what: "Es una combinación única con efectos altamente LIPOTRÓPICOS diseñada para maximizar el metabolismo de las grasas, aumentar los niveles de energía y mejorar la función hepática.",
-    use: "Se utiliza en protocolos enfocados en perder grasa corporal, aumentar y mantener los niveles de energía en el cuerpo, mantener una función hepática saludable, como complemento en programas de pérdida de peso.",
-    benefits:<ul>
-      <li>Maximiza la quema de grasa corporal.</li>
-      <li>Altamente LIPOTRÓPICO.</li>
-      <li>Auemnta la energía durante entrenos.</li>
-      <li>Reduce la fatiga diaria.</li>
-      <li>Mantiene una función hepática saludable.</li>
-      
-    </ul>
-        },
 
         "cjcipa-sl": {
     title: "CJC-1295 + IPAMORELIN sublingual",
@@ -355,50 +341,10 @@ const PRODUCT_INFO: Record<
             </ul>
         },
 
-        "arginine200-30ml": {
-    title: "L-Arginina",
-    moleculeImage: "/estrucmoleargi.jpg",
-    what: "L-Arginina es un aminoácido que el cuerpo utiliza para producir óxido nítrico, una molécula clave para la vasodilatación y el flujo sanguíneo.",
-    use: "Se utiliza en protocolos enfocados en aumentar el rendimiento físico, mejorar la circulación, apoyo al sistema cardiovascular, mejorar las salud sexual.",
-    benefits:<ul>
-      <li>Aumenta el rendimiento físico durante entrenamientos.</li>
-      <li>Mejora la salud sexual.</li>
-      <li>Favorece la vasodilatación y mejora flujo sanguíneo.</li>
-      <li>Mantiene un sistema cardiovascular mas saludable.</li>
-            
-            </ul>
-        },
-
-          "aminoblend-30ml2": {
-    title: "Amino Blend",
-    moleculeImage: "/estrucmoleaminob.jpg",
-    what: "Es una perfecta combinación de aminoácidos que incluye, L-Carnitina, L-Arginina, L-Citrulina, L-Lisina y L-Prolina, diseñada para maximizar el rendimiento físico durane entrenos, la recuperación del cuerpo y mejora el metabolismo en general.",
-    use: "Se utiliza en protocolos enfocados en maximizar el rendimiento físico durante entrenos, mejorar la circulación, maximizar la recuperación muscular, aumenta la producción de energía y mantiene tejidos conectivos y musculares saludables.  ",
-    benefits:<ul>
-      <li>Maximiza el rendimiento físico.</li>
-      <li>Mejora la circulación y flujo sanguíneo.</li>
-      <li>Maximiza la recuperación muscular.</li>
-      <li>Aumenta la producción de energía.</li>
-      <li>Mantiene tejidos saludables y aumenta la producción de colágeno. </li>
         
-            </ul>
-        },
 
-        "zinc10": {
-    title: "Zinc-10 mg/ml",
-    moleculeImage: "/estrucmolezinc.jpg",
-    what: "El Zinc es un mineral escencial que el cuerpo necesita para múltiples funciones biológicas, especialmente en el sistema inmunológico, en la reparación celular y el metabolismo en general.",
-    use: "Se utiliza en protocolos enfocados en fortalecer el sistema inmunológico, una mejor recuperación y reparación celular, una piel saludable y en prevención de deficiencias vitamínicas.",
-    benefits:<ul>
-      <li>Fortalece el sistema inmunológico.</li>
-      <li>Ayuda a una mejor cicatrización y reparación de tejidos.</li>
-      <li>Ayuda a tener una piel mas saludable.</li>
-      <li>Efectos anti-inflamatorios.</li>
-      <li>Ayuda al metabolismo general celular.</li>
         
-            </ul>
-        },
-
+        
         "bpc157-sl": {
     title: "BPC-157 Sublingual",
     moleculeImage: "/estrucmolebpc157.jpg",

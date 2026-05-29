@@ -227,28 +227,7 @@ export const PRODUCTS = [
       "Permite una reconstitución práctica y segura de productos liofilizados.",
   },
 
-  {
-    id: "micc-30",
-    name: "MICC - 30ml",
-    category: "METABOLISMO - ENERGIA",
-    price: 99,
-    bullets: [
-      "Vial ya reconstituido con un blend lipotrópico de Metionina 25mg + Inositol 50mg + Colina 50 mg + Vitamina B12 30mcg",
-      "Vial de 30ml",
-    ],
-    pageTitle: "MICC",
-    shortDescription:
-      "Blend utilizado en protocolos de metabolismo y energía.",
-    what:
-      "MICC combina compuestos relacionados con metabolismo energético y función hepática.",
-    use:
-      "Se utiliza en protocolos de energía, metabolismo y control de peso.",
-    benefits:
-      "Puede favorecer metabolismo, energía y apoyo hepático.",
-  },
-
-
-  {
+    {
     id: "sema-5",
     name: "Sema-GLP1 - 5mg",
     category: "CONTROL DE PESO",
@@ -454,68 +433,7 @@ export const PRODUCTS = [
     benefits:
       "Puede favorecer protección antioxidante, luminosidad de la piel y apoyo en procesos de detoxificación.",
   },
-
-  {
-    id: "arginine200-30ml",
-    name: "L-Arginina",
-    category: "VASODILATACION - ENERGIA",
-    price: 79,
-    bullets: [
-      "Vial ya reconstituido de 200mg/ml",
-      "Vial de 30ml",
-    ],
-    pageTitle: "L-Arginina",
-    shortDescription:
-      "Aminoácido utilizado en protocolos de circulación, energía, rendimiento y vasodilatación.",
-    what:
-      "La L-Arginina es un aminoácido precursor del óxido nítrico, relacionado con vasodilatación y flujo sanguíneo.",
-    use:
-      "Se utiliza en protocolos de rendimiento físico, circulación, energía y soporte vascular.",
-    benefits:
-      "Puede favorecer mejor flujo sanguíneo, rendimiento durante el ejercicio y sensación de energía.",
-  },
-
-  {
-    id: "aminoblend-30ml2",
-    name: "Amino Blend",
-    category: "RENDIMIENTO MUSCULAR",
-    price: 99,
-    bullets: [
-      "Vial ya reconstituido",
-      "Contiene: Arginina, L-Citrulina, L-Lisina, L-Prolina",
-      "Vial de 30ml",
-    ],
-    pageTitle: "Amino Blend",
-    shortDescription:
-      "Mezcla de aminoácidos enfocada en rendimiento, recuperación y soporte muscular.",
-    what:
-      "Amino Blend combina aminoácidos importantes para rendimiento físico, reparación muscular y función celular.",
-    use:
-      "Se utiliza en protocolos de ejercicio, recuperación, soporte muscular y bienestar físico.",
-    benefits:
-      "Puede favorecer rendimiento, recuperación muscular, circulación y soporte estructural.",
-  },
-
-  {
-    id: "zinc10",
-    name: "Zinc-10 mg/ml",
-    category: "SISTEMA INMUNOLOGICO",
-    price: 49,
-    bullets: [
-      "Vial ya reconstituido de 10 mg/ml",
-      "Vial de 10ml",
-    ],
-    pageTitle: "Zinc",
-    shortDescription:
-      "Mineral esencial utilizado en protocolos de sistema inmune, recuperación y bienestar general.",
-    what:
-      "El zinc es un mineral esencial relacionado con función inmune, reparación celular y metabolismo.",
-    use:
-      "Se utiliza en protocolos de soporte inmunológico, bienestar general y recuperación.",
-    benefits:
-      "Puede apoyar defensas naturales, salud celular, piel y recuperación general.",
-  },
-
+  
   {
     id: "bpc157-sl",
     name: "BPC-157 Sublingual",
