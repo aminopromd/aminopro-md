@@ -132,3 +132,73 @@
     benefits:
       "Puede apoyar defensas naturales, salud celular, piel y recuperación general.",
   },
+
+  {
+    id: "lcarn-500mgml-30ml",
+    name: "L-Carnitina",
+    category: "QUEMAR GRASA",
+    price: 79,
+    bullets: [
+      "Vial ya reconstituido de 500mg/ml",
+      "Vial de 30ml",
+    ],
+    pageTitle: "L-Carnitina",
+    shortDescription:
+      "Aminoácido utilizado en protocolos de energía, metabolismo de grasas y rendimiento físico.",
+    what:
+      "La L-Carnitina participa en el transporte de ácidos grasos hacia la mitocondria para producción de energía.",
+    use:
+      "Se utiliza en protocolos de control de peso, rendimiento, energía y apoyo metabólico.",
+    benefits:
+      "Puede ayudar con energía durante el ejercicio, metabolismo de grasa y rendimiento físico.",
+  },
+
+  {
+    id: "gluta-200mgml-30ml",
+    name: "Glutatión",
+    category: "BELLEZA - DETOX",
+    price: 99,
+    bullets: [
+      "Vial ya reconstituido de 200mg/ml",
+      "Vial de 30ml",
+    ],
+    pageTitle: "Glutatión",
+    shortDescription:
+      "Antioxidante utilizado en protocolos de detox, piel, bienestar celular y salud general.",
+    what:
+      "El glutatión es uno de los antioxidantes más importantes del cuerpo y participa en procesos de detoxificación.",
+    use:
+      "Se utiliza en protocolos de bienestar celular, piel, recuperación, antioxidantes y detox.",
+    benefits:
+      "Puede favorecer protección antioxidante, luminosidad de la piel y apoyo en procesos de detoxificación.",
+  },
+
+     "lcarn-500mgml-30ml": {
+    title: "L-Carnitina",
+    moleculeImage: "/estrucmolecarni.jpg",
+    what: "L-Carnitina es una molécula derivada de aminoácidos que participa en el transporte de ácidos grasos hacia las mitocondrias, donde se utilizan para producir energía.",
+    use: "Se utiliza en protocolos enfocados aumentar energía y rendimiento físico, maximizar el metabolismo de grasas, ayuda a protocolos para control de peso, para recuperación muscular y da apoyo al sistema metabólico.",
+    benefits:<ul>
+      <li>Ayuda a protocolos para perder peso.</li>
+      <li>Favorece el uso de grasa como fuente de energía.</li>
+      <li>Aumenta niveles de energía y el rendimiento durante el entrenamiento.</li>
+      <li>Apoya a la recuperación muscular.</li>
+      <li>Maximiza el metabolismo energético.</li>
+        
+            </ul>
+        },
+
+         "gluta-200mgml-30ml": {
+    title: "Glutatión",
+    moleculeImage: "/estrucmolegluta.jpg",
+    what: "El Glutatión es un antioxidante natural producido por el cuerpo, compuesto por 3 aminoácidos. Este es responsable de proteger las células del daño oxidativo.",
+    use: "Se utiliza en protocolos enfocados ANTI-AGING, detoxificación del organismo, apoyo al sistema inmmune, protección celular, para una piel mas saludable.",
+    benefits:<ul>
+      <li>ANTI-AGING.</li>
+      <li>Detox.</li>
+      <li>Aumenta el GLOW natural de la piel.</li>
+      <li>Protección celular contra daño ambiental.</li>
+      <li>Mejora la tonificación de la piel.</li>
+        
+            </ul>
+        },

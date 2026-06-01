@@ -251,6 +251,7 @@ const PRODUCT_INFO: Record<
         
             </ul>
         },
+        
         "tb500-10": {
     title: "TB-500 - 10mg",
     moleculeImage: "/estrucmoletb500.jpg",
@@ -311,41 +312,8 @@ const PRODUCT_INFO: Record<
             </ul>
         },
 
-        "lcarn-500mgml-30ml": {
-    title: "L-Carnitina",
-    moleculeImage: "/estrucmolecarni.jpg",
-    what: "L-Carnitina es una molécula derivada de aminoácidos que participa en el transporte de ácidos grasos hacia las mitocondrias, donde se utilizan para producir energía.",
-    use: "Se utiliza en protocolos enfocados aumentar energía y rendimiento físico, maximizar el metabolismo de grasas, ayuda a protocolos para control de peso, para recuperación muscular y da apoyo al sistema metabólico.",
-    benefits:<ul>
-      <li>Ayuda a protocolos para perder peso.</li>
-      <li>Favorece el uso de grasa como fuente de energía.</li>
-      <li>Aumenta niveles de energía y el rendimiento durante el entrenamiento.</li>
-      <li>Apoya a la recuperación muscular.</li>
-      <li>Maximiza el metabolismo energético.</li>
-        
-            </ul>
-        },
-
-         "gluta-200mgml-30ml": {
-    title: "Glutatión",
-    moleculeImage: "/estrucmolegluta.jpg",
-    what: "El Glutatión es un antioxidante natural producido por el cuerpo, compuesto por 3 aminoácidos. Este es responsable de proteger las células del daño oxidativo.",
-    use: "Se utiliza en protocolos enfocados ANTI-AGING, detoxificación del organismo, apoyo al sistema inmmune, protección celular, para una piel mas saludable.",
-    benefits:<ul>
-      <li>ANTI-AGING.</li>
-      <li>Detox.</li>
-      <li>Aumenta el GLOW natural de la piel.</li>
-      <li>Protección celular contra daño ambiental.</li>
-      <li>Mejora la tonificación de la piel.</li>
-        
-            </ul>
-        },
-
-        
-
-        
-        
-        "bpc157-sl": {
+           
+          "bpc157-sl": {
     title: "BPC-157 Sublingual",
     moleculeImage: "/estrucmolebpc157.jpg",
     what: "El BPC-157 es un péptido compuesto por 15 aminoácidos, derivado de proteínas presentes en el sistema gastrointestinal. Es conocido por su relación con procesos de reparación y regeneración de tejidos.",

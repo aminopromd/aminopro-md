@@ -1,4 +1,110 @@
 export const PRODUCTS = [
+  
+  {
+    id: "reta-5",
+    name: "RETA - GLP1+GIP+GLUCAGON - 5mg",
+    category: "CONTROL DE PESO",
+    price: 199,
+    bullets: [
+      "Vial liofilizado de 5mg",
+      ">99.6% de pureza",
+      "Para reconstituir en 3ml de solución bacteriostática",
+    ],
+    pageTitle: "Retatrutida",
+    shortDescription:
+      "Péptido avanzado utilizado en protocolos de control de peso y apoyo metabólico.",
+    what:
+      "Retatrutida es un compuesto investigado por su acción sobre receptores relacionados con GLP-1, GIP y glucagón.",
+    use:
+      "Se utiliza en protocolos enfocados en control de peso, apetito, metabolismo y composición corporal.",
+    benefits:
+      "Puede ayudar al control del apetito, manejo de grasa corporal y progreso dentro de un plan supervisado.",
+  },
+  
+  {
+
+   id: "reta-10",
+    name: "RETA - GLP1+GIP+GLUCAGON - 10mg",
+    category: "CONTROL DE PESO",
+    price: 299,
+    bullets: [
+      "Vial liofilizado de 10mg",
+      ">99.6% de pureza",
+      "Para reconstituir en 3ml de solución bacteriostática",
+    ],
+    pageTitle: "Retatrutida 10mg",
+    shortDescription:
+      "Péptido avanzado utilizado en protocolos de control de peso y metabolismo.",
+    what:
+      "Retatrutida es un compuesto relacionado con GLP-1, GIP y glucagón.",
+    use:
+      "Se utiliza en protocolos de pérdida de peso, control de apetito y apoyo metabólico.",
+    benefits:
+      "Puede favorecer saciedad, control de apetito, metabolismo y pérdida de peso.",
+  },
+
+    {
+    id: "tirz-5",
+    name: "Tirze- GLP1+GIP - 10mg",
+    category: "CONTROL DE PESO",
+    price: 199,
+    bullets: [
+      "Vial liofilizado 10mg",
+      ">99.6% de pureza",
+      "Para reconstituir en 3ml de solución bacteriostática",
+    ],
+    pageTitle: "Tirzepatida",
+    shortDescription:
+      "Combinación GLP-1 + GIP utilizada en protocolos de control de peso y metabolismo.",
+    what:
+      "La tirzepatida actúa sobre vías relacionadas con GLP-1 y GIP, asociadas con apetito, saciedad y metabolismo.",
+    use:
+      "Se utiliza en protocolos de control de peso, reducción de apetito y manejo metabólico supervisado.",
+    benefits:
+      "Puede favorecer mayor saciedad, mejor control de antojos y apoyo en pérdida de peso.",
+  },
+
+  {
+    id: "tirz-vial-17p2mgml-2ml",
+    name: "Tirze-GLP1+GIP",
+    category: "CONTROL DE PESO",
+    price: 499,
+    bullets: [
+      "Vial ya reconstituido de TIRZE 12mg con Vitamina B3 2mg/ml",
+      "Vial de 2ml",
+    ],
+    pageTitle: "Tirzepatida + B3",
+    shortDescription:
+      "Presentación reconstituida de tirzepatida con vitamina B3 para control de peso y apoyo metabólico.",
+    what:
+      "La tirzepatida trabaja sobre vías GLP-1 y GIP. La vitamina B3 participa en funciones metabólicas y energéticas.",
+    use:
+      "Se utiliza en protocolos de control de peso, saciedad, metabolismo y acompañamiento nutricional.",
+    benefits:
+      "Puede ayudar a controlar el apetito, mejorar consistencia en el plan y apoyar el metabolismo energético.",
+  },
+
+  {
+    id: "sema-5",
+    name: "Sema-GLP1 - 5mg",
+    category: "CONTROL DE PESO",
+    price: 149,
+    bullets: [
+      "Vial liofilizado de 5mg",
+      ">99.6% de pureza",
+      "Para reconstituir en 3ml de solución bacteriostática",
+    ],
+    pageTitle: "Semaglutida",
+    shortDescription:
+      "GLP-1 utilizado en protocolos de control de peso, apetito y salud metabólica.",
+    what:
+      "La semaglutida es un agonista del receptor GLP-1 que imita una hormona natural relacionada con saciedad y control glucémico.",
+    use:
+      "Se utiliza para reducir el apetito, mejorar la saciedad y acompañar planes de pérdida de peso supervisados.",
+    benefits:
+      "Puede ayudar a controlar antojos, reducir la ingesta calórica y facilitar el progreso en control de peso.",
+  },
+  
   {
     id: "semab12-5",
     name: "Sema+B12 - 5/0.5 mg/ml",
@@ -61,47 +167,6 @@ export const PRODUCTS = [
       "Puede favorecer una piel más luminosa, hidratación, soporte antioxidante y apariencia saludable.",
   },
 
-  {
-    id: "reta-5",
-    name: "RETA - GLP1+GIP+GLUCAGON - 5mg",
-    category: "CONTROL DE PESO",
-    price: 199,
-    bullets: [
-      "Vial liofilizado de 5mg",
-      ">99.6% de pureza",
-      "Para reconstituir en 3ml de solución bacteriostática",
-    ],
-    pageTitle: "Retatrutida",
-    shortDescription:
-      "Péptido avanzado utilizado en protocolos de control de peso y apoyo metabólico.",
-    what:
-      "Retatrutida es un compuesto investigado por su acción sobre receptores relacionados con GLP-1, GIP y glucagón.",
-    use:
-      "Se utiliza en protocolos enfocados en control de peso, apetito, metabolismo y composición corporal.",
-    benefits:
-      "Puede ayudar al control del apetito, manejo de grasa corporal y progreso dentro de un plan supervisado.",
-  },
-  {
-
-   id: "reta-10",
-    name: "RETA - GLP1+GIP+GLUCAGON - 10mg",
-    category: "CONTROL DE PESO",
-    price: 299,
-    bullets: [
-      "Vial liofilizado de 10mg",
-      ">99.6% de pureza",
-      "Para reconstituir en 3ml de solución bacteriostática",
-    ],
-    pageTitle: "Retatrutida 10mg",
-    shortDescription:
-      "Péptido avanzado utilizado en protocolos de control de peso y metabolismo.",
-    what:
-      "Retatrutida es un compuesto relacionado con GLP-1, GIP y glucagón.",
-    use:
-      "Se utiliza en protocolos de pérdida de peso, control de apetito y apoyo metabólico.",
-    benefits:
-      "Puede favorecer saciedad, control de apetito, metabolismo y pérdida de peso.",
-  },
 
   {
     id: "ghkcu-50",
@@ -122,6 +187,48 @@ export const PRODUCTS = [
       "Se utiliza en protocolos enfocados en piel, cabello, uñas, reparación tisular y estética regenerativa.",
     benefits:
       "Puede favorecer una piel más saludable, mejor apariencia del cabello, producción de colágeno y recuperación celular.",
+  },
+  
+   {
+    id: "bpc157-10",
+    name: "BPC-157 - 10 mg",
+    category: "RECUPERACION MUSCULOESQUELETICA",
+    price: 79,
+    bullets: [
+      "Vial liofilizado de 10mg",
+      ">99.6% de pureza",
+      "Para reconstituir en 3ml de solución bacteriostática",
+    ],
+    pageTitle: "BPC-157",
+    shortDescription:
+      "Péptido utilizado en protocolos de recuperación física, movilidad y bienestar musculoesquelético.",
+    what:
+      "BPC-157 es un péptido investigado por su relación con procesos de reparación tisular y recuperación celular.",
+    use:
+      "Se emplea en protocolos orientados a recuperación muscular, tendinosa, articular y bienestar físico general.",
+    benefits:
+      "Puede favorecer la recuperación, movilidad, reparación de tejidos y retorno progresivo a la actividad física.",
+  },
+
+  {
+    id: "tb500-10",
+    name: "TB-500 - 10mg",
+    category: "RECUPERACION MUSCULOESQUELETICA",
+    price: 79,
+    bullets: [
+      "Vial liofilizado de 10mg",
+      ">99.6% de pureza",
+      "Para reconstituir en 3ml de solución bacteriostática",
+    ],
+    pageTitle: "TB-500",
+    shortDescription:
+      "Péptido investigado en protocolos de recuperación, regeneración y movilidad.",
+    what:
+      "TB-500 es una versión sintética relacionada con la timosina beta-4, asociada con procesos celulares de reparación.",
+    use:
+      "Se utiliza en protocolos enfocados en recuperación muscular, inflamación, movilidad y regeneración tisular.",
+    benefits:
+      "Puede favorecer recuperación, flexibilidad, movilidad y reparación dentro de un plan estructurado.",
   },
 
    {
@@ -207,131 +314,7 @@ export const PRODUCTS = [
       "Puede favorecer energía, metabolismo y utilización de grasa.",
   },
 
-  {
-    id: "bacwa-10",
-    name: "BAC WATER - 10ml",
-    category: "RECONSTITUCION",
-    price: 15,
-    bullets: [
-      "Agua bacteriostática",
-      "Vial de 10ml",
-    ],
-    pageTitle: "BAC WATER",
-    shortDescription:
-      "Solución bacteriostática utilizada para reconstitución.",
-    what:
-      "BAC Water es agua bacteriostática estéril utilizada para diluir péptidos y compuestos.",
-    use:
-      "Se utiliza para reconstituir péptidos liofilizados.",
-    benefits:
-      "Permite una reconstitución práctica y segura de productos liofilizados.",
-  },
-
     {
-    id: "sema-5",
-    name: "Sema-GLP1 - 5mg",
-    category: "CONTROL DE PESO",
-    price: 149,
-    bullets: [
-      "Vial liofilizado de 5mg",
-      ">99.6% de pureza",
-      "Para reconstituir en 3ml de solución bacteriostática",
-    ],
-    pageTitle: "Semaglutida",
-    shortDescription:
-      "GLP-1 utilizado en protocolos de control de peso, apetito y salud metabólica.",
-    what:
-      "La semaglutida es un agonista del receptor GLP-1 que imita una hormona natural relacionada con saciedad y control glucémico.",
-    use:
-      "Se utiliza para reducir el apetito, mejorar la saciedad y acompañar planes de pérdida de peso supervisados.",
-    benefits:
-      "Puede ayudar a controlar antojos, reducir la ingesta calórica y facilitar el progreso en control de peso.",
-  },
-
-  {
-    id: "tirz-5",
-    name: "Tirze- GLP1+GIP - 10mg",
-    category: "CONTROL DE PESO",
-    price: 199,
-    bullets: [
-      "Vial liofilizado 10mg",
-      ">99.6% de pureza",
-      "Para reconstituir en 3ml de solución bacteriostática",
-    ],
-    pageTitle: "Tirzepatida",
-    shortDescription:
-      "Combinación GLP-1 + GIP utilizada en protocolos de control de peso y metabolismo.",
-    what:
-      "La tirzepatida actúa sobre vías relacionadas con GLP-1 y GIP, asociadas con apetito, saciedad y metabolismo.",
-    use:
-      "Se utiliza en protocolos de control de peso, reducción de apetito y manejo metabólico supervisado.",
-    benefits:
-      "Puede favorecer mayor saciedad, mejor control de antojos y apoyo en pérdida de peso.",
-  },
-
-  {
-    id: "tirz-vial-17p2mgml-2ml",
-    name: "Tirze-GLP1+GIP",
-    category: "CONTROL DE PESO",
-    price: 499,
-    bullets: [
-      "Vial ya reconstituido de TIRZE 12mg con Vitamina B3 2mg/ml",
-      "Vial de 2ml",
-    ],
-    pageTitle: "Tirzepatida + B3",
-    shortDescription:
-      "Presentación reconstituida de tirzepatida con vitamina B3 para control de peso y apoyo metabólico.",
-    what:
-      "La tirzepatida trabaja sobre vías GLP-1 y GIP. La vitamina B3 participa en funciones metabólicas y energéticas.",
-    use:
-      "Se utiliza en protocolos de control de peso, saciedad, metabolismo y acompañamiento nutricional.",
-    benefits:
-      "Puede ayudar a controlar el apetito, mejorar consistencia en el plan y apoyar el metabolismo energético.",
-  },
-
-  {
-    id: "bpc157-10",
-    name: "BPC-157 - 10 mg",
-    category: "RECUPERACION MUSCULOESQUELETICA",
-    price: 79,
-    bullets: [
-      "Vial liofilizado de 10mg",
-      ">99.6% de pureza",
-      "Para reconstituir en 3ml de solución bacteriostática",
-    ],
-    pageTitle: "BPC-157",
-    shortDescription:
-      "Péptido utilizado en protocolos de recuperación física, movilidad y bienestar musculoesquelético.",
-    what:
-      "BPC-157 es un péptido investigado por su relación con procesos de reparación tisular y recuperación celular.",
-    use:
-      "Se emplea en protocolos orientados a recuperación muscular, tendinosa, articular y bienestar físico general.",
-    benefits:
-      "Puede favorecer la recuperación, movilidad, reparación de tejidos y retorno progresivo a la actividad física.",
-  },
-
-  {
-    id: "tb500-10",
-    name: "TB-500 - 10mg",
-    category: "RECUPERACION MUSCULOESQUELETICA",
-    price: 79,
-    bullets: [
-      "Vial liofilizado de 10mg",
-      ">99.6% de pureza",
-      "Para reconstituir en 3ml de solución bacteriostática",
-    ],
-    pageTitle: "TB-500",
-    shortDescription:
-      "Péptido investigado en protocolos de recuperación, regeneración y movilidad.",
-    what:
-      "TB-500 es una versión sintética relacionada con la timosina beta-4, asociada con procesos celulares de reparación.",
-    use:
-      "Se utiliza en protocolos enfocados en recuperación muscular, inflamación, movilidad y regeneración tisular.",
-    benefits:
-      "Puede favorecer recuperación, flexibilidad, movilidad y reparación dentro de un plan estructurado.",
-  },
-
-  {
     id: "nad-1000",
     name: "NAD+ - 1,000mg",
     category: "ENERGIA, ANTI-AGING",
@@ -395,46 +378,26 @@ export const PRODUCTS = [
   },
 
   {
-    id: "lcarn-500mgml-30ml",
-    name: "L-Carnitina",
-    category: "QUEMAR GRASA",
-    price: 79,
+    id: "bacwa-10",
+    name: "BAC WATER - 10ml",
+    category: "RECONSTITUCION",
+    price: 15,
     bullets: [
-      "Vial ya reconstituido de 500mg/ml",
-      "Vial de 30ml",
+      "Agua bacteriostática",
+      "Vial de 10ml",
     ],
-    pageTitle: "L-Carnitina",
+    pageTitle: "BAC WATER",
     shortDescription:
-      "Aminoácido utilizado en protocolos de energía, metabolismo de grasas y rendimiento físico.",
+      "Solución bacteriostática utilizada para reconstitución.",
     what:
-      "La L-Carnitina participa en el transporte de ácidos grasos hacia la mitocondria para producción de energía.",
+      "BAC Water es agua bacteriostática estéril utilizada para diluir péptidos y compuestos.",
     use:
-      "Se utiliza en protocolos de control de peso, rendimiento, energía y apoyo metabólico.",
+      "Se utiliza para reconstituir péptidos liofilizados.",
     benefits:
-      "Puede ayudar con energía durante el ejercicio, metabolismo de grasa y rendimiento físico.",
+      "Permite una reconstitución práctica y segura de productos liofilizados.",
   },
 
-  {
-    id: "gluta-200mgml-30ml",
-    name: "Glutatión",
-    category: "BELLEZA - DETOX",
-    price: 99,
-    bullets: [
-      "Vial ya reconstituido de 200mg/ml",
-      "Vial de 30ml",
-    ],
-    pageTitle: "Glutatión",
-    shortDescription:
-      "Antioxidante utilizado en protocolos de detox, piel, bienestar celular y salud general.",
-    what:
-      "El glutatión es uno de los antioxidantes más importantes del cuerpo y participa en procesos de detoxificación.",
-    use:
-      "Se utiliza en protocolos de bienestar celular, piel, recuperación, antioxidantes y detox.",
-    benefits:
-      "Puede favorecer protección antioxidante, luminosidad de la piel y apoyo en procesos de detoxificación.",
-  },
-  
-  {
+    {
     id: "bpc157-sl",
     name: "BPC-157 Sublingual",
     category: "RECUPERACION MUSCULOESQUELETICA",
@@ -456,48 +419,27 @@ export const PRODUCTS = [
   },
 
   {
-    id: "ta1-sl",
-    name: "Thymosin Alpha-1 Sublingual",
-    category: "SISTEMA INMUNOLOGICO",
+    id: "ghkcu-sl",
+    name: "GHK-Cu Sublingual",
+    category: "BELLEZA, PIEL, PELO, UÑAS",
     price: 79,
     bullets: [
       "Tiras sublinguales",
-      "500 mcg por tira",
+      "3 mg por tira",
       "20 tiras sublinguales",
     ],
-    pageTitle: "Thymosin Alpha-1 Sublingual",
+    pageTitle: "GHK-Cu Sublingual",
     shortDescription:
-      "Péptido sublingual utilizado en protocolos de sistema inmune y bienestar general.",
+      "Presentación sublingual de GHK-Cu enfocada en piel, cabello, uñas y regeneración.",
     what:
-      "Thymosin Alpha-1 es un péptido relacionado con la regulación y función del sistema inmunológico.",
+      "GHK-Cu es un péptido de cobre asociado con procesos de reparación, colágeno y salud estética.",
     use:
-      "Se utiliza en protocolos enfocados en defensas, bienestar inmune y recuperación general.",
+      "Se utiliza en protocolos de belleza, piel, cabello, uñas y bienestar celular.",
     benefits:
-      "Puede apoyar la respuesta inmune, bienestar general y resiliencia corporal.",
+      "Puede favorecer piel más saludable, cabello más fuerte, uñas y soporte regenerativo.",
   },
 
-  {
-    id: "pt141-sl",
-    name: "PT-141+ Sublingual",
-    category: "SALUD SEXUAL Y BIENESTAR",
-    price: 79,
-    bullets: [
-      "Tiras sublinguales",
-      "PT141-500 mcg, Oxytocina-25mcg, Aminofelilpyrrol-20mg por tira",
-      "10 tiras sublinguales",
-    ],
-    pageTitle: "PT-141+ Sublingual",
-    shortDescription:
-      "Fórmula sublingual orientada a bienestar, deseo y salud sexual.",
-    what:
-      "PT-141 es un péptido investigado por su relación con deseo sexual y respuesta neurohormonal.",
-    use:
-      "Se utiliza en protocolos de salud sexual, conexión, bienestar íntimo y calidad de vida.",
-    benefits:
-      "Puede favorecer deseo, bienestar íntimo, conexión emocional y confianza personal.",
-  },
-
-  
+   
 {
     id: "cjcipa-sl",
     name: "CJC-1295 + Ipamorelin Sublingual",
@@ -540,25 +482,48 @@ export const PRODUCTS = [
       "Puede favorecer recuperación, composición corporal, descanso y apoyo en desarrollo muscular.",
   },
 
-  {
-    id: "ghkcu-sl",
-    name: "GHK-Cu Sublingual",
-    category: "BELLEZA, PIEL, PELO, UÑAS",
+  
+
+   {
+    id: "ta1-sl",
+    name: "Thymosin Alpha-1 Sublingual",
+    category: "SISTEMA INMUNOLOGICO",
     price: 79,
     bullets: [
       "Tiras sublinguales",
-      "3 mg por tira",
+      "500 mcg por tira",
       "20 tiras sublinguales",
     ],
-    pageTitle: "GHK-Cu Sublingual",
+    pageTitle: "Thymosin Alpha-1 Sublingual",
     shortDescription:
-      "Presentación sublingual de GHK-Cu enfocada en piel, cabello, uñas y regeneración.",
+      "Péptido sublingual utilizado en protocolos de sistema inmune y bienestar general.",
     what:
-      "GHK-Cu es un péptido de cobre asociado con procesos de reparación, colágeno y salud estética.",
+      "Thymosin Alpha-1 es un péptido relacionado con la regulación y función del sistema inmunológico.",
     use:
-      "Se utiliza en protocolos de belleza, piel, cabello, uñas y bienestar celular.",
+      "Se utiliza en protocolos enfocados en defensas, bienestar inmune y recuperación general.",
     benefits:
-      "Puede favorecer piel más saludable, cabello más fuerte, uñas y soporte regenerativo.",
+      "Puede apoyar la respuesta inmune, bienestar general y resiliencia corporal.",
+  },
+
+  {
+    id: "pt141-sl",
+    name: "PT-141+ Sublingual",
+    category: "SALUD SEXUAL Y BIENESTAR",
+    price: 79,
+    bullets: [
+      "Tiras sublinguales",
+      "PT141-500 mcg, Oxytocina-25mcg, Aminofelilpyrrol-20mg por tira",
+      "10 tiras sublinguales",
+    ],
+    pageTitle: "PT-141+ Sublingual",
+    shortDescription:
+      "Fórmula sublingual orientada a bienestar, deseo y salud sexual.",
+    what:
+      "PT-141 es un péptido investigado por su relación con deseo sexual y respuesta neurohormonal.",
+    use:
+      "Se utiliza en protocolos de salud sexual, conexión, bienestar íntimo y calidad de vida.",
+    benefits:
+      "Puede favorecer deseo, bienestar íntimo, conexión emocional y confianza personal.",
   },
 
   
