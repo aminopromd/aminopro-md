@@ -381,7 +381,7 @@ export const PRODUCTS = [
     id: "bacwa-10",
     name: "BAC WATER - 10ml",
     category: "RECONSTITUCION",
-    price: 15,
+    price: 20,
     bullets: [
       "Agua bacteriostática",
       "Vial de 10ml",
