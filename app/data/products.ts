@@ -130,7 +130,7 @@ export const PRODUCTS = [
     id: "sema-vial-12p5-5ml",
     name: "Sema-GLP1",
     category: "CONTROL DE PESO",
-    price: 450,
+    price: 399,
     bullets: [
       "Vial ya reconstituido de 2.5mg/ml",
       "Vial de 5ml",
