@@ -422,7 +422,7 @@ function Footer() {
           </div>
 
           <div className="flex items-center gap-3">
-            <a href="https://www.instagram.com/aminopromd" target="_blank" rel="noreferrer">
+            <a href="https://www.instagram.com/aminopromd502" target="_blank" rel="noreferrer">
               <img src="/Social/instagram.png" alt="Instagram" className="h-8 w-auto" />
             </a>
 
@@ -528,7 +528,7 @@ Nota:`;
               Inicio
             </Link>
 
-            <a href="https://www.instagram.com/aminopromd" target="_blank" rel="noreferrer">
+            <a href="https://www.instagram.com/aminopromd502" target="_blank" rel="noreferrer">
               <img src="/Social/instagram.png" alt="Instagram" className="h-9 w-auto" />
             </a>
 

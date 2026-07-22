@@ -120,7 +120,7 @@ function Nav() {
 
         <div className="flex items-center gap-3">
           <a
-            href="https://www.instagram.com/aminopromd"
+            href="https://www.instagram.com/aminopromd502"
             target="_blank"
             rel="noreferrer"
             aria-label="Instagram AminoPro-MD"
@@ -320,10 +320,10 @@ function Products() {
       `Correo electrónico: ${customer.email || ""}`,
       `Teléfono: ${customer.phone || ""}`,
       "",
-      "Método de pago preferido: Escoga uno",
-      "PayPal / Western Union / Money Gram / Bitcoin",
+      "Método de pago:",
+      "PayPal",
       "",
-      "Nota: Escriba cualquier detalle en específico que el equipo de AminoPro-MD deba saber.",
+      "Nota:",
     ];
 
     return lines.join("\n");
@@ -357,7 +357,7 @@ function Products() {
             <div className="rounded-xl border p-3 text-xs text-muted-foreground">
               <span className="font-medium text-foreground">Aviso:</span>{" "}
               Checkout y confirmación final se realizan via WhatsApp. Pagos por
-              medio de PayPal, Western Union, Money Gram o Bitcoin.
+              medio de PayPal.
             </div>
           </div>
         </div>
@@ -596,7 +596,7 @@ Nota:`
 
               <p className="mt-3 text-xs text-muted-foreground">
                 Checkout y confirmación final se realizan via WhatsApp. Pagos por
-                medio de Paypal, Western Union, Money Gram o Bitcoin.
+                medio de Paypal.
               </p>
             </CardContent>
           </Card>
@@ -811,7 +811,7 @@ function Footer() {
 
           <div className="mt-3 flex items-center gap-3">
             <a
-              href="https://www.instagram.com/aminopromd"
+              href="https://www.instagram.com/aminopromd502"
               target="_blank"
               rel="noreferrer"
               aria-label="Instagram AminoPro-MD"
