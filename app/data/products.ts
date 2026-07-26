@@ -526,5 +526,70 @@ export const PRODUCTS = [
       "Puede favorecer deseo, bienestar íntimo, conexión emocional y confianza personal.",
   },
 
+   {
+    id: "pachon1",
+    name: "Botella de agua con aislamiento térmico",
+    category: "ACCESORIOS",
+    price: 19,
+    bullets: [
+      "750 ML de capacidad.",
+      "Insulated aluminium.",
+      "25 CM tall",
+    ],
+    pageTitle: "Botella de agua con aislamiento térmico",
+    shortDescription:
+      "Botella de agua con aislamiento de aluminio, mantiente el contenido frío, mide 24 pulgadas, Durable, BPA Free, Leak Proof y facil de lavar.",
+    what:
+      "Ideal para llevar a gimnasio, mantener tu agua fría, ideal para mezclar tu creatina, tambien para shakes de proteína. Portatil y cabe en cualquier mochila.",    
+  },
   
-];
+  {
+  id: "bolsa1",
+  name: "Tote Bag",
+  category: "ACCESORIOS",
+  price: 29,
+  bullets: [
+    "Medidas: 35 × 45 pulgadas",
+    "Asas de aproximadamente 29 pulgadas",
+    "Tejido de polipropileno reciclable y reutilizable",
+    "Ligera, cómoda y fácil de transportar",
+    "Fácil de lavar y secar",
+  ],
+  pageTitle: "Tote Bag AminoPro-MD",
+  shortDescription:
+    "Bolsa reutilizable, cómoda y ligera, ideal para transportar tu equipo de entrenamiento.",
+  what:
+    "Bolsa fabricada con tejido de polipropileno reciclable y reutilizable, diseñada para transportar cómodamente tus artículos personales y equipo de entrenamiento.",
+  use:
+    "Ideal para guardar tu equipo de workout cuando vas al gimnasio. Su diseño ligero y ventilado facilita el transporte y ayuda a mantener organizados tus artículos.",
+  benefits:
+    "Es ligera, cómoda, reutilizable, fácil de lavar y práctica para el gimnasio o el uso diario.",
+},
+
+
+ {
+  id: "estuche1",
+  name: "Peptide Case AminoPro-MD",
+  category: "ACCESORIOS",
+  price: 39,
+  bullets: [
+    "Medidas: H 3 inches x W 3.5 inches x D 3 inches.",
+    "Contiene hasta 6 viales de 3ml",
+    "Tapadera mágnetica",
+    "Ligero y portatil, fácil de limpiar",
+    "Puedes mantenerlo en refrigeración con tus péptidos",
+  ],
+  pageTitle: "Tote Bag AminoPro-MD",
+  shortDescription:
+    "Estuche portátil con cierre magnético, diseñado para almacenar, organizar y proteger hasta 6 viales de péptidos de forma segura. Compacto, ligero y resistente, ideal para usar en casa, el gimnasio o durante tus viajes.",
+  what:
+    "Estuche portátil con cierre magnético, diseñado para almacenar y proteger de forma segura hasta 6 viales de péptidos. Su diseño moderno, compacto y resistente lo hace ideal para el uso diario.",
+  use:
+    "Se utiliza para organizar, transportar y mantener tus viales protegidos en casa, en el gimnasio o durante tus viajes, evitando golpes y desorden.",
+  benefits:
+    "Capacidad para 6 viales de 3ml, cierre magnético para mayor seguridad, diseño compacto, moderno y ligero, protege y organiza tus péptidos, fácil de transportar a cualquier lugar.",
+},
+]
+  
+
+

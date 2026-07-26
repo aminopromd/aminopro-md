@@ -404,7 +404,54 @@ const PRODUCT_INFO: Record<
         
             </ul>
         },
+
+        
+          "pachon1": {
+    title: "Botella de agua con aislamiento térmico",
+    moleculeImage: "/pachon1-2.jpeg",
+    what: "Botella de agua con aislamiento de aluminio, mantiente el contenido frío, mide 24 pulgadas, Durable, BPA Free, Leak Proof y facil de lavar.",
+    use: "Ideal para llevar a gimnasio, mantener tu agua fría, ideal para mezclar tu creatina, tambien para shakes de proteína. Portatil y cabe en cualquier mochila.",
+    benefits:<ul>
+      <li> Insulated aluminum.</li>
+      <li>Keeps COLD drinks.</li>
+      <li>Portable.</li>
+      <li>Ready for on the go.</li>
+      <li>Easy to clean.</li>
+        
+            </ul>
+        },
+
+         "bolsa1": {
+    title: "Tote Bag AminoPro-MD",
+    moleculeImage: "/bolsa1-2.jpeg",
+    what: "Una bolsa suave y resistente diseñada para durar y aguantar tu equipo, como guantes, toallas, pachones, tennis, etc. Facil de lavar y secar.",
+    use: "Ideal para guardar tu equipo de workout cuando vas al gimnasio, mantiene fresco tu equipo y ventilado, suave y ligera de llevar.",
+    benefits:<ul>
+      <li>Medidas: 35 × 45 pulgadas.</li>
+      <li>Asas de aproximadamente 29 pulgadas.</li>
+      <li>Tejido de polipropileno reciclable y reutilizable.</li>
+      <li>Ligera, cómoda y fácil de transportar.</li>
+      <li>Fácil de lavar y secar.</li>
+        
+            </ul>
+        },
+
+        "estuche1": {
+    title: "Estuche AminoPro-MD Magnético para Péptidos.",
+    moleculeImage: "/estuche1-2.jpeg",
+    what: "Estuche portátil con cierre magnético, diseñado para almacenar y proteger de forma segura hasta 6 viales de péptidos. Su diseño moderno, compacto y resistente lo hace ideal para el uso diario.",
+    use: "Se utiliza para organizar, transportar y mantener tus viales protegidos en casa, en el gimnasio o durante tus viajes, evitando golpes y desorden.",
+    benefits:<ul>
+      <li>Medidas: H 3 pulgadas x W 3.5 pulgadas D 3 pulgadas.</li>
+      <li>Capacidad para 6 viales.</li>
+      <li>Cierre magnético para mayor seguridad.</li>
+      <li>Diseño cmpacto, moderno y ligero.</li>
+      <li>Protege y organiza tus péptidos.</li>
+        
+            </ul>
+        },
 };
+
 
 
 
