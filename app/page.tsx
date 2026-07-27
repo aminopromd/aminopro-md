@@ -55,7 +55,7 @@ const FAQS = [
   },
   {
     q: "¿Qué métodos de pago aceptan?",
-    a: "Paypal / Western Union / Money Gram / Bitcoin.",
+    a: "Paypal.",
   },
 ];
 
@@ -786,7 +786,7 @@ function Contact() {
 
               <div className="rounded-xl border p-3 text-xs text-muted-foreground">
                 <p className="font-medium text-foreground">Métodos de pago</p>
-                <p className="mt-1">PayPal • Western Union • Money Gram • Bitcoin</p>
+                <p className="mt-1">PayPal</p>
               </div>
             </div>
           </CardContent>

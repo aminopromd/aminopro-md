@@ -556,8 +556,8 @@ Dirección completa a enviar la orden:
 Correo electrónico:
 Teléfono:
 
-Método de pago preferido:
-PayPal / Western Union / Money Gram / Bitcoin
+Método de pago:
+PayPal
 
 Nota:`;
   };
