@@ -109,7 +109,7 @@ export const PRODUCTS = [
     id: "semab12-5",
     name: "Sema+B12 - 5/0.5 mg/ml",
     category: "CONTROL DE PESO - ENERGIA",
-    price: 399,
+    price: 499,
     bullets: [
       "Vial ya reconstituido de SEMA 5mg con Vitamina B12",
       "Vial de 2.5ml",
@@ -130,7 +130,7 @@ export const PRODUCTS = [
     id: "sema-vial-12p5-5ml",
     name: "Sema-GLP1",
     category: "CONTROL DE PESO",
-    price: 399,
+    price: 499,
     bullets: [
       "Vial ya reconstituido de 2.5mg/ml",
       "Vial de 5ml",
