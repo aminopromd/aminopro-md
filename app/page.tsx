@@ -102,9 +102,21 @@ function Nav() {
   return (
     <div className="sticky top-0 z-40 border-b border-green-400 bg-background/80 backdrop-blur">
       <div className="w-full px-6 md:px-12 py-3 flex items-center justify-between gap-3">
-        <a href="#" className="flex items-center gap-2 font-semibold tracking-tight">
-          <img src="/logo.jpeg" alt="AminoPro-MD" className="h-20 w-auto" />
-        </a>
+        <div className="flex items-center gap-4">
+  <a href="#" className="flex items-center">
+    <img
+      src="/logo.jpeg"
+      alt="AminoPro-MD"
+      className="h-20 w-auto"
+    />
+  </a>
+
+  <img
+    src="/1year.jpg"
+    alt="1 Año Aniversario"
+    className="h-18 w-auto"
+  />
+</div>
 
         <div className="hidden md:flex items-center gap-5 text-sm text-muted-foreground">
           {links.map((l) => (
