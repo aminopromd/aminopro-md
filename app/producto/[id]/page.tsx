@@ -23,6 +23,33 @@ const PRODUCT_INFO: Record<
     moleculeImage?: string;
   }
 > = {
+
+  "tesa-5": {
+    title: "TESA - 5mg",
+    moleculeImage: "/estrucmoletesa.jpg",
+    what: "La Tesamorelina es un análogo sintético de la hormona liberadora de la hormona del crecimiento (GHRH), diseñado para estimular la liberación natural de hormona de crecimiento.",
+    use: "Se utiliza en protocolos orientados a reducir la grasa visceral, favorecer la masa muscular magra, mejorar la recuperación y apoyar una composición corporal saludable.",
+    benefits:<ul>
+      <li>Pérdida significativa de grasa abdominal.</li>
+      <li>Desarrollo y mantenimiento de masa muscular magra.</li>
+      <li>Ayuda a una mejor recuperación despues de entrenamientos.</li>
+      <li>Mejora el metabolismo en general.</li>
+          </ul>
+        },
+
+        "mt2-10": {
+    title: "MT2 - 10mg",
+    moleculeImage: "/estrucmolemt2.jpg",
+    what: "Melanotan II (MT-2) es un péptido sintético que actúa sobre los receptores de melanocortina para estimular la producción de melanina en la piel.",
+    use: "Se utiliza en protocolos orientados a favorecer un bronceado más uniforme, apoyar la pigmentación de la piel y reducir la necesidad de exposición prolongada al sol.",
+    benefits:<ul>
+      <li>Favorece la producción natural de melanina.</li>
+      <li>Ayuda a lograr un bronceado más uniforme.</li>
+      <li>Puede reducir el tiempo de exposición al sol necesario para broncearse.</li>
+      <li>Utilizado en protocolos de ANTI-AGING y estética bajo supervisión profesional.</li>
+          </ul>
+        },
+
   "reta-5": {
     title: "RETA - GLP1+GIP+GLUCAGON - 5mg",
     moleculeImage: "/estrucmolereta.jpg",

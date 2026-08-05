@@ -1,32 +1,76 @@
 export const PRODUCTS = [
   
+  
   {
-    id: "reta-5",
-    name: "RETA - GLP1+GIP+GLUCAGON - 5mg",
+    id: "tesa-5",
+    name: "TESA - 5mg",
     category: "CONTROL DE PESO",
-    price: 199,
+    price: 99,
     bullets: [
       "Vial liofilizado de 5mg",
       ">99.6% de pureza",
       "Para reconstituir en 3ml de solución bacteriostática",
     ],
-    pageTitle: "Retatrutida",
+    pageTitle: "Tesamorelin 5mg",
     shortDescription:
-      "Péptido avanzado utilizado en protocolos de control de peso y apoyo metabólico.",
+      "Péptido utilizado en protocolos enfocados en la reducción de grasa abdominal, mejora de la composición corporal y apoyo metabólico.",
     what:
-      "Retatrutida es un compuesto investigado por su acción sobre receptores relacionados con GLP-1, GIP y glucagón.",
+      "La Tesamorelina es un análogo sintético de la hormona liberadora de la hormona del crecimiento (GHRH), diseñado para estimular la liberación natural de hormona de crecimiento.",
     use:
-      "Se utiliza en protocolos enfocados en control de peso, apetito, metabolismo y composición corporal.",
+      "Se utiliza en protocolos orientados a reducir la grasa visceral, favorecer la masa muscular magra, mejorar la recuperación y apoyar una composición corporal saludable.",
     benefits:
-      "Puede ayudar al control del apetito, manejo de grasa corporal y progreso dentro de un plan supervisado.",
+      "Puede ayudar a reducir la grasa abdominal visceral, favorecer el desarrollo de masa muscular magra, mejorar la composición corporal, apoyar la recuperación y contribuir a una función metabólica saludable.",
+  },
+
+  {
+    id: "mt2-10",
+    name: "MT2 - 10mg",
+    category: "ANTI-AGING",
+    price: 99,
+    bullets: [
+      "Vial liofilizado de 10mg",
+      ">99.6% de pureza",
+      "Para reconstituir en 3ml de solución bacteriostática",
+    ],
+    pageTitle: "MT2 - 10mg",
+    shortDescription:
+      "Péptido utilizado en protocolos enfocados en favorecer el bronceado de la piel y apoyar la producción natural de melanina.",
+    what:
+      "Melanotan II (MT-2) es un péptido sintético que actúa sobre los receptores de melanocortina para estimular la producción de melanina en la piel.",
+    use:
+      "Se utiliza en protocolos orientados a favorecer un bronceado más uniforme, apoyar la pigmentación de la piel y reducir la necesidad de exposición prolongada al sol.",
+    benefits:
+      "Favorece la producción natural de melanina, ayuda a lograr un bornceado mas uniforme, puede reducir el tiempo de exposición al sol necesario para broncearse, utilizado en protocolos de ANTIAGING y estética bajo supervisión profesional.",
+  },
+
+  {
+
+   id: "reta-5",
+    name: "RETA  - 5mg",
+    category: "CONTROL DE PESO",
+    price: 149,
+    bullets: [
+      "Vial liofilizado de 5mg",
+      ">99.6% de pureza",
+      "Para reconstituir en 3ml de solución bacteriostática",
+    ],
+    pageTitle: "Retatrutida 5mg",
+    shortDescription:
+      "Péptido avanzado utilizado en protocolos de control de peso y metabolismo.",
+    what:
+      "Retatrutida es un compuesto relacionado con GLP-1, GIP y glucagón.",
+    use:
+      "Se utiliza en protocolos de pérdida de peso, control de apetito y apoyo metabólico.",
+    benefits:
+      "Puede favorecer saciedad, control de apetito, metabolismo y pérdida de peso.",
   },
   
   {
 
    id: "reta-10",
-    name: "RETA - GLP1+GIP+GLUCAGON - 10mg",
+    name: "RETA - 10mg",
     category: "CONTROL DE PESO",
-    price: 299,
+    price: 249,
     bullets: [
       "Vial liofilizado de 10mg",
       ">99.6% de pureza",
@@ -47,7 +91,7 @@ export const PRODUCTS = [
     id: "tirz-5",
     name: "Tirze- GLP1+GIP - 10mg",
     category: "CONTROL DE PESO",
-    price: 199,
+    price: 149,
     bullets: [
       "Vial liofilizado 10mg",
       ">99.6% de pureza",
@@ -277,7 +321,7 @@ export const PRODUCTS = [
     id: "motsc-10",
     name: "MOTS-C - 10mg",
     category: "ENERGIA - METABOLISMO",
-    price: 59,
+    price: 79,
     bullets: [
       "Vial liofilizado de 10mg",
       ">99.6% de pureza",
@@ -318,7 +362,7 @@ export const PRODUCTS = [
     id: "nad-1000",
     name: "NAD+ - 1,000mg",
     category: "ENERGIA, ANTI-AGING",
-    price: 199,
+    price: 99,
     bullets: [
       "Vial liofilizado de 1,000mg",
       "Nicotinamide Adenine Dinucleotide",
@@ -340,7 +384,7 @@ export const PRODUCTS = [
     id: "nad-vial-1000mgml-10ml",
     name: "NAD+ - 100mg/ml",
     category: "ENERGIA - ANTI-AGING",
-    price: 249,
+    price: 149,
     bullets: [
       "Vial ya reconstituido de 100mg/ml",
       "Nicotinamide Adenine Dinucleotide - Vial de 10ml",
@@ -360,7 +404,7 @@ export const PRODUCTS = [
     id: "nr-500",
     name: "NR-500 - 500mg",
     category: "ENERGIA - ANTI-AGING",
-    price: 349,
+    price: 299,
     bullets: [
       "Vial liofilizado 500mg",
       "Nicotinamide Riboside Chloride >99.6% de pureza",
@@ -401,7 +445,7 @@ export const PRODUCTS = [
     id: "bpc157-sl",
     name: "BPC-157 Sublingual",
     category: "RECUPERACION MUSCULOESQUELETICA",
-    price: 79,
+    price: 49,
     bullets: [
       "Tiras sublinguales",
       "500 mcg por tira",
@@ -422,7 +466,7 @@ export const PRODUCTS = [
     id: "ghkcu-sl",
     name: "GHK-Cu Sublingual",
     category: "BELLEZA, PIEL, PELO, UÑAS",
-    price: 79,
+    price: 49,
     bullets: [
       "Tiras sublinguales",
       "3 mg por tira",
@@ -444,7 +488,7 @@ export const PRODUCTS = [
     id: "cjcipa-sl",
     name: "CJC-1295 + Ipamorelin Sublingual",
     category: "AUMENTO DE MASA MUSCULAR MAGRA",
-    price: 79,
+    price: 49,
     bullets: [
       "Tiras sublinguales",
       "CJC-1295 250mcg + Ipamorelin 250mcg",
@@ -465,7 +509,7 @@ export const PRODUCTS = [
     id: "cjc1295-sl",
     name: "CJC-1295 Sublingual",
     category: "AUMENTO DE MASA MUSCULAR",
-    price: 79,
+    price: 49,
     bullets: [
       "Tiras sublinguales",
       "150 mcg por tira",
@@ -488,7 +532,7 @@ export const PRODUCTS = [
     id: "ta1-sl",
     name: "Thymosin Alpha-1 Sublingual",
     category: "SISTEMA INMUNOLOGICO",
-    price: 79,
+    price: 49,
     bullets: [
       "Tiras sublinguales",
       "500 mcg por tira",
@@ -509,7 +553,7 @@ export const PRODUCTS = [
     id: "pt141-sl",
     name: "PT-141+ Sublingual",
     category: "SALUD SEXUAL Y BIENESTAR",
-    price: 79,
+    price: 49,
     bullets: [
       "Tiras sublinguales",
       "PT141-500 mcg, Oxytocina-25mcg, Aminofelilpyrrol-20mg por tira",
@@ -547,7 +591,7 @@ export const PRODUCTS = [
   id: "bolsa1",
   name: "Tote Bag",
   category: "ACCESORIOS",
-  price: 29,
+  price: 19,
   bullets: [
     "Medidas: 35 × 45 pulgadas",
     "Asas de aproximadamente 29 pulgadas",
