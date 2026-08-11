@@ -5,7 +5,7 @@ export const PRODUCTS = [
     id: "tesa-5",
     name: "TESA - 5mg",
     category: "CONTROL DE PESO",
-    price: 99,
+    price: 79,
     bullets: [
       "Vial liofilizado de 5mg",
       ">99.6% de pureza",
@@ -26,7 +26,7 @@ export const PRODUCTS = [
     id: "mt2-10",
     name: "MT2 - 10mg",
     category: "ANTI-AGING",
-    price: 99,
+    price: 79,
     bullets: [
       "Vial liofilizado de 10mg",
       ">99.6% de pureza",
