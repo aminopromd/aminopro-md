@@ -1,5 +1,68 @@
 export const PRODUCTS = [
-  
+  {
+    id: "glow",
+    name: "GLOW",
+    category: "BELLEZA - PIEL y CABELLO",
+    price: 99,
+    bullets: [
+      "Vial liofilizado con BPC-157 10mg + GHK-Cu 50mg + TB-500 10mg.",
+      ">99.6% de pureza",
+      "Para reconstituir en 3ml de solución bacteriostática.",
+    ],
+    pageTitle: "GLOW",
+    shortDescription:
+      "Blend orientado a bienestar celular, piel y apariencia saludable.",
+    what:
+      "GLOW combina compuestos utilizados en protocolos de piel, antioxidantes y bienestar estético.",
+    use:
+      "Se utiliza en protocolos de piel, luminosidad, anti-aging y bienestar celular.",
+    benefits:
+      "Puede favorecer una piel más luminosa, hidratación, soporte antioxidante y apariencia saludable.",
+  },
+
+  {
+    id: "lipoc-10",
+    name: "LIPO-C - 10ml",
+    category: "QUEMAR GRASA",
+    price: 79,
+    bullets: [
+      "Vial ya reconstituido con un blend de Carnitina 50mg + Metionina 15mg + Colina 50mg + Vitamina B5 5mg",
+      "Vial de 10ml",
+    ],
+    pageTitle: "LIPO-C",
+    shortDescription:
+      "Blend utilizado en protocolos de metabolismo y control de peso.",
+    what:
+      "LIPO-C combina compuestos relacionados con metabolismo energético y utilización de grasa.",
+    use:
+      "Se utiliza en protocolos de pérdida de peso y apoyo metabólico.",
+    benefits:
+      "Puede favorecer energía, metabolismo y utilización de grasa.",
+  },
+
+    {
+
+   id: "reta-5",
+    name: "RETA  - 5mg",
+    category: "CONTROL DE PESO",
+    price: 149,
+    bullets: [
+      "Vial liofilizado de 5mg",
+      ">99.6% de pureza",
+      "Para reconstituir en 3ml de solución bacteriostática",
+    ],
+    pageTitle: "Retatrutida 5mg",
+    shortDescription:
+      "Péptido avanzado utilizado en protocolos de control de peso y metabolismo.",
+    what:
+      "Retatrutida es un compuesto relacionado con GLP-1, GIP y glucagón.",
+    use:
+      "Se utiliza en protocolos de pérdida de peso, control de apetito y apoyo metabólico.",
+    benefits:
+      "Puede favorecer saciedad, control de apetito, metabolismo y pérdida de peso.",
+  },
+
+
   
   {
     id: "tesa-5",
@@ -22,6 +85,8 @@ export const PRODUCTS = [
       "Puede ayudar a reducir la grasa abdominal visceral, favorecer el desarrollo de masa muscular magra, mejorar la composición corporal, apoyar la recuperación y contribuir a una función metabólica saludable.",
   },
 
+  
+
   {
     id: "mt2-10",
     name: "MT2 - 10mg",
@@ -43,27 +108,6 @@ export const PRODUCTS = [
       "Favorece la producción natural de melanina, ayuda a lograr un bornceado mas uniforme, puede reducir el tiempo de exposición al sol necesario para broncearse, utilizado en protocolos de ANTIAGING y estética bajo supervisión profesional.",
   },
 
-  {
-
-   id: "reta-5",
-    name: "RETA  - 5mg",
-    category: "CONTROL DE PESO",
-    price: 149,
-    bullets: [
-      "Vial liofilizado de 5mg",
-      ">99.6% de pureza",
-      "Para reconstituir en 3ml de solución bacteriostática",
-    ],
-    pageTitle: "Retatrutida 5mg",
-    shortDescription:
-      "Péptido avanzado utilizado en protocolos de control de peso y metabolismo.",
-    what:
-      "Retatrutida es un compuesto relacionado con GLP-1, GIP y glucagón.",
-    use:
-      "Se utiliza en protocolos de pérdida de peso, control de apetito y apoyo metabólico.",
-    benefits:
-      "Puede favorecer saciedad, control de apetito, metabolismo y pérdida de peso.",
-  },
   
   {
 
@@ -190,27 +234,7 @@ export const PRODUCTS = [
       "Puede ayudar a mejorar la saciedad, reducir el apetito y mantener consistencia en un plan supervisado.",
   },
 
-  {
-    id: "glow",
-    name: "GLOW",
-    category: "BELLEZA - PIEL y CABELLO",
-    price: 99,
-    bullets: [
-      "Vial liofilizado con BPC-157 10mg + GHK-Cu 50mg + TB-500 10mg.",
-      ">99.6% de pureza",
-      "Para reconstituir en 3ml de solución bacteriostática.",
-    ],
-    pageTitle: "GLOW",
-    shortDescription:
-      "Blend orientado a bienestar celular, piel y apariencia saludable.",
-    what:
-      "GLOW combina compuestos utilizados en protocolos de piel, antioxidantes y bienestar estético.",
-    use:
-      "Se utiliza en protocolos de piel, luminosidad, anti-aging y bienestar celular.",
-    benefits:
-      "Puede favorecer una piel más luminosa, hidratación, soporte antioxidante y apariencia saludable.",
-  },
-
+  
 
   {
     id: "ghkcu-50",
@@ -338,26 +362,7 @@ export const PRODUCTS = [
       "Puede favorecer energía, metabolismo y rendimiento físico.",
   },
 
-  {
-    id: "lipoc-10",
-    name: "LIPO-C - 10ml",
-    category: "QUEMAR GRASA",
-    price: 79,
-    bullets: [
-      "Vial ya reconstituido con un blend de Carnitina 50mg + Metionina 15mg + Colina 50mg + Vitamina B5 5mg",
-      "Vial de 10ml",
-    ],
-    pageTitle: "LIPO-C",
-    shortDescription:
-      "Blend utilizado en protocolos de metabolismo y control de peso.",
-    what:
-      "LIPO-C combina compuestos relacionados con metabolismo energético y utilización de grasa.",
-    use:
-      "Se utiliza en protocolos de pérdida de peso y apoyo metabólico.",
-    benefits:
-      "Puede favorecer energía, metabolismo y utilización de grasa.",
-  },
-
+  
     {
     id: "nad-1000",
     name: "NAD+ - 1,000mg",

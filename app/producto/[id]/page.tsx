@@ -628,7 +628,7 @@ Nota:`;
           </h1>
 
           <p className="text-gray-600 mt-4 max-w-3xl mx-auto">
-            La información presentada tiene fines exclusivamente educativos. Se recomienda que el uso de cualquier producto se realice bajo la supervisión y orientación de un médico. 
+            La información presentada en este sitio web es exclusivamente para fines educativos. Los productos listados son únicamente para fines de investigación y no se recomienda su uso en humanos. Consulta a tu médico. 
           </p>
         </div>
 

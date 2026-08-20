@@ -165,13 +165,13 @@ function Hero() {
           <p className="text-sm text-muted-foreground">{BRAND.tagline}</p>
 
           <h1 className="mt-2 text-4xl md:text-5xl font-semibold tracking-tight">
-            Péptidos de alta calidad con orientación médica profesional.
+            Péptidos de alta calidad, con mas de 1 año de experiencia! 
           </h1>
 
           <p className="mt-4 text-muted-foreground max-w-xl">
-            Consulta virtual con el equipo médico de AminoPro-MD para evaluar tu
-            perfil clínico y crear un plan de péptido-terapia alineado a tus
-            objetivos de salud, bienestar y rendimiento.
+            La información presentada en este sitio web es exclusivamente para fines educativos. Los productos listados son únicamente para fines de investigación y no se recomienda su uso en humanos.
+
+Consulta a tu médico.
           </p>
 
           <div className="mt-4 flex flex-wrap gap-2 text-xs">
@@ -403,7 +403,7 @@ function Products() {
               <div className="mt-4 space-y-3">
                 <div className="grid gap-2">
                   <Input
-                    placeholder="Nombre"
+                    placeholder="Nombre de quien recibe"
                     value={customer.name}
                     onChange={(e) =>
                       setCustomer({ ...customer, name: e.target.value })
@@ -411,7 +411,7 @@ function Products() {
                   />
 
                   <Input
-                    placeholder="Ciudad"
+                    placeholder="Dirección a enviar"
                     value={customer.city}
                     onChange={(e) =>
                       setCustomer({ ...customer, city: e.target.value })
@@ -865,7 +865,9 @@ function AgeGate({ onAccept }: { onAccept: () => void }) {
       <div className="relative z-10 w-full max-w-6xl px-6">
         <div className="flex flex-col items-center justify-end min-h-screen pb-20 text-center">
           <p className="mb-4 text-sm text-slate-200">
-            Al continuar confirmas que tienes <strong>21 años o más</strong>
+            Al continuar confirmas que tienes <strong>21 años de edad o más. Asimismo, reconoces y entiendes que este sitio web tiene propósitos exclusivamente educativos e informativos, y que algunos de los productos aquí presentados se ofrecen únicamente para fines de investigación y no están destinados para uso humano.
+
+Consulta con tu médico.</strong>
           </p>
 
           <Button
