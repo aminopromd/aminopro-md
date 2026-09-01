@@ -463,7 +463,7 @@ Correo electrónico:
 Teléfono:
 
 Método de pago:
-PayPal
+PayPal y Transferencia de Banco GT. 
 
 Nota:`;
   };

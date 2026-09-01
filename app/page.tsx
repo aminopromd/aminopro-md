@@ -55,7 +55,7 @@ const FAQS = [
   },
   {
     q: "¿Qué métodos de pago aceptan?",
-    a: "Paypal.",
+    a: "Paypal y transferencia de banco GT.",
   },
 ];
 
@@ -333,7 +333,7 @@ function Products() {
       `Teléfono: ${customer.phone || ""}`,
       "",
       "Método de pago:",
-      "PayPal",
+      "PayPal o Transferencia de Banco GT",
       "",
       "Nota:",
     ];
@@ -369,7 +369,7 @@ function Products() {
             <div className="rounded-xl border p-3 text-xs text-muted-foreground">
               <span className="font-medium text-foreground">Aviso:</span>{" "}
               Checkout y confirmación final se realizan via WhatsApp. Pagos por
-              medio de PayPal.
+              medio de PayPal o Transferencia de Banco GT.
             </div>
           </div>
         </div>
@@ -608,7 +608,7 @@ Nota:`
 
               <p className="mt-3 text-xs text-muted-foreground">
                 Checkout y confirmación final se realizan via WhatsApp. Pagos por
-                medio de Paypal.
+                medio de Paypal y Transferencia de Banco GT.
               </p>
             </CardContent>
           </Card>
@@ -798,7 +798,7 @@ function Contact() {
 
               <div className="rounded-xl border p-3 text-xs text-muted-foreground">
                 <p className="font-medium text-foreground">Métodos de pago</p>
-                <p className="mt-1">PayPal</p>
+                <p className="mt-1">PayPal y Transferencia de Banco GT.</p>
               </div>
             </div>
           </CardContent>
