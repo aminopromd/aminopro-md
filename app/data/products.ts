@@ -193,28 +193,7 @@ export const PRODUCTS = [
       "Puede ayudar a controlar antojos, reducir la ingesta calórica y facilitar el progreso en control de peso.",
   },
   
-  {
-    id: "semab12-5",
-    name: "Sema+B12 - 5/0.5 mg/ml",
-    category: "CONTROL DE PESO - ENERGIA",
-    price: 499,
-    bullets: [
-      "Vial ya reconstituido de SEMA 5mg con Vitamina B12",
-      "Vial de 2.5ml",
-    ],
-    pageTitle: "Sema + B12",
-    shortDescription:
-      "Combinación de semaglutida con vitamina B12, creada para control de peso, mejor energía y resultados más consistentes.",
-    what:
-      "La semaglutida es un agonista del receptor GLP-1. La vitamina B12 participa en procesos relacionados con energía celular y metabolismo.",
-    use:
-      "Se utiliza en protocolos de control de peso, reducción del apetito, control de antojos y acompañamiento metabólico.",
-    benefits:
-      "Puede ayudar a controlar el apetito, mejorar la adherencia nutricional, favorecer el manejo de peso y aportar mayor sensación de energía.",
-    moleculeImage: "/estructura.jpg",
-  },
-
-  {
+ {
     id: "sema-vial-12p5-5ml",
     name: "Sema-GLP1",
     category: "CONTROL DE PESO",
@@ -232,9 +211,7 @@ export const PRODUCTS = [
       "Se utiliza en protocolos de pérdida de peso, reducción de antojos y control del apetito.",
     benefits:
       "Puede ayudar a mejorar la saciedad, reducir el apetito y mantener consistencia en un plan supervisado.",
-  },
-
-  
+  },  
 
   {
     id: "ghkcu-50",
@@ -385,25 +362,7 @@ export const PRODUCTS = [
       "Puede ayudar con energía, claridad mental, recuperación celular y sensación general de vitalidad.",
   },
 
-  {
-    id: "nad-vial-1000mgml-10ml",
-    name: "NAD+ - 100mg/ml",
-    category: "ENERGIA - ANTI-AGING",
-    price: 149,
-    bullets: [
-      "Vial ya reconstituido de 100mg/ml",
-      "Nicotinamide Adenine Dinucleotide - Vial de 10ml",
-    ],
-    pageTitle: "NAD+ Reconstituido",
-    shortDescription:
-      "Presentación lista para uso dentro de protocolos de energía celular y longevidad.",
-    what:
-      "NAD+ es una molécula fundamental para la función mitocondrial, energía celular y procesos de reparación.",
-    use:
-      "Se utiliza en protocolos de energía, anti-aging, rendimiento mental y bienestar metabólico.",
-    benefits:
-      "Puede contribuir a mayor vitalidad, mejor recuperación, enfoque y soporte celular.",
-  },
+ 
 
   {
     id: "nr-500",
@@ -446,135 +405,7 @@ export const PRODUCTS = [
       "Permite una reconstitución práctica y segura de productos liofilizados.",
   },
 
-    {
-    id: "bpc157-sl",
-    name: "BPC-157 Sublingual",
-    category: "RECUPERACION MUSCULOESQUELETICA",
-    price: 49,
-    bullets: [
-      "Tiras sublinguales",
-      "500 mcg por tira",
-      "20 tiras sublinguales",
-    ],
-    pageTitle: "BPC-157 Sublingual",
-    shortDescription:
-      "Presentación sublingual orientada a protocolos de recuperación y bienestar musculoesquelético.",
-    what:
-      "BPC-157 es un péptido investigado por su relación con reparación tisular y recuperación física.",
-    use:
-      "Se utiliza en protocolos de recuperación muscular, tendinosa, articular y bienestar físico.",
-    benefits:
-      "Puede favorecer recuperación, movilidad y soporte musculoesquelético de forma práctica y no invasiva.",
-  },
-
-  {
-    id: "ghkcu-sl",
-    name: "GHK-Cu Sublingual",
-    category: "BELLEZA, PIEL, PELO, UÑAS",
-    price: 49,
-    bullets: [
-      "Tiras sublinguales",
-      "3 mg por tira",
-      "20 tiras sublinguales",
-    ],
-    pageTitle: "GHK-Cu Sublingual",
-    shortDescription:
-      "Presentación sublingual de GHK-Cu enfocada en piel, cabello, uñas y regeneración.",
-    what:
-      "GHK-Cu es un péptido de cobre asociado con procesos de reparación, colágeno y salud estética.",
-    use:
-      "Se utiliza en protocolos de belleza, piel, cabello, uñas y bienestar celular.",
-    benefits:
-      "Puede favorecer piel más saludable, cabello más fuerte, uñas y soporte regenerativo.",
-  },
-
    
-{
-    id: "cjcipa-sl",
-    name: "CJC-1295 + Ipamorelin Sublingual",
-    category: "AUMENTO DE MASA MUSCULAR MAGRA",
-    price: 49,
-    bullets: [
-      "Tiras sublinguales",
-      "CJC-1295 250mcg + Ipamorelin 250mcg",
-      "20 tiras sublinguales",
-    ],
-    pageTitle: "CJC-1295 + IPAMORELIN Sublingual",
-    shortDescription:
-      "Combinación sublingual enfocada en recuperación y composición corporal.",
-    what:
-      "CJC-1295 e Ipamorelin son péptidos relacionados con hormona de crecimiento.",
-    use:
-      "Se utiliza en protocolos de recuperación, descanso y desarrollo muscular.",
-    benefits:
-      "Puede favorecer descanso, recuperación y composición corporal.",
-  },
-
-  {
-    id: "cjc1295-sl",
-    name: "CJC-1295 Sublingual",
-    category: "AUMENTO DE MASA MUSCULAR",
-    price: 49,
-    bullets: [
-      "Tiras sublinguales",
-      "150 mcg por tira",
-      "20 tiras sublinguales",
-    ],
-    pageTitle: "CJC-1295 Sublingual",
-    shortDescription:
-      "Péptido sublingual utilizado en protocolos de composición corporal, recuperación y rendimiento.",
-    what:
-      "CJC-1295 es un péptido relacionado con la estimulación de la hormona de crecimiento dentro de protocolos supervisados.",
-    use:
-      "Se utiliza en protocolos de masa muscular, recuperación, descanso y rendimiento físico.",
-    benefits:
-      "Puede favorecer recuperación, composición corporal, descanso y apoyo en desarrollo muscular.",
-  },
-
-  
-
-   {
-    id: "ta1-sl",
-    name: "Thymosin Alpha-1 Sublingual",
-    category: "SISTEMA INMUNOLOGICO",
-    price: 49,
-    bullets: [
-      "Tiras sublinguales",
-      "500 mcg por tira",
-      "20 tiras sublinguales",
-    ],
-    pageTitle: "Thymosin Alpha-1 Sublingual",
-    shortDescription:
-      "Péptido sublingual utilizado en protocolos de sistema inmune y bienestar general.",
-    what:
-      "Thymosin Alpha-1 es un péptido relacionado con la regulación y función del sistema inmunológico.",
-    use:
-      "Se utiliza en protocolos enfocados en defensas, bienestar inmune y recuperación general.",
-    benefits:
-      "Puede apoyar la respuesta inmune, bienestar general y resiliencia corporal.",
-  },
-
-  {
-    id: "pt141-sl",
-    name: "PT-141+ Sublingual",
-    category: "SALUD SEXUAL Y BIENESTAR",
-    price: 49,
-    bullets: [
-      "Tiras sublinguales",
-      "PT141-500 mcg, Oxytocina-25mcg, Aminofelilpyrrol-20mg por tira",
-      "10 tiras sublinguales",
-    ],
-    pageTitle: "PT-141+ Sublingual",
-    shortDescription:
-      "Fórmula sublingual orientada a bienestar, deseo y salud sexual.",
-    what:
-      "PT-141 es un péptido investigado por su relación con deseo sexual y respuesta neurohormonal.",
-    use:
-      "Se utiliza en protocolos de salud sexual, conexión, bienestar íntimo y calidad de vida.",
-    benefits:
-      "Puede favorecer deseo, bienestar íntimo, conexión emocional y confianza personal.",
-  },
-
    {
     id: "pachon1",
     name: "Botella de agua con aislamiento térmico",

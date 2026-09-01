@@ -153,40 +153,10 @@ const PRODUCT_INFO: Record<
         },
 
 
-        "cjcipa-sl": {
-    title: "CJC-1295 + IPAMORELIN sublingual",
-    moleculeImage: "/estrucmolecjcipa.jpg",
-    what: "El CJC-1295 es un péptido análogo de la hormona liberadora de la hormona de crecimiento (GHRH), diseñado para estimular la producción natural de la hormona de crecimiento en el cuerpo. Ipamorelin es un péptido que actúa estimulando la liberación de hormona de crecimiento. La combinación es ideal porque ambos trabajan en vías diferentes pero complementarias, uno le dice al cuerpo que produzca y el otro maximiza la liberación.",
-    use: "Esta opción SUBLINGUAL, se usa en protocolos enfocados en aumento de masa muscular magra, una mejor recuperación corporal despues de entrenar, un mejor descanso muscular y como ANTI-AGNING.",
-    benefits:<ul>
-       <li>Efecto altamente ANTI-AGING.</li>
-      <li>Ayuda a una regeneración de la piel mas saludable.</li>
-      <li>Ayuda a tener un cabello mas sano.</li>
-      <li>Ayuda a la reparación celular.</li>
-      <li>Estimula la producción de colágeno.</li>
-      <li>No es inyectable.</li>
-      
-    </ul>
-        },
+            
+ 
 
-                
-  "semab12-5": {
-    title: "Sema + B12 - 5/0.5 mg/ml",
-    moleculeImage: "/estrucmolesemab12.jpg",
-    what: "Semaglutida es un agonista del GLP-1, con esto reduce el apetito, aumenta la saciedad, mejora el control de la glucosa. La Vitamina B12, tambien conocida como Cobalamina, ayuda a la producción de energía a nivel celular, participa en formación de globulos rojos, ayuda al buen funcionamiento del sistema nervioso.",
-    use: "Se usa en protocolos para control de peso, ayuda en tratamientos de diabetes, aumentando los niveles de energía y mantieninedo un sistema nervioso saludable.",
-    benefits:<ul>
-      <li> Pérdida de peso progresiva y sostenida.</li>
-      <li>Disminución del apetito y antojos.</li>
-      <li>Control de niveles de glucosa.</li>
-      <li>Mayor sensación de saciedad.</li>
-      <li>Reducción de fatiga. 
-      <li>Previene déficits vitamínicos
-      </li>Posible beneficio cardiovascular. </li>
-    </ul>
-        },
-
-        "ghkcu-50": {
+       "ghkcu-50": {
     title: "GHK-Cu - 50mg",
     moleculeImage: "/estrucmolechkcu.jpg",
     what: "Conocido popularmente como LA FUENTE DE LA JUVENTUD, el GHK-Cu es un péptido natural formado por 3 aminoácidos unidos a cobre. Está relacionado con la regeneración de dejidos, producción de colágeno y reparación celular.",
@@ -309,20 +279,7 @@ const PRODUCT_INFO: Record<
             </ul>
         },
 
-        "nad-vial-1000mgml-10ml": {
-    title: "NAD+ - 100mg/ml",
-    moleculeImage: "/estrucmolenad.jpg",
-    what: "El NAD+ es una coenzima escencial presente en todas las células del cuerpo. Participa en procesos clave de producción de energía, procesos antioxidantes y metabolismo celular.",
-    use: "Se utiliza en protocolos enfocados en ANTI-AGNING, aumento de la energía celular, aumento de la claridad mental, apoyo en el metabolismo celular, ayuda a una recuperación celular mas sana.",
-    benefits:<ul>
-      <li>ANTI-AGING </li>
-      <li>Mejora la función celular y metabólica.</li>
-      <li>Aumenta la claridad mental y la concentración.</li>
-      <li>Ayuda a una reparación celular mas saludable.</li>
-      <li>Aumenta la producción de energía - ATP-.</li>
-        
-            </ul>
-        },
+     
 
         "nr-500": {
     title: "NR-500 - 500mg",
@@ -337,85 +294,7 @@ const PRODUCT_INFO: Record<
       <li>Aumenta la producción de NAD+</li>
         
             </ul>
-        },
-
-           
-          "bpc157-sl": {
-    title: "BPC-157 Sublingual",
-    moleculeImage: "/estrucmolebpc157.jpg",
-    what: "El BPC-157 es un péptido compuesto por 15 aminoácidos, derivado de proteínas presentes en el sistema gastrointestinal. Es conocido por su relación con procesos de reparación y regeneración de tejidos.",
-    use: "Esta opción SUBLINGUAL, se usa en protocolos enfocados en recuperación muscular, lesiones de tendones y ligamentos, anti-inflamatorio, para una recuperación despues de entrenos.",
-    benefits:<ul>
-      <li> Ayuda a la reparación de tejidos.</li>
-      <li>Acelera la recuperación de lesiones.</li>
-      <li>Ayuda a mantener los tendones y ligamentos saludables.</li>
-      <li>Tiene propiedades anti-inflamatorias.</li>
-      <li>Tiene propiedades que mantienen una buena salud gastrointestinal.</li>
-      <li>No es inyectable.</li>    
-        
-            </ul>
-        },
-
-        "ta1-sl": {
-    title: "Thymosin Alpha-1 Sublingual",
-    moleculeImage: "/estrucmoleta1sl.jpg",
-    what: "El thymosin alpha-1, es un péptido compuesto por 28 aminoácidos que actúa como modulador del sistemas inmunológico, ayudando a regular la respuesta inmune del cuerpo, a tener un sistema inmunológico mas fuerte.",
-    use: "Esta opción SUBLINGUAL, se usa en protocolos enfocados en fortalecer el sistema inmune, ayuda a combatir ciertas infecciones, salud a nivel celular, una mejor recuperación del cuerpo y a regular el sistema inmune.",
-    benefits:<ul>
-      <li>Fortalece la respuesta del sistema inmunológico.</li>
-      <li>Ayuda en la defensa del cuerpo con infecciones.</li>
-      <li>Maximiza la recuperación en general del cuerpo.</li>
-      <li>Mantiene un sistema inmune en equilibrio.</li>
-      <li>No es inyectable.</li>    
-        
-            </ul>
-        },
-
-          "pt141-sl": {
-    title: "PT-141+ Sublingual",
-    moleculeImage: "/estrucmolept141sl.jpg",
-    what: "La Bremelanotida o PT-141+, es un péptido que actúa sobre los receptores de melanocortina en el sitema nervioso central, relacionados con el deseo sexual.",
-    use: "Esta opción SUBLINGUAL, se usa en protocolos enfocados en disfunción sexual, líbido bajo, mejora la respuesta y deseo sexual, mejora la salud sexual.",
-    benefits:<ul>
-      <li>Mejora la salud sexual.</li>
-      <li>Aumenta la respuesta y el deseo sexual.</li>
-      <li>Actúa a nivel central.</li>
-      <li>Funciona tanto en hombres como en mujeres.</li>
-      <li>No es inyectable.</li>    
-        
-            </ul>
-        },
-
-           "cjc1295-sl": {
-    title: "CJC-1295 Sublingual",
-    moleculeImage: "/estrucmolecjc.jpg",
-    what: "El CJC-1295 es un péptido análogo de la hormona liberadora de la hormona de crecimiento (GHRH), diseñado para estimular la producción natural de la hormona de crecimiento en el cuerpo.",
-    use: "Esta opción SUBLINGUAL, se usa en protocolos enfocados en aumento de masa muscular magra, una mejor recuperación corporal despues de entrenar, un mejor descanso muscular y como ANTI-AGNING.",
-    benefits:<ul>
-      <li>Aumento de masa muscular.</li>
-      <li>ANTI-AGING.</li>
-      <li>Maximiza la recuperación muscular y da un mejor descanso.</li>
-      <li>Reduce la grasa corporal.</li>
-      <li>No es inyectable.</li>    
-        
-            </ul>
-        },
-
-        "ghkcu-sl": {
-    title: "GHK-Cu Sublingual",
-    moleculeImage: "/estrucmolechkcu.jpg",
-    what: "Conocido popularmente como LA FUENTE DE LA JUVENTUD, el GHK-Cu es un péptido natural formad por 3 amino ácidos unidos a cobre. Está relacionado con la regeneración de dejidos, producción de colágeno y reparación celular.",
-    use: "Esta opción SUBLINGUAL, se usa en protocolos para reparación a nivel celular, procesos ANTI-AGING, estimulación de folículos de cabello para que crezca sano y brilloso, estimulación de producción de colágeno para una piel sana y con un GLOWQ saludable.",
-    benefits:<ul>
-      <li>Efecto Altamente ANTI-AGING. Estimula la producción de colágeno.</li>
-      <li>Ayuda a una regeneración de la piel mas saludable.</li>
-      <li>Ayuda a tener un cabello mas sano.</li>
-      <li>Ayuda a la reparación celular.</li>
-      <li>Estimula la producción de colágeno.</li>
-      <li>No es inyectable.</li>
-        
-            </ul>
-        },
+        },                
 
           "sema-vial-12p5-5ml": {
     title: "Sema-GLP1 - 2.5mg/ml",
