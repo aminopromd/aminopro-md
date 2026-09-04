@@ -9,6 +9,12 @@ export const PRODUCTS = [
       ">99.6% de pureza",
       "Para reconstituir en 3ml de solución bacteriostática.",
     ],
+    coas: [
+      {
+        label: "Ver COA",
+        href: "/coa/coaGLOW-Janoshik25.jpeg",
+      },
+    ],
     pageTitle: "GLOW",
     shortDescription:
       "Blend orientado a bienestar celular, piel y apariencia saludable.",
@@ -29,6 +35,12 @@ export const PRODUCTS = [
       "Vial ya reconstituido con un blend de Carnitina 50mg + Metionina 15mg + Colina 50mg + Vitamina B5 5mg",
       "Vial de 10ml",
     ],
+    coas: [
+      {
+        label: "Ver COA",
+        href: "/coa/coaLIPOC-10ml-Nexus26.jpeg",
+      },
+    ],
     pageTitle: "LIPO-C",
     shortDescription:
       "Blend utilizado en protocolos de metabolismo y control de peso.",
@@ -40,9 +52,8 @@ export const PRODUCTS = [
       "Puede favorecer energía, metabolismo y utilización de grasa.",
   },
 
-    {
-
-   id: "reta-5",
+  {
+    id: "reta-5",
     name: "RETA  - 5mg",
     category: "CONTROL DE PESO",
     price: 149,
@@ -50,6 +61,12 @@ export const PRODUCTS = [
       "Vial liofilizado de 5mg",
       ">99.6% de pureza",
       "Para reconstituir en 3ml de solución bacteriostática",
+    ],
+    coas: [
+      {
+        label: "Ver COA",
+        href: "/coa/coaRETA-5mg-Nexus26.jpeg",
+      },
     ],
     pageTitle: "Retatrutida 5mg",
     shortDescription:
@@ -62,8 +79,6 @@ export const PRODUCTS = [
       "Puede favorecer saciedad, control de apetito, metabolismo y pérdida de peso.",
   },
 
-
-  
   {
     id: "tesa-5",
     name: "TESA - 5mg",
@@ -73,6 +88,12 @@ export const PRODUCTS = [
       "Vial liofilizado de 5mg",
       ">99.6% de pureza",
       "Para reconstituir en 3ml de solución bacteriostática",
+    ],
+    coas: [
+      {
+        label: "Ver COA",
+        href: "/coa/coaTESA-5mg-Nexus26.jpeg",
+      },
     ],
     pageTitle: "Tesamorelin 5mg",
     shortDescription:
@@ -85,8 +106,6 @@ export const PRODUCTS = [
       "Puede ayudar a reducir la grasa abdominal visceral, favorecer el desarrollo de masa muscular magra, mejorar la composición corporal, apoyar la recuperación y contribuir a una función metabólica saludable.",
   },
 
-  
-
   {
     id: "mt2-10",
     name: "MT2 - 10mg",
@@ -96,6 +115,12 @@ export const PRODUCTS = [
       "Vial liofilizado de 10mg",
       ">99.6% de pureza",
       "Para reconstituir en 3ml de solución bacteriostática",
+    ],
+    coas: [
+      {
+        label: "Ver COA",
+        href: "/coa/coaMT2-10mg-Nexus26.jpeg",
+      },
     ],
     pageTitle: "MT2 - 10mg",
     shortDescription:
@@ -108,10 +133,8 @@ export const PRODUCTS = [
       "Favorece la producción natural de melanina, ayuda a lograr un bornceado mas uniforme, puede reducir el tiempo de exposición al sol necesario para broncearse, utilizado en protocolos de ANTIAGING y estética bajo supervisión profesional.",
   },
 
-  
   {
-
-   id: "reta-10",
+    id: "reta-10",
     name: "RETA - 10mg",
     category: "CONTROL DE PESO",
     price: 249,
@@ -119,6 +142,12 @@ export const PRODUCTS = [
       "Vial liofilizado de 10mg",
       ">99.6% de pureza",
       "Para reconstituir en 3ml de solución bacteriostática",
+    ],
+    coas: [
+      {
+        label: "Ver COA",
+        href: "/coa/coaRETA-10mg-Nexus26.jpeg",
+      },
     ],
     pageTitle: "Retatrutida 10mg",
     shortDescription:
@@ -131,7 +160,7 @@ export const PRODUCTS = [
       "Puede favorecer saciedad, control de apetito, metabolismo y pérdida de peso.",
   },
 
-    {
+  {
     id: "tirz-5",
     name: "Tirze- GLP1+GIP - 10mg",
     category: "CONTROL DE PESO",
@@ -140,6 +169,12 @@ export const PRODUCTS = [
       "Vial liofilizado 10mg",
       ">99.6% de pureza",
       "Para reconstituir en 3ml de solución bacteriostática",
+    ],
+    coas: [
+      {
+        label: "Ver COA",
+        href: "/coa/coaTIRZE-10mg-Freedom26.jpeg",
+      },
     ],
     pageTitle: "Tirzepatida",
     shortDescription:
@@ -182,6 +217,12 @@ export const PRODUCTS = [
       ">99.6% de pureza",
       "Para reconstituir en 3ml de solución bacteriostática",
     ],
+    coas: [
+      {
+        label: "Ver COA",
+        href: "/coa/coaSEMA-5mg-Nexus26.jpeg",
+      },
+    ],
     pageTitle: "Semaglutida",
     shortDescription:
       "GLP-1 utilizado en protocolos de control de peso, apetito y salud metabólica.",
@@ -192,8 +233,8 @@ export const PRODUCTS = [
     benefits:
       "Puede ayudar a controlar antojos, reducir la ingesta calórica y facilitar el progreso en control de peso.",
   },
-  
- {
+
+  {
     id: "sema-vial-12p5-5ml",
     name: "Sema-GLP1",
     category: "CONTROL DE PESO",
@@ -211,7 +252,7 @@ export const PRODUCTS = [
       "Se utiliza en protocolos de pérdida de peso, reducción de antojos y control del apetito.",
     benefits:
       "Puede ayudar a mejorar la saciedad, reducir el apetito y mantener consistencia en un plan supervisado.",
-  },  
+  },
 
   {
     id: "ghkcu-50",
@@ -223,6 +264,12 @@ export const PRODUCTS = [
       ">99.6% de pureza",
       "Para reconstituir en 3ml de solución bacteriostática",
     ],
+    coas: [
+      {
+        label: "Ver COA",
+        href: "/coa/coaGHKCU-50mg-Freedom26.jpeg",
+      },
+    ],
     pageTitle: "GHK-Cu",
     shortDescription:
       "Péptido de cobre utilizado en protocolos de belleza, piel, cabello y bienestar celular.",
@@ -233,8 +280,8 @@ export const PRODUCTS = [
     benefits:
       "Puede favorecer una piel más saludable, mejor apariencia del cabello, producción de colágeno y recuperación celular.",
   },
-  
-   {
+
+  {
     id: "bpc157-10",
     name: "BPC-157 - 10 mg",
     category: "RECUPERACION MUSCULOESQUELETICA",
@@ -243,6 +290,12 @@ export const PRODUCTS = [
       "Vial liofilizado de 10mg",
       ">99.6% de pureza",
       "Para reconstituir en 3ml de solución bacteriostática",
+    ],
+    coas: [
+      {
+        label: "Ver COA",
+        href: "/coa/coaBPC157-10mg-Nexus26.jpeg",
+      },
     ],
     pageTitle: "BPC-157",
     shortDescription:
@@ -265,6 +318,12 @@ export const PRODUCTS = [
       ">99.6% de pureza",
       "Para reconstituir en 3ml de solución bacteriostática",
     ],
+    coas: [
+      {
+        label: "Ver COA",
+        href: "/coa/coaTB500-10mg-Nexus26.jpeg",
+      },
+    ],
     pageTitle: "TB-500",
     shortDescription:
       "Péptido investigado en protocolos de recuperación, regeneración y movilidad.",
@@ -276,7 +335,7 @@ export const PRODUCTS = [
       "Puede favorecer recuperación, flexibilidad, movilidad y reparación dentro de un plan estructurado.",
   },
 
-   {
+  {
     id: "cjcipa-5",
     name: "CJC-1295 + IPAMORELIN",
     category: "AUMENTO DE MASA MUSCULAR MAGRA",
@@ -285,6 +344,16 @@ export const PRODUCTS = [
       "Vial liofilizado de CJC-1295 5mg + Ipamorelin 5mg",
       ">99.6% de pureza",
       "Para reconstituir en 3ml de solución bacteriostática",
+    ],
+    coas: [
+      {
+        label: "COA CJC-1295",
+        href: "/coa/coaCJC1295NODAC-5mg-Nexus26.jpeg",
+      },
+      {
+        label: "COA Ipamorelin",
+        href: "/coa/coaIPAMORELIN-5mg-Nexus26.jpeg",
+      },
     ],
     pageTitle: "CJC-1295 + Ipamorelin",
     shortDescription:
@@ -297,7 +366,7 @@ export const PRODUCTS = [
       "Puede favorecer recuperación muscular, mejor descanso, composición corporal y desarrollo muscular.",
   },
 
-{
+  {
     id: "dsip-5",
     name: "DSIP - 5mg",
     category: "DESCANSO Y RECUPERACION",
@@ -306,6 +375,12 @@ export const PRODUCTS = [
       "Vial liofilizado de 5mg",
       ">99.6% de pureza",
       "Para reconstituir en 3ml de solución bacteriostática",
+    ],
+    coas: [
+      {
+        label: "Ver COA",
+        href: "/coa/coaDSIP-5mg-Freedom26.jpeg",
+      },
     ],
     pageTitle: "DSIP",
     shortDescription:
@@ -317,7 +392,7 @@ export const PRODUCTS = [
     benefits:
       "Puede favorecer descanso profundo, recuperación y sensación de relajación.",
   },
-    
+
   {
     id: "motsc-10",
     name: "MOTS-C - 10mg",
@@ -327,6 +402,12 @@ export const PRODUCTS = [
       "Vial liofilizado de 10mg",
       ">99.6% de pureza",
       "Para reconstituir en 3ml de solución bacteriostática",
+    ],
+    coas: [
+      {
+        label: "Ver COA",
+        href: "/coa/coaMOTSC-10mg-Vanguard26.jpeg",
+      },
     ],
     pageTitle: "MOTS-C",
     shortDescription:
@@ -339,8 +420,7 @@ export const PRODUCTS = [
       "Puede favorecer energía, metabolismo y rendimiento físico.",
   },
 
-  
-    {
+  {
     id: "nad-1000",
     name: "NAD+ - 1,000mg",
     category: "ENERGIA, ANTI-AGING",
@@ -350,6 +430,12 @@ export const PRODUCTS = [
       "Nicotinamide Adenine Dinucleotide",
       ">99.6% de pureza",
       "Para reconstituir en 10ml de solución bacteriostática",
+    ],
+    coas: [
+      {
+        label: "Ver COA",
+        href: "/coa/coaNAD-1000mg-Nexus26.jpeg",
+      },
     ],
     pageTitle: "NAD+",
     shortDescription:
@@ -362,8 +448,6 @@ export const PRODUCTS = [
       "Puede ayudar con energía, claridad mental, recuperación celular y sensación general de vitalidad.",
   },
 
- 
-
   {
     id: "nr-500",
     name: "NR-500 - 500mg",
@@ -373,6 +457,12 @@ export const PRODUCTS = [
       "Vial liofilizado 500mg",
       "Nicotinamide Riboside Chloride >99.6% de pureza",
       "Para reconstituir en 10ml de solución bacteriostática",
+    ],
+    coas: [
+      {
+        label: "Ver COA",
+        href: "/coa/coaNR-500mg-Nexus26.jpeg",
+      },
     ],
     pageTitle: "NR-500",
     shortDescription:
@@ -405,8 +495,7 @@ export const PRODUCTS = [
       "Permite una reconstitución práctica y segura de productos liofilizados.",
   },
 
-   
-   {
+  {
     id: "pachon1",
     name: "Botella de agua con aislamiento térmico",
     category: "ACCESORIOS",
@@ -420,56 +509,52 @@ export const PRODUCTS = [
     shortDescription:
       "Botella de agua con aislamiento de aluminio, mantiente el contenido frío, mide 24 pulgadas, Durable, BPA Free, Leak Proof y facil de lavar.",
     what:
-      "Ideal para llevar a gimnasio, mantener tu agua fría, ideal para mezclar tu creatina, tambien para shakes de proteína. Portatil y cabe en cualquier mochila.",    
+      "Ideal para llevar a gimnasio, mantener tu agua fría, ideal para mezclar tu creatina, tambien para shakes de proteína. Portatil y cabe en cualquier mochila.",
   },
-  
+
   {
-  id: "bolsa1",
-  name: "Tote Bag",
-  category: "ACCESORIOS",
-  price: 19,
-  bullets: [
-    "Medidas: 35 × 45 pulgadas",
-    "Asas de aproximadamente 29 pulgadas",
-    "Tejido de polipropileno reciclable y reutilizable",
-    "Ligera, cómoda y fácil de transportar",
-    "Fácil de lavar y secar",
-  ],
-  pageTitle: "Tote Bag AminoPro-MD",
-  shortDescription:
-    "Bolsa reutilizable, cómoda y ligera, ideal para transportar tu equipo de entrenamiento.",
-  what:
-    "Bolsa fabricada con tejido de polipropileno reciclable y reutilizable, diseñada para transportar cómodamente tus artículos personales y equipo de entrenamiento.",
-  use:
-    "Ideal para guardar tu equipo de workout cuando vas al gimnasio. Su diseño ligero y ventilado facilita el transporte y ayuda a mantener organizados tus artículos.",
-  benefits:
-    "Es ligera, cómoda, reutilizable, fácil de lavar y práctica para el gimnasio o el uso diario.",
-},
+    id: "bolsa1",
+    name: "Tote Bag",
+    category: "ACCESORIOS",
+    price: 19,
+    bullets: [
+      "Medidas: 35 × 45 pulgadas",
+      "Asas de aproximadamente 29 pulgadas",
+      "Tejido de polipropileno reciclable y reutilizable",
+      "Ligera, cómoda y fácil de transportar",
+      "Fácil de lavar y secar",
+    ],
+    pageTitle: "Tote Bag AminoPro-MD",
+    shortDescription:
+      "Bolsa reutilizable, cómoda y ligera, ideal para transportar tu equipo de entrenamiento.",
+    what:
+      "Bolsa fabricada con tejido de polipropileno reciclable y reutilizable, diseñada para transportar cómodamente tus artículos personales y equipo de entrenamiento.",
+    use:
+      "Ideal para guardar tu equipo de workout cuando vas al gimnasio. Su diseño ligero y ventilado facilita el transporte y ayuda a mantener organizados tus artículos.",
+    benefits:
+      "Es ligera, cómoda, reutilizable, fácil de lavar y práctica para el gimnasio o el uso diario.",
+  },
 
-
- {
-  id: "estuche1",
-  name: "Peptide Case AminoPro-MD",
-  category: "ACCESORIOS",
-  price: 39,
-  bullets: [
-    "Medidas: H 3 inches x W 3.5 inches x D 3 inches.",
-    "Contiene hasta 6 viales de 3ml",
-    "Tapadera mágnetica",
-    "Ligero y portatil, fácil de limpiar",
-    "Puedes mantenerlo en refrigeración con tus péptidos",
-  ],
-  pageTitle: "Tote Bag AminoPro-MD",
-  shortDescription:
-    "Estuche portátil con cierre magnético, diseñado para almacenar, organizar y proteger hasta 6 viales de péptidos de forma segura. Compacto, ligero y resistente, ideal para usar en casa, el gimnasio o durante tus viajes.",
-  what:
-    "Estuche portátil con cierre magnético, diseñado para almacenar y proteger de forma segura hasta 6 viales de péptidos. Su diseño moderno, compacto y resistente lo hace ideal para el uso diario.",
-  use:
-    "Se utiliza para organizar, transportar y mantener tus viales protegidos en casa, en el gimnasio o durante tus viajes, evitando golpes y desorden.",
-  benefits:
-    "Capacidad para 6 viales de 3ml, cierre magnético para mayor seguridad, diseño compacto, moderno y ligero, protege y organiza tus péptidos, fácil de transportar a cualquier lugar.",
-},
-]
-  
-
-
+  {
+    id: "estuche1",
+    name: "Peptide Case AminoPro-MD",
+    category: "ACCESORIOS",
+    price: 39,
+    bullets: [
+      "Medidas: H 3 inches x W 3.5 inches x D 3 inches.",
+      "Contiene hasta 6 viales de 3ml",
+      "Tapadera mágnetica",
+      "Ligero y portatil, fácil de limpiar",
+      "Puedes mantenerlo en refrigeración con tus péptidos",
+    ],
+    pageTitle: "Tote Bag AminoPro-MD",
+    shortDescription:
+      "Estuche portátil con cierre magnético, diseñado para almacenar, organizar y proteger hasta 6 viales de péptidos de forma segura. Compacto, ligero y resistente, ideal para usar en casa, el gimnasio o durante tus viajes.",
+    what:
+      "Estuche portátil con cierre magnético, diseñado para almacenar y proteger de forma segura hasta 6 viales de péptidos. Su diseño moderno, compacto y resistente lo hace ideal para el uso diario.",
+    use:
+      "Se utiliza para organizar, transportar y mantener tus viales protegidos en casa, en el gimnasio o durante tus viajes, evitando golpes y desorden.",
+    benefits:
+      "Capacidad para 6 viales de 3ml, cierre magnético para mayor seguridad, diseño compacto, moderno y ligero, protege y organiza tus péptidos, fácil de transportar a cualquier lugar.",
+  },
+];

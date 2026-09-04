@@ -25,6 +25,10 @@ type Product = {
   customOnly?: boolean;
   status?: string;
   bullets?: string[];
+  coas?: {
+    label: string;
+    href: string;
+  }[];
 };
 
 const ALL_PRODUCTS = PRODUCTS as Product[];
