@@ -136,7 +136,7 @@ function Nav() {
 
         <div className="flex items-center gap-3">
           <a
-            href="https://www.instagram.com/aminopromd502"
+            href="https://www.instagram.com/aminopromdplus"
             target="_blank"
             rel="noreferrer"
             aria-label="Instagram AminoPro-MD"
@@ -827,7 +827,7 @@ function Footer() {
 
           <div className="mt-3 flex items-center gap-3">
             <a
-              href="https://www.instagram.com/aminopromd502"
+              href="https://www.instagram.com/aminopromdplus"
               target="_blank"
               rel="noreferrer"
               aria-label="Instagram AminoPro-MD"

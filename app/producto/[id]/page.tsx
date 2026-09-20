@@ -449,7 +449,7 @@ function Footer() {
 
           <div className="flex items-center gap-3">
             <a
-              href="https://www.instagram.com/aminopromd502"
+              href="https://www.instagram.com/aminopromdplus"
               target="_blank"
               rel="noreferrer"
             >
@@ -592,7 +592,7 @@ Nota:`;
             </Link>
 
             <a
-              href="https://www.instagram.com/aminopromd502"
+              href="https://www.instagram.com/aminopromdplus"
               target="_blank"
               rel="noreferrer"
             >
