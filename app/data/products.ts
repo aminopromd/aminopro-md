@@ -54,7 +54,7 @@ export const PRODUCTS = [
 
   {
     id: "reta-5",
-    name: "RETA  - 5mg",
+    name: "RT  - 5mg",
     category: "CONTROL DE PESO",
     price: 149,
     bullets: [
@@ -72,7 +72,7 @@ export const PRODUCTS = [
     shortDescription:
       "Péptido avanzado utilizado en protocolos de control de peso y metabolismo.",
     what:
-      "Retatrutida es un compuesto relacionado con GLP-1, GIP y glucagón.",
+      "RT es un compuesto relacionado con GLP-1, GIP y glucagón.",
     use:
       "Se utiliza en protocolos de pérdida de peso, control de apetito y apoyo metabólico.",
     benefits:
@@ -135,7 +135,7 @@ export const PRODUCTS = [
 
   {
     id: "reta-10",
-    name: "RETA - 10mg",
+    name: "RT - 10mg",
     category: "CONTROL DE PESO",
     price: 249,
     bullets: [
@@ -153,7 +153,7 @@ export const PRODUCTS = [
     shortDescription:
       "Péptido avanzado utilizado en protocolos de control de peso y metabolismo.",
     what:
-      "Retatrutida es un compuesto relacionado con GLP-1, GIP y glucagón.",
+      "RT es un compuesto relacionado con GLP-1, GIP y glucagón.",
     use:
       "Se utiliza en protocolos de pérdida de peso, control de apetito y apoyo metabólico.",
     benefits:

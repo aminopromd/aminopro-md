@@ -63,10 +63,10 @@ const PRODUCT_INFO: Record<
   },
 
   "reta-5": {
-    title: "RETA - GLP1+GIP+GLUCAGON - 5mg",
+    title: "RT - 5mg",
     moleculeImage: "/estrucmolereta.jpg",
     what:
-      "La Retatrutida es un péptido de nueva generación que actúa como agonista triple de GLP-1, GIP y Glucagón.",
+      "La RT es un péptido de nueva generación que actúa como agonista triple de GLP-1, GIP y Glucagón.",
     use:
       "Se usa en protocolos para control de peso, desórdenes metabólicos, diabetes tipo 2, para regular el control del apetito.",
     benefits: (
@@ -101,10 +101,10 @@ const PRODUCT_INFO: Record<
   },
 
   "reta-10": {
-    title: "RETA GLP1+GIP+GLUCAGON 10mg",
+    title: "RT 10mg",
     moleculeImage: "/estrucmolereta.jpg",
     what:
-      "La Retatrutida es un péptido de nueva generación que actúa como agonista triple de GLP-1, GIP y Glucagón.",
+      "La RT es un péptido de nueva generación que actúa como agonista triple de GLP-1, GIP y Glucagón.",
     use:
       "Se usa en protocolos para control de peso, desórdenes metabólicos, diabetes tipo 2, para regular el control del apetito.",
     benefits: (
