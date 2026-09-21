@@ -563,7 +563,7 @@ Correo electrónico:
 Teléfono:
 
 Método de pago:
-PayPal y Transferencia de Banco GT.
+PayPal.
 
 Nota:`;
   };

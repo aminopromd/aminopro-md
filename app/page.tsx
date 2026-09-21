@@ -15,7 +15,11 @@ import {
   ExternalLink,
   Search,
   ShoppingCart,
+  MessageCircle,
+  Instagram,
+  Facebook,
 } from "lucide-react";
+
 
 type Product = {
   id: string;
@@ -59,7 +63,7 @@ const FAQS = [
   },
   {
     q: "¿Qué métodos de pago aceptan?",
-    a: "Paypal y transferencia de banco GT.",
+    a: "Paypal.",
   },
 ];
 
@@ -82,7 +86,15 @@ function Section({
   children: React.ReactNode;
 }) {
   return (
-    <section id={id} className="w-full px-6 md:px-12 py-12">
+    <section
+  id={id}
+  className="
+    w-full px-6 md:px-12 py-16
+    bg-gradient-to-b
+    from-[#FCFDFB]
+    to-[#F7FAF4]
+  "
+>
       <div className="mb-8">
         <h2 className="text-2xl md:text-3xl font-semibold tracking-tight">
           {title}
@@ -159,89 +171,172 @@ function Nav() {
 }
 
 function Hero() {
+  const quickLinks = [
+    {
+      title: "Catálogo",
+      subtitle: "Explora nuestros productos",
+      href: "#productos",
+      image: "/catalogo.jpg",
+    },
+    {
+      title: "Agendar Consulta",
+      subtitle: "Consulta virtual personalizada",
+      href: "#consultas",
+      image: "/consulta.jpg",
+    },
+    {
+      title: "Contacto",
+      subtitle: "Estamos para ayudarte",
+      href: "#contacto",
+      image: "/contacto.jpg",
+    },
+  ];
+
   return (
     <div
-      className="w-full px-6 md:px-12 pt-10 pb-6 bg-cover bg-center"
+      className="
+  w-full px-6 md:px-12 pt-10 pb-12
+  bg-gradient-to-br
+  from-[#f7faf4]
+  via-[#fbfdf9]
+  to-[#eef7e7]
+  bg-cover bg-center"
+
       style={{ backgroundImage: "url('/fondo2.png')" }}
     >
-      <div className="grid md:grid-cols-2 gap-8 items-center">
+      <div className="grid lg:grid-cols-[0.8fr_1.2fr] gap-10 items-center">
+
+        {/* IZQUIERDA */}
         <div>
           <p className="text-sm text-muted-foreground">{BRAND.tagline}</p>
 
-          <h1 className="mt-2 text-4xl md:text-5xl font-semibold tracking-tight">
-            Péptidos de alta calidad, con mas de 1 año de experiencia! 
-          </h1>
+          <h1 className="mt-3 text-4xl md:text-5xl font-semibold tracking-tight leading-[1.05] text-[#10150d]">
+  Péptidos de alta calidad, con más de 1 año de experiencia!</h1>
 
           <p className="mt-4 text-muted-foreground max-w-xl">
-            La información presentada en este sitio web es exclusivamente para fines educativos. Los productos listados son únicamente para fines de investigación y no se recomienda su uso en humanos.
-
-Consulta a tu médico.
+            La información presentada en este sitio web es exclusivamente para
+            fines educativos. Los productos listados son únicamente para fines
+            de investigación y no se recomienda su uso en humanos.
+            <br />
+            <br />
+            Consulta a tu médico.
           </p>
-
-          <div className="mt-4 flex flex-wrap gap-2 text-xs">
-            <span className="rounded-full border px-3 py-1">
-              
-            </span>
-          </div>
 
           <div className="mt-8 flex flex-wrap gap-3">
             <Button asChild>
               <a href="#consultas">{BRAND.primaryCta}</a>
             </Button>
+
             <Button asChild variant="outline">
               <a href="#productos">{BRAND.secondaryCta}</a>
             </Button>
           </div>
         </div>
 
-        <Card className="rounded-2xl shadow-sm">
-          <CardContent className="p-6">
-            <div className="flex items-start justify-between gap-3">
-              <div>
-                <p className="text-sm text-muted-foreground">Acceso rápido</p>
-                <h3 className="mt-1 text-lg font-semibold">Enlaces esenciales</h3>
-              </div>
-              <Badge variant="outline">Links</Badge>
-            </div>
+        {/* ENLACES ESENCIALES */}
+        <div>
+          <div className="mb-4">
+            <p className="text-sm text-muted-foreground">Acceso rápido</p>
 
-            <div className="mt-5 grid gap-3">
-              <a
-                className="group flex items-center justify-between rounded-xl border p-4 hover:bg-muted/40 transition"
-                href="#productos"
-              >
-                <div>
-                  <p className="font-medium">Catálogo</p>
-                  <p className="text-sm text-muted-foreground">
-                    Productos y disponibilidad
-                  </p>
-                </div>
-                <ExternalLink className="h-4 w-4 text-muted-foreground group-hover:text-foreground" />
-              </a>
+            <h3 className="text-2xl font-semibold">
+              Enlaces esenciales
+            </h3>
+          </div>
 
+          <div className="grid md:grid-cols-3 gap-4">
+            {quickLinks.map((item) => (
               <a
-                className="group flex items-center justify-between rounded-xl border p-4 hover:bg-muted/40 transition"
-                href="#consultas"
+                key={item.title}
+                href={item.href}
+                className="
+                  group relative overflow-hidden rounded-2xl
+                  h-[280px] border border-green-500/30
+                  shadow-md hover:shadow-2xl
+                  transition-all duration-500
+                  hover:-translate-y-2
+                "
               >
-                <div>
-                  <p className="font-medium">Agendar</p>
-                  <p className="text-sm text-muted-foreground">Consulta virtual</p>
-                </div>
-                <ExternalLink className="h-4 w-4 text-muted-foreground group-hover:text-foreground" />
-              </a>
+                {/* IMAGEN */}
+                <img
+  src={item.image}
+  alt={item.title}
+  className="
+    absolute inset-0 w-full h-full object-cover
+    opacity-90
+    transition-all duration-700
+    group-hover:scale-105
+    group-hover:opacity-100
+  "
+/>
 
-              <a
-                className="group flex items-center justify-between rounded-xl border p-4 hover:bg-muted/40 transition"
-                href="#contacto"
-              >
-                <div>
-                  <p className="font-medium">Contacto</p>
-                  <p className="text-sm text-muted-foreground">Soporte y preguntas</p>
+<div
+  className="
+    absolute inset-0
+    bg-gradient-to-t
+    from-black/75
+    via-black/10
+    to-white/5
+    transition-all duration-500
+  "
+/>
+
+                {/* OVERLAY */}
+                <div
+                  className="
+                    absolute inset-0
+                    bg-gradient-to-t
+                    from-black/90 via-black/30 to-transparent
+                    transition-all duration-500
+                    group-hover:from-black/95
+                  "
+                />
+
+                {/* CONTENIDO */}
+                <div className="absolute inset-x-0 bottom-0 p-5 text-white">
+                  <div className="flex items-end justify-between gap-3">
+                    <div>
+                      <h4 className="text-xl font-semibold">
+                        {item.title}
+                      </h4>
+
+                      <p className="mt-1 text-sm text-white/80">
+                        {item.subtitle}
+                      </p>
+                    </div>
+
+                    <div
+                      className="
+                        flex h-10 w-10 shrink-0
+                        items-center justify-center
+                        rounded-full
+bg-[#8fcf32]/90
+text-[#10150d]
+shadow-[0_0_18px_rgba(143,207,50,0.20)]
+                        transition-all duration-300
+                        group-hover:translate-x-1
+                        group-hover:scale-110
+                      "
+                    >
+                      <ExternalLink className="h-4 w-4" />
+                    </div>
+                  </div>
                 </div>
-                <ExternalLink className="h-4 w-4 text-muted-foreground group-hover:text-foreground" />
+
+                {/* BRILLO AL PASAR EL MOUSE */}
+                <div
+                  className="
+                    absolute inset-0 opacity-0
+                    group-hover:opacity-100
+                    bg-gradient-to-tr
+                    from-lime-400/10 via-transparent to-white/10
+                    transition-opacity duration-500
+                    pointer-events-none
+                  "
+                />
               </a>
-            </div>
-          </CardContent>
-        </Card>
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   );
@@ -250,15 +345,31 @@ Consulta a tu médico.
 function Products() {
   const [query, setQuery] = useState("");
 
-  const [cart, setCart] = useState<Record<string, number>>(() => {
-    if (typeof window === "undefined") return {};
-    const saved = localStorage.getItem("aminopromd-cart");
-    return saved ? JSON.parse(saved) : {};
-  });
+  const [cart, setCart] = useState<Record<string, number>>({});
+const [cartLoaded, setCartLoaded] = useState(false);
 
-  useEffect(() => {
-    localStorage.setItem("aminopromd-cart", JSON.stringify(cart));
-  }, [cart]);
+useEffect(() => {
+  const saved = localStorage.getItem("aminopromd-cart");
+
+  if (saved) {
+    try {
+      setCart(JSON.parse(saved));
+    } catch {
+      localStorage.removeItem("aminopromd-cart");
+    }
+  }
+
+  setCartLoaded(true);
+}, []);
+
+useEffect(() => {
+  if (!cartLoaded) return;
+
+  localStorage.setItem(
+    "aminopromd-cart",
+    JSON.stringify(cart)
+  );
+}, [cart, cartLoaded]);
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -337,7 +448,7 @@ function Products() {
       `Teléfono: ${customer.phone || ""}`,
       "",
       "Método de pago:",
-      "PayPal o Transferencia de Banco GT",
+      "PayPal",
       "",
       "Nota:",
     ];
@@ -370,15 +481,33 @@ function Products() {
           </div>
 
           <div className="mt-3 space-y-2">
-            <div className="rounded-xl border p-3 text-xs text-muted-foreground">
-              <span className="font-medium text-foreground">Aviso:</span>{" "}
-              Checkout y confirmación final se realizan via WhatsApp. Pagos por
-              medio de PayPal o Transferencia de Banco GT.
-            </div>
-          </div>
+  <div
+    className="
+      rounded-xl
+      border border-[#8fcf32]/20
+      bg-[#f4f9ef]
+      p-3
+      text-xs
+      text-muted-foreground
+    "
+  >
+    <span className="font-medium text-foreground">Aviso:</span>{" "}
+    Checkout y confirmación final se realizan via WhatsApp. Pagos por
+    medio de PayPal.
+  </div>
+</div>
         </div>
 
-        <Card id="carrito" className="rounded-2xl transition">
+        <Card
+  id="carrito"
+  className="
+  rounded-[28px]
+  border border-[#8FDB38]
+  bg-white
+  shadow-[0_10px_35px_rgba(80,120,30,0.07)]
+  transition-all duration-300
+"
+>
           <CardContent className="p-5">
             <div className="flex items-start justify-between gap-3">
               <div>
@@ -481,7 +610,7 @@ function Products() {
                           onClick={() => addToCart(i.id)}
                         >
                           +
-                        </Button>
+                        </Button> 
                       </div>
                     </div>
                   ))}
@@ -492,15 +621,37 @@ function Products() {
                   <span className="font-semibold">{totalAmount}</span>
                 </div>
 
-                <Button asChild disabled={totalCount === 0}>
-                  <a
-                    href={waLink(buildCheckoutMessage())}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Finalizar por WhatsApp
-                  </a>
-                </Button>
+               <Button
+  asChild
+  disabled={totalCount === 0}
+  className="
+    w-full
+    h-12
+    rounded-full
+    bg-gradient-to-r
+    from-[#75C900]
+    via-[#A6F32B]
+    to-[#B8FF43]
+    text-black
+    font-bold
+    border border-[#7CCB22]
+    shadow-[0_5px_18px_rgba(120,210,20,0.22)]
+    transition-all duration-300
+    hover:scale-[1.01]
+    hover:shadow-[0_7px_24px_rgba(120,210,20,0.35)]
+    hover:from-[#82D80A]
+    hover:via-[#AEF638]
+    hover:to-[#C1FF55]
+  "
+>
+  <a
+    href={waLink(buildCheckoutMessage())}
+    target="_blank"
+    rel="noreferrer"
+  >
+    Finalizar por WhatsApp
+  </a>
+</Button>
 
                 <p className="text-xs text-muted-foreground mt-2">
                   Si no tienes WhatsApp,{" "}
@@ -524,98 +675,269 @@ function Products() {
         </Card>
       </div>
 
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-6">
         {filtered.map((p) => (
-          <Card key={p.id} className="rounded-2xl bg-white border-green-600">
-            <CardContent className="p-5">
-              <Link href={`/producto/${p.id}`}>
-                <img
-                  src={`/Products/${p.id}.jpeg`}
-                  alt={p.name}
-                  className="w-full h-64 md:h-72 object-contain rounded-lg mb-3 cursor-pointer hover:scale-[1.03] transition-transform duration-200"
-                />
-              </Link>
+          <Card
+  key={p.id}
+  className="
+    group overflow-hidden
+    rounded-[28px]
+    border border-[#8FDB38]
+    bg-white
+    shadow-[0_10px_35px_rgba(80,120,30,0.06)]
+    transition-all duration-300
+    hover:-translate-y-1
+    hover:shadow-[0_16px_45px_rgba(100,180,30,0.12)]
+  "
+>
+  <CardContent className="p-4 md:p-5">
 
-              <div className="flex items-start justify-between gap-3">
-                <div className="min-w-0">
-                  <p className="text-sm text-muted-foreground">{p.category}</p>
+    {/* IMAGEN */}
+    <Link href={`/producto/${p.id}`}>
+      <div
+        className="
+          relative overflow-hidden
+          rounded-[22px]
+          bg-gradient-to-br
+          from-[#F3F5F2]
+          via-white
+          to-[#F0F8E8]
+          h-[290px]
+        "
+      >
+        <img
+          src={`/Products/${p.id}.jpeg`}
+          alt={p.name}
+          className="
+            h-full w-full object-contain
+            p-3
+            transition-transform duration-500
+            group-hover:scale-[1.03]
+          "
+        />
 
-                  <Link href={`/producto/${p.id}`}>
-                    <h3 className="mt-1 font-semibold truncate hover:text-green-600 cursor-pointer">
-                      {p.name}
-                    </h3>
-                  </Link>
-                </div>
+            </div>
+    </Link>
 
-                <Badge
-                  variant={(p.status || "Disponible") === "Disponible" ? "secondary" : "outline"}
-                >
-                  {p.status || "Disponible"}
-                </Badge>
-              </div>
+    {/* CATEGORÍA + DISPONIBILIDAD */}
+    <div className="mt-5 flex items-center justify-between gap-3">
+      <div>
+        <p className="
+          text-[11px]
+          uppercase
+          tracking-[0.20em]
+          text-[#363B34]
+        ">
+          {p.category}
+        </p>
 
-              <p className="mt-2 text-sm text-muted-foreground">
-                {typeof p.price === "number" ? `$${p.price}` : "Más info por WhatsApp"}
-              </p>
+        <div className="mt-2 h-[2px] w-9 bg-[#65B92E]" />
+      </div>
 
-              <ul className="mt-4 space-y-2 text-sm">
-                {(p.bullets || []).map((b, idx) => (
-                  <li key={idx} className="flex gap-2">
-                    <Check className="mt-0.5 h-4 w-4 text-muted-foreground" />
-                    <span>{b}</span>
-                  </li>
-                ))}
-              </ul>
+      <div
+        className="
+          flex items-center gap-2
+          rounded-full
+          border border-[#BCEB91]
+          bg-[#F1FFE4]
+          px-3 py-1.5
+          text-xs text-[#315C15]
+        "
+      >
+        <span className="h-2 w-2 rounded-full bg-[#65BE1B]" />
 
-              <div className="mt-5 flex gap-2">
-                {p.customOnly || typeof p.price !== "number" ? (
-                  <Button asChild className="flex-1">
-                    <a
-                      href={waLink(
-                        `Hola, AminoPro-MD, quiero una ORDEN PERSONALIZADA.
+        {p.status || "Disponible"}
+      </div>
+    </div>
 
-Producto: ${p.name}
+    {/* NOMBRE */}
+    <Link href={`/producto/${p.id}`}>
+      <h3
+        className="
+          mt-5
+          text-3xl
+          font-semibold
+          tracking-tight
+          text-[#151815]
+          transition-colors
+          hover:text-[#579D20]
+        "
+      >
+        {p.name}
+      </h3>
+    </Link>
 
-Mi información
-Nombre:
-Dirección de envio:
-Correo electrónico:
-Teléfono:
+    {/* PRECIO */}
+    <p className="
+      mt-1
+      text-3xl
+      font-bold
+      tracking-tight
+      text-[#3D7C18]
+    ">
+      {typeof p.price === "number"
+        ? `$${p.price}`
+        : "Consultar"}
+    </p>
 
-Pago preferido:
+    {/* INFORMACIÓN */}
+    <div className="mt-6 space-y-3">
+      {(p.bullets || []).map((b, idx) => (
+        <div key={idx} className="flex items-start gap-3">
 
-Nota:`
-                      )}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      Orden personalizada
-                    </a>
-                  </Button>
-                ) : (
-                  <Button
-                    className="flex-1 cursor-pointer bg-[#A3E635] text-black font-semibold text-base hover:bg-[#84CC16] hover:shadow-lg hover:shadow-[#A3E635]/40 hover:scale-[1.03] transition-all duration-200"
-                    onClick={() => {
-                      addToCart(p.id);
-                      const el = document.getElementById("carrito");
-                      el?.scrollIntoView({ behavior: "smooth" });
-                      el?.classList.add("ring-2", "ring-lime-400");
-                      setTimeout(() => {
-                        el?.classList.remove("ring-2", "ring-lime-400");
-                      }, 1000);
-                    }}
-                  >
-                    Añadir al carrito
-                  </Button>
-                )}
-              </div>
+          <div
+            className="
+              flex h-9 w-9 shrink-0
+              items-center justify-center
+              rounded-full
+              border border-[#CBEBAA]
+              bg-[#F3FFE8]
+            "
+          >
+            <Check className="h-4 w-4 text-[#315C15]" />
+          </div>
 
-              <p className="mt-3 text-xs text-muted-foreground">
-                Checkout y confirmación final se realizan via WhatsApp. Pagos por
-                medio de Paypal y Transferencia de Banco GT.
-              </p>
-            </CardContent>
-          </Card>
+          <span className="pt-2 text-sm leading-5 text-[#252A23]">
+            {b}
+          </span>
+        </div>
+      ))}
+    </div>
+
+    <div className="my-6 h-px bg-[#DDE4D8]" />
+
+    {/* BOTÓN */}
+    {p.customOnly || typeof p.price !== "number" ? (
+
+      <Button asChild className="w-full rounded-full">
+        <a
+          href={waLink(
+            `Hola, AminoPro-MD, quiero una ORDEN PERSONALIZADA.
+
+Producto: ${p.name}`
+          )}
+          target="_blank"
+          rel="noreferrer"
+        >
+          Orden personalizada
+        </a>
+      </Button>
+
+    ) : (
+
+      <button
+        onClick={() => {
+          addToCart(p.id);
+
+          const el = document.getElementById("carrito");
+
+          el?.scrollIntoView({
+            behavior: "smooth",
+          });
+
+          el?.classList.add(
+            "ring-2",
+            "ring-lime-400"
+          );
+
+          setTimeout(() => {
+            el?.classList.remove(
+              "ring-2",
+              "ring-lime-400"
+            );
+          }, 1000);
+        }}
+        className="
+          group/button
+          relative
+          flex h-16 w-full
+          items-center
+          overflow-hidden
+          rounded-full
+
+          border border-[#7CCB22]
+
+          bg-gradient-to-r
+          from-[#75C900]
+          via-[#A6F32B]
+          to-[#B8FF43]
+
+          shadow-[0_6px_20px_rgba(120,210,20,.22)]
+
+          transition-all duration-300
+
+          hover:scale-[1.01]
+          hover:shadow-[0_8px_28px_rgba(120,210,20,.35)]
+
+          active:scale-[.98]
+        "
+      >
+
+        {/* CARRITO */}
+        <div
+          className="
+            flex h-10 w-16
+            items-center justify-center
+            border-r border-black/20
+          "
+        >
+          <ShoppingCart className="h-6 w-6 text-black" />
+        </div>
+
+        {/* TEXTO */}
+        <span
+          className="
+            flex-1
+            text-center
+            text-base
+            font-bold
+            text-black
+          "
+        >
+          Añadir al carrito
+        </span>
+
+        {/* FLECHA */}
+        <div
+          className="
+            mr-2
+            flex h-12 w-12
+            shrink-0
+            items-center justify-center
+            rounded-full
+            bg-[#10140E]
+            text-[#A7FF28]
+
+            transition-transform duration-300
+            group-hover/button:translate-x-1
+          "
+        >
+          <span className="text-3xl leading-none">
+            ›
+          </span>
+        </div>
+
+      </button>
+
+    )}
+
+    {/* CHECKOUT */}
+    <div
+      className="
+        mt-5
+        border-t border-[#E0E6DC]
+        pt-4
+      "
+    >
+      <p className="text-xs leading-5 text-[#656B62]">
+        Checkout y confirmación final se realizan vía WhatsApp.
+        Pagos por medio de PayPal.
+      </p>
+    </div>
+
+  </CardContent>
+</Card>
+
         ))}
       </div>
     </Section>
@@ -629,11 +951,86 @@ function Consults() {
       title="Consulta Virtual"
       subtitle="Consulta virtual personalizada con un médico colegiado del equipo de AminoPro-MD para evaluar tu estado de salud y diseñar un plan de péptido-terapia adaptado a tus objetivos, necesidades y perfil clínico. Al finalizar la consulta, recibirás tu plan personalizado en formato PDF, firmado y sellado por el médico, directamente en tu correo electrónico."
     >
-      <div className="flex flex-col items-center justify-center">
-        <Button asChild size="lg">
-          <a
-            href={waLink(
-              `Hola AminoPro-MD, quiero agendar mi CONSULTA VIRTUAL.
+      <div
+        className="
+          overflow-hidden
+          rounded-3xl
+          border border-[#8fcf32]/25
+          bg-white/70
+          shadow-[0_12px_40px_rgba(0,0,0,0.07)]
+        "
+      >
+        <div className="grid md:grid-cols-2 items-stretch">
+
+          {/* IMAGEN */}
+          <div className="relative min-h-[300px] md:min-h-[420px] overflow-hidden group">
+            <img
+              src="/consulta-virtual.jpg"
+              alt="Consulta Virtual AminoPro-MD"
+              className="
+                absolute inset-0
+                h-full w-full
+                object-cover
+                transition-transform duration-700
+                group-hover:scale-105
+              "
+            />
+
+            <div
+              className="
+                absolute inset-0
+                bg-gradient-to-r
+                from-black/10
+                via-transparent
+                to-transparent
+              "
+            />
+
+            <div className="absolute left-6 bottom-6">
+              <div
+                className="
+                  rounded-full
+                  border border-white/20
+                  bg-black/60
+                  px-4 py-2
+                  text-sm font-medium text-white
+                  backdrop-blur-md
+                "
+              >
+                AminoPro-MD • Consulta Virtual
+              </div>
+            </div>
+          </div>
+
+          {/* CONTENIDO */}
+          <div
+            className="
+              flex flex-col
+              justify-center
+              p-8 md:p-12
+              bg-gradient-to-br
+              from-white
+              to-[#f3f8ee]
+            "
+          >
+            <p className="text-sm font-medium text-[#78ad2c]">
+              ATENCIÓN PERSONALIZADA
+            </p>
+
+            <h3 className="mt-2 text-3xl font-semibold tracking-tight text-[#10150d]">
+              Tu plan comienza con una evaluación profesional.
+            </h3>
+
+            <p className="mt-4 text-sm md:text-base leading-7 text-muted-foreground">
+              Agenda tu consulta virtual con nuestro equipo y recibe orientación
+              personalizada de acuerdo con tus objetivos y perfil.
+            </p>
+
+            <div className="mt-7">
+              <Button asChild size="lg">
+                <a
+                  href={waLink(
+                    `Hola AminoPro-MD, quiero agendar mi CONSULTA VIRTUAL.
 
 Nombre:
 Edad:
@@ -641,19 +1038,20 @@ Sexo:
 País:
 
 Mi objetivo principal es:`
-            )}
-            target="_blank"
-            rel="noreferrer"
-          >
-            Agendar Consulta Virtual
-          </a>
-        </Button>
+                  )}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Agendar Consulta Virtual
+                </a>
+              </Button>
+            </div>
 
-        <p className="text-xs text-muted-foreground mt-3 text-center">
-          Si no tienes WhatsApp,{" "}
-          <a
-            href={`mailto:aminopromd@gmail.com?subject=Consulta%20AminoPro-MD&body=${encodeURIComponent(
-              `Hola AminoPro-MD, quiero agendar mi CONSULTA VIRTUAL.
+            <p className="text-xs text-muted-foreground mt-4">
+              Si no tienes WhatsApp,{" "}
+              <a
+                href={`mailto:aminopromd@gmail.com?subject=Consulta%20AminoPro-MD&body=${encodeURIComponent(
+                  `Hola AminoPro-MD, quiero agendar mi CONSULTA VIRTUAL.
 
 Nombre:
 Edad:
@@ -661,156 +1059,474 @@ Sexo:
 País:
 
 Mi objetivo principal es:`
-            )}`}
-            className="underline text-foreground"
-          >
-            haz click aquí
-          </a>{" "}
-          para enviarnos un correo.
-        </p>
+                )}`}
+                className="underline text-foreground hover:text-[#78ad2c] transition-colors"
+              >
+                haz click aquí
+              </a>{" "}
+              para enviarnos un correo.
+            </p>
+          </div>
+        </div>
       </div>
     </Section>
   );
 }
 
+
+
 function FAQ() {
   return (
     <Section id="faq" title="Preguntas frecuentes">
-      <div className="grid md:grid-cols-2 gap-4">
-        {FAQS.map((f, i) => (
-          <Card key={i} className="rounded-2xl">
-            <CardContent className="p-5">
-              <h3 className="font-semibold">{f.q}</h3>
-              <p className="mt-2 text-sm text-muted-foreground">{f.a}</p>
-            </CardContent>
-          </Card>
-        ))}
+      <div className="grid lg:grid-cols-[0.85fr_1.15fr] gap-6 items-start">
+        <div className="group relative overflow-hidden rounded-[28px] border border-[#8FDB38] bg-black shadow-[0_10px_35px_rgba(80,120,30,0.06)]">
+          <img
+            src="/faq.jpg"
+            alt="Preguntas frecuentes AminoPro-MD"
+            className="block w-full h-auto object-contain transition-transform duration-700 group-hover:scale-[1.02]"
+          />
+        </div>
+
+        <div className="grid gap-3">
+          {FAQS.map((f, i) => (
+            <Card
+              key={i}
+              className="rounded-[22px] border border-[#8FDB38]/60 bg-white shadow-[0_6px_20px_rgba(80,120,30,0.04)] transition-all duration-300 hover:border-[#78C92C] hover:shadow-[0_8px_25px_rgba(100,180,30,0.10)]"
+            >
+              <CardContent className="p-5">
+                <div className="flex gap-4">
+                  <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-[#BCEB91] bg-[#F0FFE3] font-bold text-[#4F8E20]">
+                    ?
+                  </div>
+
+                  <div>
+                    <h3 className="font-semibold text-[#151815]">{f.q}</h3>
+                    <p className="mt-2 text-sm leading-6 text-muted-foreground">
+                      {f.a}
+                    </p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
       </div>
     </Section>
   );
 }
 
 function Contact() {
-  const [contactForm, setContactForm] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
-
-  const buildContactMessage = () => {
-    const lines = [
-      "Hola, AminoPro-MD, quiero más información:",
-      "",
-      `Nombre: ${contactForm.name}`,
-      `Correo: ${contactForm.email}`,
-      "",
-      "Mensaje:",
-      `${contactForm.message}`,
-    ];
-
-    return lines.join("\n");
-  };
-
-  const isContactValid =
-    contactForm.name.trim() &&
-    contactForm.email.trim() &&
-    contactForm.message.trim();
-
   return (
     <Section
       id="contacto"
       title="Contacto"
-      subtitle="AminoPro-MD es una marca registrada operada por NeoG Pro, LLC. Con sede en el estado de La Florida, Estados Unidos de America. Correo electrónico: aminopromd@gmail.com. Horario de atención: Lunes a viernes, de 10:00 a.m. a 6:00 p.m. hora del Este."
+      subtitle="Estamos para ayudarte. Comunícate con AminoPro-MD por cualquiera de nuestros canales."
     >
-      <div className="grid lg:grid-cols-3 gap-4">
-        <Card className="rounded-2xl lg:col-span-2">
-          <CardContent className="p-6">
-            <h3 className="text-lg font-semibold">Envíanos un mensaje</h3>
+      <div
+        className="
+          overflow-hidden
+          rounded-[28px]
+          border border-[#8FDB38]
+          bg-white
+          shadow-[0_10px_35px_rgba(80,120,30,0.06)]
+        "
+      >
+        <div className="grid lg:grid-cols-[0.9fr_1.1fr] items-stretch">
 
-            <div className="mt-4 grid md:grid-cols-2 gap-3">
-              <Input
-                placeholder="Nombre"
-                value={contactForm.name}
-                onChange={(e) =>
-                  setContactForm({ ...contactForm, name: e.target.value })
-                }
-              />
+          {/* IMAGEN */}
+          <div
+            className="
+              group relative
+              min-h-[350px]
+              lg:min-h-[480px]
+              overflow-hidden
+              bg-black
+            "
+          >
+            <img
+              src="/contacto1.jpg"
+              alt="Contacto AminoPro-MD"
+              className="
+                absolute inset-0
+                h-full w-full
+                object-cover
+                transition-transform duration-700
+                group-hover:scale-[1.03]
+              "
+            />
 
-              <Input
-                placeholder="Email"
-                type="email"
-                value={contactForm.email}
-                onChange={(e) =>
-                  setContactForm({ ...contactForm, email: e.target.value })
-                }
-              />
+            {/* DEGRADADO */}
+            <div
+              className="
+                absolute inset-0
+                bg-gradient-to-t
+                from-black/50
+                via-transparent
+                to-transparent
+              "
+            />
 
-              <div className="md:col-span-2">
-                <Input
-                  placeholder="Mensaje"
-                  value={contactForm.message}
-                  onChange={(e) =>
-                    setContactForm({ ...contactForm, message: e.target.value })
-                  }
-                />
-              </div>
-            </div>
+            {/* TEXTO SOBRE IMAGEN */}
+            <div className="absolute bottom-0 left-0 right-0 p-7 text-white">
+              <p
+                className="
+                  text-xs font-semibold
+                  uppercase tracking-[0.22em]
+                  text-[#B8FF43]
+                "
+              >
+                AMINOPRO-MD
+              </p>
 
-            <div className="mt-4">
-              <Button asChild disabled={!isContactValid}>
-                <a
-                  href={waLink(buildContactMessage())}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Enviar
-                </a>
-              </Button>
+              <h3 className="mt-2 text-2xl font-semibold">
+                Estamos para ayudarte.
+              </h3>
 
-              <p className="text-xs text-muted-foreground mt-3">
-                Si no tienes WhatsApp,{" "}
-                <a
-                  href={`mailto:aminopromd@gmail.com?subject=Contacto%20AminoPro-MD&body=${encodeURIComponent(
-                    buildContactMessage()
-                  )}`}
-                  className="underline text-foreground"
-                >
-                  haz click aquí
-                </a>{" "}
-                para enviarnos un correo.
+              <p className="mt-2 max-w-sm text-sm text-white/80">
+                Escríbenos y nuestro equipo estará disponible para orientarte.
               </p>
             </div>
+          </div>
 
-            <p className="mt-3 text-xs text-muted-foreground">
-              Evita enviar información médica sensible por WhatsApp.
+          {/* INFORMACIÓN */}
+          <div
+            className="
+              flex flex-col
+              justify-center
+              bg-gradient-to-br
+              from-white
+              to-[#F3F8EE]
+              p-7
+              md:p-10
+              lg:p-12
+            "
+          >
+            <p
+              className="
+                text-xs font-semibold
+                uppercase tracking-[0.20em]
+                text-[#579D20]
+              "
+            >
+              CONTÁCTANOS
             </p>
-          </CardContent>
-        </Card>
 
-        <Card className="rounded-2xl">
-          <CardContent className="p-6">
-            <h3 className="text-lg font-semibold">Directo</h3>
+            <h3
+              className="
+                mt-3
+                text-3xl md:text-4xl
+                font-semibold
+                tracking-tight
+                text-[#151815]
+              "
+            >
+              Hablemos.
+            </h3>
 
-            <div className="mt-4 space-y-3 text-sm">
-              <div className="flex items-center gap-2 text-muted-foreground">
-                <Mail className="h-4 w-4" /> <span>aminopromd@gmail.com</span>
+            <p className="mt-3 text-sm leading-6 text-muted-foreground">
+              Selecciona el medio que prefieras para comunicarte con
+              AminoPro-MD.
+            </p>
+
+            {/* WHATSAPP */}
+            <a
+              href={waLink(
+                "Hola AminoPro-MD, me gustaría recibir más información."
+              )}
+              target="_blank"
+              rel="noreferrer"
+              className="
+                group mt-8
+                flex items-center
+                justify-between
+                rounded-[20px]
+                border border-[#BCEB91]
+                bg-white
+                p-4
+                transition-all duration-300
+                hover:-translate-y-0.5
+                hover:border-[#8FDB38]
+                hover:shadow-[0_8px_25px_rgba(100,180,30,0.10)]
+              "
+            >
+              <div className="flex items-center gap-4">
+                <div
+                  className="
+                    flex h-12 w-12
+                    items-center justify-center
+                    rounded-full
+                    bg-[#F0FFE3]
+                    text-[#579D20]
+                  "
+                >
+                  <MessageCircle className="h-5 w-5" />
+                </div>
+
+                <div>
+                  <p className="font-semibold text-[#151815]">
+                    WhatsApp
+                  </p>
+
+                  <p className="text-sm text-muted-foreground">
+                    +1 (954) 398-0930
+                  </p>
+                </div>
               </div>
 
-              <div className="flex items-center gap-2 text-muted-foreground">
-                <Phone className="h-4 w-4" /> <span>+1 954-398-0930</span>
+              <div
+                className="
+                  flex h-10 w-10
+                  items-center justify-center
+                  rounded-full
+                  bg-[#10140E]
+                  text-[#A7FF28]
+                  transition-transform duration-300
+                  group-hover:translate-x-1
+                "
+              >
+                <span className="text-2xl">›</span>
+              </div>
+            </a>
+
+            {/* EMAIL */}
+            <a
+              href="mailto:aminopromd@gmail.com"
+              className="
+                group mt-3
+                flex items-center
+                justify-between
+                rounded-[20px]
+                border border-[#BCEB91]
+                bg-white
+                p-4
+                transition-all duration-300
+                hover:-translate-y-0.5
+                hover:border-[#8FDB38]
+                hover:shadow-[0_8px_25px_rgba(100,180,30,0.10)]
+              "
+            >
+              <div className="flex items-center gap-4">
+                <div
+                  className="
+                    flex h-12 w-12
+                    items-center justify-center
+                    rounded-full
+                    bg-[#F0FFE3]
+                    text-[#579D20]
+                  "
+                >
+                  <Mail className="h-5 w-5" />
+                </div>
+
+                <div>
+                  <p className="font-semibold text-[#151815]">
+                    Correo electrónico
+                  </p>
+
+                  <p className="text-sm text-muted-foreground">
+                    aminopromd@gmail.com
+                  </p>
+                </div>
               </div>
 
-              <div className="rounded-xl border p-3 text-xs text-muted-foreground">
-                <p className="font-medium text-foreground">Métodos de pago</p>
-                <p className="mt-1">PayPal y Transferencia de Banco GT.</p>
+              <div
+                className="
+                  flex h-10 w-10
+                  items-center justify-center
+                  rounded-full
+                  bg-[#10140E]
+                  text-[#A7FF28]
+                  transition-transform duration-300
+                  group-hover:translate-x-1
+                "
+              >
+                <span className="text-2xl">›</span>
               </div>
-            </div>
-          </CardContent>
-        </Card>
+            </a>
+
+{/* INSTAGRAM */}
+<a
+  href="https://www.instagram.com/aminopromdplus"
+  target="_blank"
+  rel="noreferrer"
+  className="
+    group mt-3
+    flex items-center
+    justify-between
+    rounded-[20px]
+    border border-[#BCEB91]
+    bg-white
+    p-4
+    transition-all duration-300
+    hover:-translate-y-0.5
+    hover:border-[#8FDB38]
+    hover:shadow-[0_8px_25px_rgba(100,180,30,0.10)]
+  "
+>
+  <div className="flex items-center gap-4">
+    <div
+      className="
+        flex h-12 w-12
+        items-center justify-center
+        rounded-full
+        bg-[#F0FFE3]
+        text-[#579D20]
+      "
+    >
+      <Instagram className="h-5 w-5" />
+    </div>
+
+    <div>
+      <p className="font-semibold text-[#151815]">
+        Instagram
+      </p>
+
+      <p className="text-sm text-muted-foreground">
+        @aminopromdplus
+      </p>
+    </div>
+  </div>
+
+  <div
+    className="
+      flex h-10 w-10
+      items-center justify-center
+      rounded-full
+      bg-[#10140E]
+      text-[#A7FF28]
+      transition-transform duration-300
+      group-hover:translate-x-1
+    "
+  >
+    <span className="text-2xl">›</span>
+  </div>
+</a>
+
+
+{/* FACEBOOK */}
+<a
+  href="https://www.facebook.com/aminopromd"
+  target="_blank"
+  rel="noreferrer"
+  className="
+    group mt-3
+    flex items-center
+    justify-between
+    rounded-[20px]
+    border border-[#BCEB91]
+    bg-white
+    p-4
+    transition-all duration-300
+    hover:-translate-y-0.5
+    hover:border-[#8FDB38]
+    hover:shadow-[0_8px_25px_rgba(100,180,30,0.10)]
+  "
+>
+  <div className="flex items-center gap-4">
+    <div
+      className="
+        flex h-12 w-12
+        items-center justify-center
+        rounded-full
+        bg-[#F0FFE3]
+        text-[#579D20]
+      "
+    >
+      <Facebook className="h-5 w-5" />
+    </div>
+
+    <div>
+      <p className="font-semibold text-[#151815]">
+        Facebook
+      </p>
+
+      <p className="text-sm text-muted-foreground">
+        AminoPro-MD
+      </p>
+    </div>
+  </div>
+
+  <div
+    className="
+      flex h-10 w-10
+      items-center justify-center
+      rounded-full
+      bg-[#10140E]
+      text-[#A7FF28]
+      transition-transform duration-300
+      group-hover:translate-x-1
+    "
+  >
+    <span className="text-2xl">›</span>
+  </div>
+</a>
+
+
+            {/* WEB */}
+            <a
+              href="https://www.aminopromd.com"
+              target="_blank"
+              rel="noreferrer"
+              className="
+                group mt-3
+                flex items-center
+                justify-between
+                rounded-[20px]
+                border border-[#BCEB91]
+                bg-white
+                p-4
+                transition-all duration-300
+                hover:-translate-y-0.5
+                hover:border-[#8FDB38]
+                hover:shadow-[0_8px_25px_rgba(100,180,30,0.10)]
+              "
+            >
+              <div className="flex items-center gap-4">
+                <div
+                  className="
+                    flex h-12 w-12
+                    items-center justify-center
+                    rounded-full
+                    bg-[#F0FFE3]
+                    text-[#579D20]
+                  "
+                >
+                  <ExternalLink className="h-5 w-5" />
+                </div>
+
+                <div>
+                  <p className="font-semibold text-[#151815]">
+                    Sitio web
+                  </p>
+
+                  <p className="text-sm text-muted-foreground">
+                    www.aminopromd.com
+                  </p>
+                </div>
+              </div>
+
+              <div
+                className="
+                  flex h-10 w-10
+                  items-center justify-center
+                  rounded-full
+                  bg-[#10140E]
+                  text-[#A7FF28]
+                  transition-transform duration-300
+                  group-hover:translate-x-1
+                "
+              >
+                <span className="text-2xl">›</span>
+              </div>
+            </a>
+          </div>
+        </div>
       </div>
     </Section>
   );
 }
+
+
 
 function Footer() {
   return (
@@ -923,7 +1639,7 @@ export default function SitePeptidosTelemed() {
   }, []);  
 
   return (
-    <div className="min-h-screen bg-[#FFFFFF] scroll-smooth">
+    <div className="min-h-screen bg-[#F8FAF6] text-[#11150F] scroll-smooth"> 
       {!ageAccepted && <AgeGate onAccept={() => setAgeAccepted(true)} />}
 
       <Nav />
