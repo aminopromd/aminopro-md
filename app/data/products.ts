@@ -452,7 +452,7 @@ export const PRODUCTS = [
     id: "nr-500",
     name: "NR-500 - 500mg",
     category: "ENERGIA - ANTI-AGING",
-    price: 299,
+    price: 199,
     bullets: [
       "Vial liofilizado 500mg",
       "Nicotinamide Riboside Chloride >99.6% de pureza",
