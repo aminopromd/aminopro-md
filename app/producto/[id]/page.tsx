@@ -229,10 +229,10 @@ const PRODUCT_INFO: Record<
   },
 
   "sema-5": {
-    title: "Sema-GLP1 - 5mg",
+    title: "SEMA 5mg",
     moleculeImage: "/estrucmolesema.jpg",
     what:
-      "Semaglutida es un agonista del GLP-1, con esto reduce el apetito, aumenta la saciedad, mejora el control de la glucosa.",
+      "SEMA es un agonista del GLP-1, con esto reduce el apetito, aumenta la saciedad, mejora el control de la glucosa.",
     use:
       "Se usa en protocolos para control de peso, ayuda en tratamientos de diabetes y otros trastornos metabólicos.",
     benefits: (
@@ -247,10 +247,10 @@ const PRODUCT_INFO: Record<
   },
 
   "tirz-5": {
-    title: "Tirze-GLP1+GIP- 10mg",
+    title: "TIRZE - 10mg",
     moleculeImage: "/estrucmoletirze.jpg",
     what:
-      "Tirzepatida es un péptido que actúa como agonista dual de GLP-1 y GIP, dos hormonas involucradas en el control del apetito, la saciedad y el metabolismo.",
+      "TIRZE es un péptido que actúa como agonista dual de GLP-1 y GIP, dos hormonas involucradas en el control del apetito, la saciedad y el metabolismo.",
     use:
       "Se usa en protocolos para control de peso, ayuda en tratamientos de diabetes tipo 2, regulación del apetito y otros trastornos metabólicos.",
     benefits: (
@@ -265,10 +265,10 @@ const PRODUCT_INFO: Record<
   },
 
   "tirz-vial-17p2mgml-2ml": {
-    title: "Tirze-GLP1+GIP+B3 12/2mg/ml",
+    title: "TIRZE + NIACINAMIDA 12/2 mg/ml",
     moleculeImage: "/estrucmoletirzeb3.jpg",
     what:
-      "Tirzepatida es un péptido que actúa como agonista dual de GLP-1 y GIP, dos hormonas involucradas en el control del apetito, la saciedad y el metabolismo. La Niacinamide se usa como apoyo en el metabolismo energético, ayudando en la producción de energía celular y en el buen funcionamiento del sistema nervioso.",
+      "TIRZE es un péptido que actúa como agonista dual de GLP-1 y GIP, dos hormonas involucradas en el control del apetito, la saciedad y el metabolismo. La Niacinamide se usa como apoyo en el metabolismo energético, ayudando en la producción de energía celular y en el buen funcionamiento del sistema nervioso.",
     use:
       "Se usa en protocolos para control de peso, ayuda en tratamientos de diabetes tipo 2, regulación del apetito y otros trastornos metabólicos y al mismo tiempo ayudando a mejorar la adherencia al tratamiento.",
     benefits: (
@@ -358,10 +358,10 @@ const PRODUCT_INFO: Record<
   },
 
   "sema-vial-12p5-5ml": {
-    title: "Sema-GLP1 - 2.5mg/ml",
+    title: "SEMA 2.5mg/ml",
     moleculeImage: "/estrucmolesema.jpg",
     what:
-      "Semaglutida es un agonista del GLP-1, con esto reduce el apetito, aumenta la saciedad, mejora el control de la glucosa.",
+      "SEMA es un agonista del GLP-1, con esto reduce el apetito, aumenta la saciedad, mejora el control de la glucosa.",
     use:
       "Se usa en protocolos para control de peso, ayuda en tratamientos de diabetes y otros trastornos metabólicos.",
     benefits: (

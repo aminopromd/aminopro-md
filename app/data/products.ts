@@ -162,7 +162,7 @@ export const PRODUCTS = [
 
   {
     id: "tirz-5",
-    name: "Tirze- GLP1+GIP - 10mg",
+    name: "Tirze- 10mg",
     category: "CONTROL DE PESO",
     price: 149,
     bullets: [
@@ -176,11 +176,11 @@ export const PRODUCTS = [
         href: "/coa/coaTIRZE-10mg-Freedom26.jpeg",
       },
     ],
-    pageTitle: "Tirzepatida",
+    pageTitle: "TIRZE",
     shortDescription:
       "Combinación GLP-1 + GIP utilizada en protocolos de control de peso y metabolismo.",
     what:
-      "La tirzepatida actúa sobre vías relacionadas con GLP-1 y GIP, asociadas con apetito, saciedad y metabolismo.",
+      "La TIRZE actúa sobre vías relacionadas con GLP-1 y GIP, asociadas con apetito, saciedad y metabolismo.",
     use:
       "Se utiliza en protocolos de control de peso, reducción de apetito y manejo metabólico supervisado.",
     benefits:
@@ -189,18 +189,18 @@ export const PRODUCTS = [
 
   {
     id: "tirz-vial-17p2mgml-2ml",
-    name: "Tirze-GLP1+GIP",
+    name: "Tirze 12/2 mg/ml",
     category: "CONTROL DE PESO",
     price: 499,
     bullets: [
       "Vial ya reconstituido de TIRZE 12mg con Vitamina B3 2mg/ml",
       "Vial de 2ml",
     ],
-    pageTitle: "Tirzepatida + B3",
+    pageTitle: "TIRZE + NIACINAMIDA",
     shortDescription:
-      "Presentación reconstituida de tirzepatida con vitamina B3 para control de peso y apoyo metabólico.",
+      "Presentación reconstituida de TIRZE con NIACINAMIDA para control de peso y apoyo metabólico.",
     what:
-      "La tirzepatida trabaja sobre vías GLP-1 y GIP. La vitamina B3 participa en funciones metabólicas y energéticas.",
+      "La TIRZE trabaja sobre vías GLP-1 y GIP. La NIACINAMIDA participa en funciones metabólicas y energéticas.",
     use:
       "Se utiliza en protocolos de control de peso, saciedad, metabolismo y acompañamiento nutricional.",
     benefits:
@@ -209,7 +209,7 @@ export const PRODUCTS = [
 
   {
     id: "sema-5",
-    name: "Sema-GLP1 - 5mg",
+    name: "SEMA - 5mg",
     category: "CONTROL DE PESO",
     price: 149,
     bullets: [
@@ -223,11 +223,11 @@ export const PRODUCTS = [
         href: "/coa/coaSEMA-5mg-Nexus26.jpeg",
       },
     ],
-    pageTitle: "Semaglutida",
+    pageTitle: "SEMA",
     shortDescription:
       "GLP-1 utilizado en protocolos de control de peso, apetito y salud metabólica.",
     what:
-      "La semaglutida es un agonista del receptor GLP-1 que imita una hormona natural relacionada con saciedad y control glucémico.",
+      "La SEMA es un agonista del receptor GLP-1 que imita una hormona natural relacionada con saciedad y control glucémico.",
     use:
       "Se utiliza para reducir el apetito, mejorar la saciedad y acompañar planes de pérdida de peso supervisados.",
     benefits:
@@ -236,18 +236,18 @@ export const PRODUCTS = [
 
   {
     id: "sema-vial-12p5-5ml",
-    name: "Sema-GLP1",
+    name: "SEMA 2.5 mg/ml",
     category: "CONTROL DE PESO",
     price: 499,
     bullets: [
       "Vial ya reconstituido de 2.5mg/ml",
       "Vial de 5ml",
     ],
-    pageTitle: "Sema-GLP1 Reconstituido",
+    pageTitle: "SEMA 2.5 mg/ml",
     shortDescription:
-      "Presentación reconstituida de semaglutida para protocolos de control de peso.",
+      "Presentación reconstituida de SEMA para protocolos de control de peso.",
     what:
-      "La semaglutida es un agonista del receptor GLP-1 relacionado con saciedad, apetito y control metabólico.",
+      "La SEMA es un agonista del receptor GLP-1 relacionado con saciedad, apetito y control metabólico.",
     use:
       "Se utiliza en protocolos de pérdida de peso, reducción de antojos y control del apetito.",
     benefits:
