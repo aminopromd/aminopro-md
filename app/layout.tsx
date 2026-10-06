@@ -17,10 +17,11 @@ export const metadata = {
   title: "AminoPro-MD",
   description: "Peptides • Fitness • Health",
   icons: {
-    icon: "/favicon.jpg",
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
   },
 };
-
 
 export default function RootLayout({
   children,
