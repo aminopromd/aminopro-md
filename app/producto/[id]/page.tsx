@@ -247,7 +247,7 @@ const PRODUCT_INFO: Record<
   },
 
   "tirz-5": {
-    title: "TIRZE - 10mg",
+    title: "TIRZE - 15mg",
     moleculeImage: "/estrucmoletirze.jpg",
     what:
       "TIRZE es un péptido que actúa como agonista dual de GLP-1 y GIP, dos hormonas involucradas en el control del apetito, la saciedad y el metabolismo.",

@@ -162,11 +162,11 @@ export const PRODUCTS = [
 
   {
     id: "tirz-5",
-    name: "Tirze- 10mg",
+    name: "Tirze- 15mg",
     category: "CONTROL DE PESO",
-    price: 149,
+    price: 199,
     bullets: [
-      "Vial liofilizado 10mg",
+      "Vial liofilizado 15mg",
       ">99.6% de pureza",
       "Para reconstituir en 3ml de solución bacteriostática",
     ],

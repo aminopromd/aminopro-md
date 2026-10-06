@@ -17,7 +17,7 @@ export const metadata = {
   title: "AminoPro-MD",
   description: "Peptides • Fitness • Health",
   icons: {
-    icon: "/favicon.png",
+    icon: "/favicon.jpg",
   },
 };
 
