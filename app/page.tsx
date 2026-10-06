@@ -146,6 +146,20 @@ function Nav() {
           ))}
         </div>
 
+        {/* HALLOWEEN PROMO */}
+<div className="hidden md:flex items-center justify-center px-4">
+  <img
+    src="/boo26.jpg"
+    alt="Promo Code BOO26 - 10% OFF"
+    className="
+      h-[150px]
+      w-auto
+      max-w-[340px]
+      object-contain
+    "
+  />
+</div>
+
         <div className="flex items-center gap-3">
           <a
             href="https://www.instagram.com/aminopromdplus"
