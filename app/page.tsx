@@ -147,14 +147,19 @@ function Nav() {
         </div>
 
         {/* HALLOWEEN PROMO */}
-<div className="hidden md:flex items-center justify-center px-4">
+{/* HALLOWEEN PROMO */}
+<div className="flex items-center justify-center px-2 md:px-4">
   <img
     src="/boo26.jpg"
     alt="Promo Code BOO26 - 10% OFF"
     className="
-      h-[150px]
+      h-[58px]
+      sm:h-[64px]
+      md:h-[72px]
       w-auto
-      max-w-[340px]
+      max-w-[380px]
+      sm:max-w-[430px]
+      md:max-w-[500px]
       object-contain
     "
   />
