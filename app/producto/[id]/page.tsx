@@ -98,8 +98,44 @@ const PRODUCT_INFO: Record<
         <li>Efectos anti-inflamatorios en general.</li>
       </ul>
     ),
-  },
+  }, 
 
+klow: {
+  title: "KLOW",
+  moleculeImage: "/estrucmoleklow.jpeg",
+  what:
+    "KLOW es una combinación de cuatro péptidos: GHK-Cu, BPC-157, TB-500 y KPV. Esta fórmula se investiga por su potencial en procesos de reparación celular, regeneración de tejidos y modulación de la inflamación.",
+  use:
+    "Se estudia en investigaciones relacionadas con ANTI-AGING, salud de la piel, reparación de tejidos, respuesta inflamatoria y mantenimiento de la integridad celular. Sus aplicaciones clínicas y su seguridad en humanos aún no están establecidas.",
+  benefits: (
+    <ul>
+      <li>Potencial apoyo a los procesos de regeneración y reparación de tejidos.</li>
+      <li>Investigación sobre la modulación de procesos inflamatorios.</li>
+      <li>Estudio de mecanismos relacionados con la producción de colágeno y la salud de la piel.</li>
+      <li>Potencial participación en procesos de recuperación celular.</li>
+      <li>Investigación de mecanismos asociados con el envejecimiento cutáneo.</li>
+    </ul>
+  ),
+},
+
+"epi-50": {
+  title: "EPITALON - 50mg",
+  moleculeImage: "/estrucmoleepitalon.jpg",
+  what:
+    "EPITALON es un tetrapéptido sintético compuesto por cuatro aminoácidos: alanina, glutamato, aspartato y glicina. Se investiga por su posible relación con la actividad de la telomerasa y los mecanismos celulares asociados con el envejecimiento.",
+  use:
+    "Se estudia en investigaciones relacionadas con ANTI-AGING, longevidad celular, mantenimiento de los telómeros y regulación de procesos biológicos asociados con el envejecimiento. Su eficacia y seguridad clínica en humanos aún no están establecidas.",
+  benefits: (
+    <ul>
+      <li>Investigación sobre mecanismos celulares relacionados con el envejecimiento.</li>
+      <li>Estudio de la actividad de la telomerasa y el mantenimiento de los telómeros.</li>
+      <li>Potencial participación en procesos de protección y mantenimiento celular.</li>
+      <li>Investigación sobre mecanismos asociados con la longevidad celular.</li>
+      <li>Estudio de procesos relacionados con la senescencia celular.</li>
+    </ul>
+  ),
+},
+  
   "reta-10": {
     title: "RT 10mg",
     moleculeImage: "/estrucmolereta.jpg",

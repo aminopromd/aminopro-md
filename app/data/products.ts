@@ -27,6 +27,59 @@ export const PRODUCTS = [
   },
 
   {
+  id: "klow",
+  name: "KLOW",
+  category: "BELLEZA - PIEL y CABELLO",
+  price: 119,
+  bullets: [
+    "Vial liofilizado con BPC-157 10mg + GHK-Cu 50mg + TB-500 10mg + KPV 10mg.",
+    "Pureza según certificado de análisis (COA).",
+    "Para reconstituir en 3ml de solución bacteriostática.",
+  ],
+  coas: [{
+        label: "Ver COA",
+        href: "/coa/coaKLOW-Janoshik25.jpg",
+      },
+    ],
+  pageTitle: "KLOW",
+  shortDescription:
+    "Blend de cuatro péptidos investigados por su potencial en regeneración celular, reparación de tejidos y salud de la piel.",
+  what:
+    "KLOW combina GHK-Cu, BPC-157, TB-500 y KPV, cuatro péptidos estudiados por sus posibles efectos sobre la reparación celular, el colágeno y la respuesta inflamatoria.",
+  use:
+    "Se investiga en procesos relacionados con ANTI-AGING, regeneración de tejidos, salud de la piel, recuperación celular y modulación de la inflamación.",
+  benefits:
+    "Sus componentes presentan potencial investigativo en producción de colágeno, reparación de tejidos, respuesta inflamatoria y mecanismos asociados con el envejecimiento cutáneo. Estos efectos no están clínicamente demostrados para la combinación KLOW en humanos.",
+},
+
+{
+  id: "epi-50",
+  name: "EPITALON - 50mg",
+  category: "ANTI-AGING - LONGEVIDAD",
+  price: 119,
+  bullets: [
+    "Vial liofilizado con Epitalon 50mg.",
+    "Pureza según certificado de análisis (COA).",
+    "Para reconstituir en 3ml de solución bacteriostática.",
+  ],
+  coas: [
+    {
+      label: "Ver COA",
+      href: "/coa/coaEPITALON-Nexus26.jpg",
+    },
+  ],
+  pageTitle: "EPITALON - 50mg",
+  shortDescription:
+    "Tetrapéptido sintético investigado por su posible relación con los mecanismos celulares del envejecimiento y la longevidad.",
+  what:
+    "EPITALON es un tetrapéptido sintético compuesto por alanina, glutamato, aspartato y glicina (Ala-Glu-Asp-Gly). Se estudia por sus posibles efectos sobre la actividad de la telomerasa, la biología de los telómeros y los mecanismos celulares asociados con el envejecimiento.",
+  use:
+    "Se utiliza en investigación experimental sobre ANTI-AGING, longevidad celular, regulación de la telomerasa, mantenimiento de los telómeros y procesos relacionados con el envejecimiento biológico.",
+  benefits:
+    "Las investigaciones preliminares exploran su posible influencia sobre la actividad de la telomerasa, el mantenimiento de los telómeros y determinados mecanismos de envejecimiento celular. No se ha demostrado que Epitalon prolongue la vida o revierta el envejecimiento en humanos, y su seguridad clínica no está establecida.",
+},
+
+  {
     id: "lipoc-10",
     name: "LIPO-C - 10ml",
     category: "QUEMAR GRASA",
