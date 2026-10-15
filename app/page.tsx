@@ -39,9 +39,8 @@ const ALL_PRODUCTS = PRODUCTS as Product[];
 
 const BRAND = {
   name: "AminoPro-MD",
-  tagline: "Peptides • Fitness • Health",
-  primaryCta: "Agendar Consulta Virtual",
-  secondaryCta: "Ver productos",
+  tagline: "",
+  
 };
 
 const FAQS = [
@@ -214,7 +213,7 @@ function Hero() {
   return (
     <div
       className="
-  w-full px-6 md:px-12 pt-10 pb-12
+  w-full px-4 md:px-12 pt-4 pb-12
   bg-gradient-to-br
   from-[#f7faf4]
   via-[#fbfdf9]
@@ -223,23 +222,41 @@ function Hero() {
 
       style={{ backgroundImage: "url('/fondo2.png')" }}
     >
-      <div className="grid lg:grid-cols-[0.8fr_1.2fr] gap-10 items-center">
+      <div className="flex flex-col gap-10">
 
-        {/* IZQUIERDA */}
-        <div>
-          <p className="text-sm text-muted-foreground">{BRAND.tagline}</p>
+        
+{/* IMAGEN PRINCIPAL AMINOPRO-MD */}
+<div className="w-full">
+  <h1 className="sr-only">
+    AminoPro-MD | Péptidos de alta calidad
+  </h1>
 
-          <h1 className="mt-3 text-4xl md:text-5xl font-semibold tracking-tight leading-[1.05] text-[#10150d]">
-  Péptidos de alta calidad, con más de 1 año de experiencia!</h1>
+  <img
+    src="/introimagen.png"
+    alt="AminoPro-MD - Péptidos de alta calidad"
+    className="
+      block
+      w-full
+      h-auto
+      object-contain
+      rounded-2xl
+    "
+  />
+</div>
 
-          <p className="mt-4 text-muted-foreground max-w-xl">
-            La información presentada en este sitio web es exclusivamente para
-            fines educativos. Los productos listados son únicamente para fines
-            de investigación y no se recomienda su uso en humanos.
-            <br />
-            <br />
-            Consulta a tu médico.
-          </p>
+        
+
+          
+<div className="w-full">
+  <h1 className="sr-only">
+    AminoPro-MD | Péptidos de alta calidad
+  </h1>
+
+  
+</div>
+
+
+          
 
           <div className="mt-8 flex flex-wrap gap-3">
             <Button asChild>
@@ -255,14 +272,14 @@ function Hero() {
         {/* ENLACES ESENCIALES */}
         <div>
           <div className="mb-4">
-            <p className="text-sm text-muted-foreground">Acceso rápido</p>
+            <p className="text-sm text-muted-foreground"></p>
 
             <h3 className="text-2xl font-semibold">
-              Enlaces esenciales
+              
             </h3>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
             {quickLinks.map((item) => (
               <a
                 key={item.title}
@@ -357,7 +374,7 @@ shadow-[0_0_18px_rgba(143,207,50,0.20)]
           </div>
         </div>
       </div>
-    </div>
+    
   );
 }
 
