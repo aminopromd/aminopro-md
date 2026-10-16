@@ -41,8 +41,8 @@ const ALL_PRODUCTS = PRODUCTS as Product[];
 const BRAND = {
   name: "AminoPro-MD",
   tagline: "",
-  primaryCta: "Agendar Consulta",
-  secondaryCta: "Ver Catálogo",
+  primaryCta: "",
+  secondaryCta: "",
 };
 
 
