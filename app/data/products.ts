@@ -240,26 +240,7 @@ export const PRODUCTS = [
       "Puede favorecer mayor saciedad, mejor control de antojos y apoyo en pérdida de peso.",
   },
 
-  {
-    id: "tirz-vial-17p2mgml-2ml",
-    name: "Tirze 12/2 mg/ml",
-    category: "CONTROL DE PESO",
-    price: 499,
-    bullets: [
-      "Vial ya reconstituido de TIRZE 12mg con Vitamina B3 2mg/ml",
-      "Vial de 2ml",
-    ],
-    pageTitle: "TIRZE + NIACINAMIDA",
-    shortDescription:
-      "Presentación reconstituida de TIRZE con NIACINAMIDA para control de peso y apoyo metabólico.",
-    what:
-      "La TIRZE trabaja sobre vías GLP-1 y GIP. La NIACINAMIDA participa en funciones metabólicas y energéticas.",
-    use:
-      "Se utiliza en protocolos de control de peso, saciedad, metabolismo y acompañamiento nutricional.",
-    benefits:
-      "Puede ayudar a controlar el apetito, mejorar consistencia en el plan y apoyar el metabolismo energético.",
-  },
-
+ 
   {
     id: "sema-5",
     name: "SEMA - 5mg",
@@ -287,27 +268,7 @@ export const PRODUCTS = [
       "Puede ayudar a controlar antojos, reducir la ingesta calórica y facilitar el progreso en control de peso.",
   },
 
-  {
-    id: "sema-vial-12p5-5ml",
-    name: "SEMA 2.5 mg/ml",
-    category: "CONTROL DE PESO",
-    price: 499,
-    bullets: [
-      "Vial ya reconstituido de 2.5mg/ml",
-      "Vial de 5ml",
-    ],
-    pageTitle: "SEMA 2.5 mg/ml",
-    shortDescription:
-      "Presentación reconstituida de SEMA para protocolos de control de peso.",
-    what:
-      "La SEMA es un agonista del receptor GLP-1 relacionado con saciedad, apetito y control metabólico.",
-    use:
-      "Se utiliza en protocolos de pérdida de peso, reducción de antojos y control del apetito.",
-    benefits:
-      "Puede ayudar a mejorar la saciedad, reducir el apetito y mantener consistencia en un plan supervisado.",
-  },
-
-  {
+    {
     id: "ghkcu-50",
     name: "GHK-Cu - 50mg",
     category: "BELLEZA, PIEL, PELO, UÑAS",

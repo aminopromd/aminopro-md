@@ -300,24 +300,7 @@ klow: {
     ),
   },
 
-  "tirz-vial-17p2mgml-2ml": {
-    title: "TIRZE + NIACINAMIDA 12/2 mg/ml",
-    moleculeImage: "/estrucmoletirzeb3.jpg",
-    what:
-      "TIRZE es un péptido que actúa como agonista dual de GLP-1 y GIP, dos hormonas involucradas en el control del apetito, la saciedad y el metabolismo. La Niacinamide se usa como apoyo en el metabolismo energético, ayudando en la producción de energía celular y en el buen funcionamiento del sistema nervioso.",
-    use:
-      "Se usa en protocolos para control de peso, ayuda en tratamientos de diabetes tipo 2, regulación del apetito y otros trastornos metabólicos y al mismo tiempo ayudando a mejorar la adherencia al tratamiento.",
-    benefits: (
-      <ul>
-        <li>Pérdida de peso progresiva y sostenida.</li>
-        <li>Disminución del apetito y antojos.</li>
-        <li>Control de niveles de glucosa.</li>
-        <li>Mayor sensación de saciedad.</li>
-        <li>Posible beneficio cardiovascular.</li>
-        <li>Aumento de energía celular y reducción de fatiga en general.</li>
-      </ul>
-    ),
-  },
+  
 
   "bpc157-10": {
     title: "BPC-157 - 10mg",
@@ -393,23 +376,7 @@ klow: {
     ),
   },
 
-  "sema-vial-12p5-5ml": {
-    title: "SEMA 2.5mg/ml",
-    moleculeImage: "/estrucmolesema.jpg",
-    what:
-      "SEMA es un agonista del GLP-1, con esto reduce el apetito, aumenta la saciedad, mejora el control de la glucosa.",
-    use:
-      "Se usa en protocolos para control de peso, ayuda en tratamientos de diabetes y otros trastornos metabólicos.",
-    benefits: (
-      <ul>
-        <li>Pérdida de peso progresiva y sostenida.</li>
-        <li>Disminución del apetito y antojos.</li>
-        <li>Control de niveles de glucosa.</li>
-        <li>Mayor sensación de saciedad.</li>
-        <li>Posible beneficio cardiovascular.</li>
-      </ul>
-    ),
-  },
+  
 
   pachon1: {
     title: "Botella de agua con aislamiento térmico",
