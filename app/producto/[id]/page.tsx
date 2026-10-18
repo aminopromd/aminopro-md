@@ -264,8 +264,8 @@ klow: {
     ),
   },
 
-  "sema-5": {
-    title: "SEMA 5mg",
+  "sema-20": {
+    title: "SEMA 20mg",
     moleculeImage: "/estrucmolesema.jpg",
     what:
       "SEMA es un agonista del GLP-1, con esto reduce el apetito, aumenta la saciedad, mejora el control de la glucosa.",

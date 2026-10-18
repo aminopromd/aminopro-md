@@ -242,19 +242,19 @@ export const PRODUCTS = [
 
  
   {
-    id: "sema-5",
-    name: "SEMA - 5mg",
+    id: "sema-20",
+    name: "SEMA - 20mg",
     category: "CONTROL DE PESO",
-    price: 149,
+    price: 199,
     bullets: [
-      "Vial liofilizado de 5mg",
+      "Vial liofilizado de 20mg",
       ">99.6% de pureza",
       "Para reconstituir en 3ml de solución bacteriostática",
     ],
     coas: [
       {
         label: "Ver COA",
-        href: "/coa/coaSEMA-5mg-Nexus26.jpeg",
+        href: "/coa/coaSEMA-20mg-Nexus26.jpg",
       },
     ],
     pageTitle: "SEMA",
